@@ -1,0 +1,1159 @@
+
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000018>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000018>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000018>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000019>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000019>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000019>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000020>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000020>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000020>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Cardiovascular"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000024>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000024>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000024>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000025>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000025>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_receptor> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000025>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000026>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000026>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_synthase> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000026>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000018>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000018>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000018>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000019>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000019>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000019>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000020>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000020>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000020>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Cardiovascular"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000024>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000024>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000024>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000025>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000025>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_receptor> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000025>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000026>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000026>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_synthase> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000026>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000029>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000029>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000029>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000030>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000030>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000030>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000031>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000031>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000031>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Cardiovascular"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000035>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000035>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000035>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000036>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000036>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_receptor> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000036>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000037>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000037>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_synthase> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000037>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000038>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000038>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000038>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000018>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000018>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000018>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000019>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000019>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000019>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000020>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000020>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000020>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Cardiovascular"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000024>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000024>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000024>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000025>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000025>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_receptor> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000025>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000026>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000026>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_synthase> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000026>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000029>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000029>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000029>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000030>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000030>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000030>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000031>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000031>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000031>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Cardiovascular"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000035>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000035>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000035>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000036>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000036>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_receptor> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000036>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000037>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000037>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_synthase> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000037>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000038>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000038>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000038>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000041>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000041>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000041>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000042>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000042>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000042>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000043>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000043>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000043>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Cardiovascular"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000047>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000047>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000047>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000048>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000048>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_receptor> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000048>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000049>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000049>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_synthase> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000049>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000050>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000050>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000050>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000005>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000006>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000007>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000010>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000011>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000012>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000018>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000018>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000018>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000019>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000019>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000019>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000020>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000020>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000020>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Cardiovascular"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000024>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000024>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000024>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000025>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000025>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_receptor> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000025>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000026>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000026>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_synthase> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000026>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000029>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000029>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000029>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000030>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000030>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000030>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000031>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000031>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000031>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Cardiovascular"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000035>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000035>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000035>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000036>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000036>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_receptor> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000036>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000037>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000037>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_synthase> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000037>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000038>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000038>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000038>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000041>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000041>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000041>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000042>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000042>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000042>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000043>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000043>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000043>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Cardiovascular"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000047>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000047>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000047>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000048>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000048>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_receptor> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000048>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000049>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000049>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_synthase> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000049>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000050>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000050>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000050>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasScientificName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C11H12Cl2N2O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasMolecularMass>	"322.0123"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00446"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasChebiId>	"17698"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Infectious Diseases"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasHalfLife>	"Half-life in adults with normal hepatic and renal function is 1.5 - 3.5 hours. In patients with impaired renal function half-life is 3 - 4 hours. In patients with severely impaired hepatic function half-life is 4.6 - 11.6 hours. Half-life in children 1 month to 16 years old is 3 - 6.5 hours, while half-life in infants 1 to 2 days old is 24 hours or longer and is highly variable, especially in low birth-weight infants."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloramphenicol (JP17/USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"CP"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Amphicol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Chloromycetin (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00446>	<https://w3id.org/def/DIBO#hasOtherName>	"Econochlor (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000059>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000059>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasFunction>	"trna binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/50S_ribosomal_protein_L16>	<https://w3id.org/def/DIBO#hasName>	"50S ribosomal protein L16"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000059>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000060>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000060>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasFunction>	"not available"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Dr_hemagglutinin_structural_subunit>	<https://w3id.org/def/DIBO#hasName>	"Dr hemagglutinin structural subunit"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000060>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000061>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Neutral> .
+<https://w3id.org/def/DIBO/data/1000000061>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasFunction>	"virus receptor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Complement_decay-accelerating_factor>	<https://w3id.org/def/DIBO#hasName>	"Complement decay-accelerating factor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000061>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00446> .
+<https://w3id.org/def/DIBO/data//DB00446>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"Cardiovascular"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000065>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000065>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/P2Y_purinoceptor_12>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000065>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000066>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000066>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_receptor> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_receptor>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000066>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/1000000067>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1000000067>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Prostacyclin_synthase> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000067>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000068>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/1000000068>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/Peptidyl-prolyl_cis-trans_isomerase_FKBP1A>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#> .
+<https://w3id.org/def/DIBO/data/1000000068>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .

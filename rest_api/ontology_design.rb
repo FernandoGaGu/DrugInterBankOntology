@@ -1,23 +1,23 @@
 module Ontology
   @prefix = {owl:'<https://w3id.org/2002/07/owl#',
              rdf:'<https://w3id.org/1999/02/22-rdf-syntax-ns#',
-             xsd:'<https://w3id.org/2001/XMLSchema#',
+             xsd:'<https://w3id.org/2001/XMLSchema#>',
              rdfs: '<https://w3id.org/2000/01/rdf-schema#',
              dibo_core:'<https://w3id.org/def/DIBO',
-             dibo_data:'<https://w3id.org/def/DIBOdata',
+             dibo_data:'<https://w3id.org/def/DIBO/data',
              string_type: '"^^xsd:string'}
 
   # To transform different synonyms to consensual names for interaction types
-  @interaction_types = {'Agonism' => ['agonism', 'inducer'],
+  @interaction_types = {'Agonism' => ['agonism', 'inducer', 'agonist'],
                         'Antagonism' => ['inhibitor', 'antagonism'],
                         'Neutral' => ['neutral', 'other']}
 
   # To transform different synonyms to consensual names for molecule type
-  @target_types = ['Protein', 'Drug', 'DNA', 'RNA']
+  @target_types = ['protein', 'drug', 'dna', 'rna']
 
   def Ontology.ontology_struct(params)
     rdf_triples = []
-    # drug_instance   type  Drug
+    # dibo_data:interaction_instance   trdf:ype  dibo_core:Drug
     rdf_triples << generate_triplet({ subject: :dibo_data,
                                       predicate: :rdf,
                                       object: :dibo_core,
@@ -25,7 +25,7 @@ module Ontology
                                       predicate_data: 'type',
                                       object_data: '/Drug'})
 
-    # drug_instance   hasScientificName  ScientificName
+    # dibo_data:interaction_instance  dibo_core:hasScientificName  xsd:ScientificName
     rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                        predicate: :dibo_core,
                                        object: :string_type,
@@ -33,7 +33,7 @@ module Ontology
                                        predicate_data: '#hasScientificName',
                                        object_data: "#{params['hasScientificName']}" })
 
-    # drug_instance hasMolecularFormula MolecularFormula
+    # dibo_data:interaction_instance hasMolecularFormula MolecularFormula
     rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                        predicate: :dibo_core,
                                        object: :string_type,
@@ -41,7 +41,7 @@ module Ontology
                                        predicate_data: '#hasMolecularFormula',
                                        object_data: "#{params['hasMolecularFormula']}" })
 
-    # drug_instance hasMolecularMass MolecularMass
+    # dibo_data:interaction_instance hasMolecularMass MolecularMass
     rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                        predicate: :dibo_core,
                                        object: :string_type,
@@ -49,7 +49,7 @@ module Ontology
                                        predicate_data: '#hasMolecularMass',
                                        object_data: "#{params['hasMolecularMass']}" })
 
-    # drug_instance hasDrugBankId xsd:String
+    # dibo_data:interaction_instance hasDrugBankId xsd:String
     rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                        predicate: :dibo_core,
                                        object: :string_type,
@@ -57,7 +57,7 @@ module Ontology
                                        predicate_data: '#hasDrugBankId',
                                        object_data: "#{params['hasDrugBankId']}" })
 
-    # drug_instance hasChebiId xsd:String
+    # dibo_data:interaction_instance hasChebiId xsd:String
     rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                        predicate: :dibo_core,
                                        object: :string_type,
@@ -65,7 +65,7 @@ module Ontology
                                        predicate_data: '#hasChebiId',
                                        object_data: "#{params['hasChebiId']}" })
 
-    # drug_instance functionallyGroupedIn xsd:String
+    # dibo_data:interaction_instance functionallyGroupedIn xsd:String
     rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                        predicate: :dibo_core,
                                        object: :string_type,
@@ -73,7 +73,7 @@ module Ontology
                                        predicate_data: '#functionallyGroupedIn',
                                        object_data: "#{params['functionallyGroupedIn']}" })
 
-    # drug_instance hasHalfLife xsd:String
+    # dibo_data:interaction_instance hasHalfLife xsd:String
     rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                        predicate: :dibo_core,
                                        object: :string_type,
@@ -81,7 +81,7 @@ module Ontology
                                        predicate_data: '#hasHalfLife',
                                        object_data: "#{params['hasHalfLife']}" })
 
-    # drug_instance hasOtherName xsd:String
+    # dibo_data:interaction_instance hasOtherName xsd:String
     params['hasOtherName'].each do |other_name|
       rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                          predicate: :dibo_core,
@@ -93,27 +93,34 @@ module Ontology
 
 
     params['hasTarget'].each do |target_info|
-      #puts "Target inf"
-      #puts target_info.to_s
-      # drug_instance hasTarget xsd:String
-      rdf_triples <<  generate_triplet({ subject: :dibo_data,
-                                         predicate: :dibo_core,
-                                         object: :string_type,
-                                         subject_data: params['hasDrugBankId'],
-                                         predicate_data: '#hasTarget',
-                                         object_data: "#{target_info[0]}" })
 
-      # Interaction_type rdf:type dibo:Interaction
-      interaction_type = get_interaction_type target_info[2]
+      # If there is some field empty return false
+      return false if target_info.nil?
+      target_info.each { |value| return false if value.nil?}
+
+
+      # Interaction is a N-ary class 
+      interaction_URI = RdfGenerator.unique_identifier
+
+      # dibo_data:interaction_instance rdf:type dibo_core:Agonism/Antagonism/Neutral
+      interaction_type = get_interaction_type target_info[1]
       rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                          predicate: :rdf,
                                          object: :dibo_core,
-                                         subject_data: RdfGenerator.unique_identifier,
+                                         subject_data: interaction_URI,
                                          predicate_data: 'type',
                                          object_data: "/#{interaction_type}" })
+      
+      # dibo_data:interaction_instance dibo_core:hasTarget dibo_data:target_instance
+      rdf_triples <<  generate_triplet({ subject: :dibo_data,
+                                         predicate: :dibo_core,
+                                         object: :dibo_data,
+                                         subject_data: interaction_URI,
+                                         predicate_data: '#hasTarget',
+                                         object_data: "/#{target_info[0]}" })
 
-      # target_instance rdf:type dibo:Target
-      target_type = get_target_type target_info[1]
+      # dibo_data:target_instance rdf:type dibo_core:Protein/Drug/DNA/RNA
+      target_type = get_target_type target_info[2]
       rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                          predicate: :rdf,
                                          object: :dibo_core,
@@ -121,14 +128,40 @@ module Ontology
                                          predicate_data: 'type',
                                          object_data: "/#{target_type}" })
 
-      # target_instance dibo:hasFunction xsd:String
-      target_type = get_target_type target_info[1]
+      # dibo_data:target_instance dibo_core:hasFunction xsd:String
       rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                          predicate: :dibo_core,
                                          object: :string_type,
                                          subject_data: target_info[0],
-                                         predicate_data: 'hasFunction',
+                                         predicate_data: '#hasFunction',
                                          object_data: "#{target_info[3]}" })
+
+      # dibo_data:target_instance dibo_core:hasName xsd:String
+      rdf_triples <<  generate_triplet({ subject: :dibo_data,
+                                         predicate: :dibo_core,
+                                         object: :string_type,
+                                         subject_data: target_info[0],
+                                         predicate_data: '#hasName',
+                                         object_data: "#{target_info[0].gsub("_", " ")}" })
+
+      # dibo_data:interaction_instance dibo_core:hasDrug dibo_data:drug_instance
+      interaction_type = get_interaction_type target_info[1]
+      rdf_triples <<  generate_triplet({ subject: :dibo_data,
+                                         predicate: :dibo_core,
+                                         object: :dibo_data,
+                                         subject_data: interaction_URI,
+                                         predicate_data: '#hasDrug',
+                                         object_data: "/#{params['hasDrugBankId']}" })
+
+
+      # dibo_data:drug_instance rdf:type dibo_core:Drug
+      rdf_triples <<  generate_triplet({ subject: :dibo_data,
+                                         predicate: :rdf,
+                                         object: :dibo_core,
+                                         subject_data: "/#{params['hasDrugBankId']}",
+                                         predicate_data: 'type',
+                                         object_data: "/Drug" })
+
 
     end
 
@@ -148,10 +181,10 @@ module Ontology
   end
 
   def Ontology.get_target_type(target)
-
-    puts "WARNING: Target type not protein/DNA/RNA/Drug #{target}" unless @target_types.include?(target.capitalize)
+    puts "WARNING: Target type not protein/DNA/RNA/Drug -> #{target}" unless @target_types.include?(target.downcase)
     target.capitalize
   end
+
   def Ontology.generate_triplet(params = {})
     subject = params.fetch(:subject, nil)
     predicate = params.fetch(:predicate, nil)
@@ -163,7 +196,7 @@ module Ontology
     subject_construct = "#{@prefix[subject]}/#{subject_data}>\t"
     predicate_construct = "#{@prefix[predicate]}#{predicate_data}>\t"
     if object == :string_type
-      object_contruct = "\"#{object_data}#{@prefix[object]} ."
+      object_contruct = "\"#{object_data}\"^^#{@prefix[:xsd]} ."
     else
       object_contruct = "#{@prefix[object]}#{object_data}> ."
     end

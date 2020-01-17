@@ -1,8 +1,3 @@
-# Para el CORE de la ontologia
-# https://w3id.org/def/DIBO
-# Para los DATOS de la ontologia
-# https://w3id.org/def/DIBOdata
-
 require './ontology_design'
 
 class RdfGenerator
@@ -31,6 +26,7 @@ class RdfGenerator
     params.each do |entry_id, values|
       puts "Transforming #{entry_id} to RDF ..."
       value = Ontology::ontology_struct values
+      next if value == false
       @rdf_data << value.join("\n")
     end
   end
@@ -75,41 +71,3 @@ class RdfGenerator
   end
 
 end
-
-
-
-
-
-def make_triples(params = {})
-  subject = params.fetch(:subject, nil)
-  predicate = params.fetch(:predicate, nil)
-  object_ = params.fetch(:predicate_uri, nil)
-  # If we have literals we need to build a different URI
-  object = object_.nil? ? params.fetch(:literal, nil) : object_
-end
-
-
-
-my_data = {'DRUG_NAME' => {
-    'hasScientificName' => 'SCIENTIFIC_NAME', 'hasOtherName' => %w(NAME_2 NAME_2),
-    'hasMolecularFormula' => 'MOLECULAR_FORMULA', 'hasMolecularMass' => 'MOLECULAR_MASS',
-    'hasDrugBankId' => 'DRUGBANKID', 'hasChebiId' => 'CHEBI_ID',
-    'functionallyGroupedIn' => 'FUNCTIONALLY_GROUPED', 'hasHalfLife' => 'HALF_LIFE',
-    'hasTarget' => [%w(TARGET_1 protein agonism FUNCTION_1),
-                    %w(TARGET_2 protein other FUNCTION_2)]
-}}
-
-generator = RdfGenerator.new
-
-
-
-generator.generate_rdf(my_data)
-generator.number_of_triples?
-rdf_data = generator.rdf
-File.open("rdf_data.rdf", "w") { |file| file.puts rdf_data}
-
-puts "DONE !!!"
-
-
-
-

@@ -99,7 +99,7 @@ module Ontology
       target_info.each { |value| return false if value.nil?}
 
 
-      # Interaction is a N-ary class 
+      # Interaction is a N-ary class
       interaction_URI = RdfGenerator.unique_identifier
 
       # dibo_data:interaction_instance rdf:type dibo_core:Agonism/Antagonism/Neutral
@@ -110,7 +110,7 @@ module Ontology
                                          subject_data: interaction_URI,
                                          predicate_data: 'type',
                                          object_data: "/#{interaction_type}" })
-      
+
       # dibo_data:interaction_instance dibo_core:hasTarget dibo_data:target_instance
       rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                          predicate: :dibo_core,
@@ -205,3 +205,4 @@ module Ontology
   end
 
 end
+

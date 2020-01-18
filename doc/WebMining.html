@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Module: WebMining
+  
+    &mdash; Documentation by YARD 0.9.24
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" />
+
+<script type="text/javascript">
+  pathId = "WebMining";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index (W)</a> &raquo;
+    
+    
+    <span class="title">WebMining</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Module: WebMining
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>REST/WebMining.rb</dd>
+  </dl>
+  
+</div>
+
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    
+<h2 id="label-WebMining">WebMining</h2>
+
+<p>This module has been designed to extract information from the kegg and DrugBank databases.</p>
+
+<h2 id="label-Summary">Summary</h2>
+
+<p>First, it generates id for drugs by extracting information from Kegg-drug through the REST API togo. The format received is JSON, and in its fields it contains a DrugBank identifier. This identifier is used to extract information from DrugBank directly from the html. Finally, it collects all the information obtained in a hash and returns it.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Author:</p>
+<ul class="author">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>Fernando García</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div>
+
+
+
+
+
+
+  
+    <h2>
+      Class Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#check_entry-class_method" title="check_entry (class method)">.<strong>check_entry</strong>(data)  &#x21d2; Hash<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function that checks the fields received in the KEEG request and returns them in a structured way.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_category-class_method" title="get_category (class method)">.<strong>get_category</strong>(field)  &#x21d2; String<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function that extracts the category to which a drug belongs based on the presence of keywords.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_from_drugbank-class_method" title="get_from_drugbank (class method)">.<strong>get_from_drugbank</strong>(entry)  &#x21d2; Hash </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function that allows to extract information from DrugBank, receives a DrugBank entry.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_from_kegg-class_method" title="get_from_kegg (class method)">.<strong>get_from_kegg</strong>(entry, ontology_data)  &#x21d2; Hash </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function that allows to extract information from Kegg Drug, receives an entry and a hash where to store the results.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_half_life-class_method" title="get_half_life (class method)">.<strong>get_half_life</strong>(field)  &#x21d2; String<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function that extracts the half-life information based on half-life keyword.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_info_from_web-class_method" title="get_info_from_web (class method)">.<strong>get_info_from_web</strong>(params = {})  &#x21d2; Hash </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function that receives an initial parameter (it must have at least 6 figures) and the number of drugs to look for.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_interaction_description-class_method" title="get_interaction_description (class method)">.<strong>get_interaction_description</strong>(field)  &#x21d2; Hash<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function that extracts information about the target as its nature, and function.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_interactions-class_method" title="get_interactions (class method)">.<strong>get_interactions</strong>(field)  &#x21d2; String<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function that extracts the target information directly from the html document.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+
+  <div id="class_method_details" class="method_details_list">
+    <h2>Class Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="check_entry-class_method">
+  
+    .<strong>check_entry</strong>(data)  &#x21d2; <tt>Hash</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function that checks the fields received in the KEEG request and returns them in a structured way. If there is any empty field, return nil and the entry will not be noted.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>data</span>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Hash result of JSON.parse function (see #get_from_kegg)</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Hash</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>If everything is correct return a hash, else return nil</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/WebMining.rb', line 102</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="WebMining (module)">WebMining</a></span></span><span class='period'>.</span><span class='id identifier rubyid_check_entry'>check_entry</span><span class='lparen'>(</span><span class='id identifier rubyid_data'>data</span><span class='rparen'>)</span>
+  <span class='kw'>return</span> <span class='kw'>nil</span> <span class='kw'>if</span> <span class='id identifier rubyid_data'>data</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+  <span class='id identifier rubyid_response'>response</span> <span class='op'>=</span> <span class='lbrace'>{</span>
+      <span class='label'>name:</span><span class='id identifier rubyid_data'>data</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>name</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+      <span class='label'>other_names:</span> <span class='id identifier rubyid_data'>data</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>names</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>||</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='comma'>,</span>
+      <span class='label'>formula:</span> <span class='id identifier rubyid_data'>data</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>formula</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+      <span class='label'>molecular_mass:</span> <span class='id identifier rubyid_data'>data</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>exact_mass</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+      <span class='label'>drugbank:</span> <span class='id identifier rubyid_data'>data</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>dblinks</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>DrugBank</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+      <span class='label'>chebi:</span> <span class='id identifier rubyid_data'>data</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>dblinks</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>ChEBI</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span>
+  <span class='rbrace'>}</span>
+  <span class='comment'># If there is some empty field return nil
+</span>  <span class='id identifier rubyid_response'>response</span><span class='period'>.</span><span class='id identifier rubyid_each_value'>each_value</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_value'>value</span><span class='op'>|</span> <span class='kw'>return</span> <span class='kw'>nil</span> <span class='kw'>if</span> <span class='id identifier rubyid_value'>value</span> <span class='op'>==</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span> <span class='op'>||</span> <span class='id identifier rubyid_value'>value</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span> <span class='rbrace'>}</span>
+  <span class='comment'># Else return a hash
+</span>  <span class='id identifier rubyid_response'>response</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_category-class_method">
+  
+    .<strong>get_category</strong>(field)  &#x21d2; <tt>String</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function that extracts the category to which a drug belongs based on the presence of keywords. Not all possible categories have been covered and the keywords analyzed may be few.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>field</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>html &lt;p&gt; tag 1 with the drug description</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>If no category was found else return nil</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/WebMining.rb', line 168</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="WebMining (module)">WebMining</a></span></span><span class='period'>.</span><span class='id identifier rubyid_get_category'>get_category</span><span class='lparen'>(</span><span class='id identifier rubyid_field'>field</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_categories'>categories</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>AgentAffectingCardiovascularSystem</span><span class='tstring_end'>&quot;</span></span> <span class='op'>=&gt;</span> <span class='lbracket'>[</span><span class='const'>Regexp</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hypertension</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'>Regexp</span><span class='op'>::</span><span class='const'>IGNORECASE</span><span class='rparen'>)</span><span class='comma'>,</span>
+                                     <span class='const'>Regexp</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>cardiovascular</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'>Regexp</span><span class='op'>::</span><span class='const'>IGNORECASE</span><span class='rparen'>)</span><span class='rbracket'>]</span><span class='comma'>,</span>
+                <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>AntineoplasicAgent</span><span class='tstring_end'>&quot;</span></span> <span class='op'>=&gt;</span> <span class='lbracket'>[</span><span class='const'>Regexp</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>cancer</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'>Regexp</span><span class='op'>::</span><span class='const'>IGNORECASE</span><span class='rparen'>)</span><span class='comma'>,</span>
+                             <span class='const'>Regexp</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>tumor</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'>Regexp</span><span class='op'>::</span><span class='const'>IGNORECASE</span><span class='rparen'>)</span><span class='comma'>,</span>
+                             <span class='const'>Regexp</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>tumoral</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'>Regexp</span><span class='op'>::</span><span class='const'>IGNORECASE</span><span class='rparen'>)</span><span class='rbracket'>]</span><span class='comma'>,</span>
+                <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>AntiInfectiveAgent</span><span class='tstring_end'>&quot;</span></span> <span class='op'>=&gt;</span> <span class='lbracket'>[</span><span class='const'>Regexp</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>antibiotic</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'>Regexp</span><span class='op'>::</span><span class='const'>IGNORECASE</span><span class='rparen'>)</span><span class='comma'>,</span>
+                                          <span class='const'>Regexp</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>bacterial</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'>Regexp</span><span class='op'>::</span><span class='const'>IGNORECASE</span><span class='rparen'>)</span><span class='rbracket'>]</span><span class='comma'>,</span>
+                <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>AgentAffectingNervousSystem</span><span class='tstring_end'>&quot;</span></span> <span class='op'>=&gt;</span> <span class='lbracket'>[</span><span class='const'>Regexp</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>antidepressants</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'>Regexp</span><span class='op'>::</span><span class='const'>IGNORECASE</span><span class='rparen'>)</span><span class='comma'>,</span>
+                                          <span class='const'>Regexp</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>anxiety</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'>Regexp</span><span class='op'>::</span><span class='const'>IGNORECASE</span><span class='rparen'>)</span><span class='rbracket'>]</span><span class='rbrace'>}</span>
+  <span class='id identifier rubyid_categories'>categories</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_key'>key</span><span class='comma'>,</span> <span class='id identifier rubyid_value'>value</span><span class='op'>|</span>
+    <span class='id identifier rubyid_value'>value</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_regex'>regex</span><span class='op'>|</span> <span class='kw'>return</span> <span class='id identifier rubyid_key'>key</span> <span class='kw'>if</span> <span class='id identifier rubyid_regex'>regex</span><span class='period'>.</span><span class='id identifier rubyid_match'>match</span><span class='lparen'>(</span><span class='id identifier rubyid_field'>field</span><span class='rparen'>)</span> <span class='rbrace'>}</span>
+  <span class='kw'>end</span>
+  <span class='kw'>nil</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_from_drugbank-class_method">
+  
+    .<strong>get_from_drugbank</strong>(entry)  &#x21d2; <tt>Hash</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function that allows to extract information from DrugBank, receives a DrugBank entry. It extracts information directly from certain fields of the html, it is not guaranteed that all the information is complete.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>entry</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>DrugBank entry id (see #get_info_from_web)</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Hash with information from DrugBank</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/WebMining.rb', line 126</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="WebMining (module)">WebMining</a></span></span><span class='period'>.</span><span class='id identifier rubyid_get_from_drugbank'>get_from_drugbank</span><span class='lparen'>(</span><span class='id identifier rubyid_entry'>entry</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_uri'>uri</span> <span class='op'>=</span> <span class='const'>URI</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>https://www.drugbank.ca/drugs/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entry'>entry</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+  <span class='comment'># DrugBank web request
+</span>  <span class='id identifier rubyid_res'>res</span> <span class='op'>=</span> <span class='const'>Net</span><span class='op'>::</span><span class='const'>HTTP</span><span class='period'>.</span><span class='id identifier rubyid_get'>get</span><span class='lparen'>(</span><span class='id identifier rubyid_uri'>uri</span><span class='rparen'>)</span>
+  <span class='comment'># html parse
+</span>  <span class='id identifier rubyid_parsed_data'>parsed_data</span> <span class='op'>=</span> <span class='const'>Nokogiri</span><span class='op'>::</span><span class='const'>HTML</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='id identifier rubyid_res'>res</span><span class='rparen'>)</span>
+  <span class='comment'># Get &lt;p&gt; &lt;/p&gt; tags
+</span>  <span class='id identifier rubyid_p_tags'>p_tags</span> <span class='op'>=</span> <span class='id identifier rubyid_parsed_data'>parsed_data</span><span class='period'>.</span><span class='id identifier rubyid_xpath'>xpath</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>//p</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+
+  <span class='comment'># If there is some problem with the information manage the exception and return nil
+</span>  <span class='kw'>begin</span>
+  <span class='comment'># Get drug interactions (see #get_interactions)
+</span>  <span class='id identifier rubyid_drug_data'>drug_data</span> <span class='op'>=</span> <span class='id identifier rubyid_get_interactions'>get_interactions</span><span class='lparen'>(</span><span class='id identifier rubyid_parsed_data'>parsed_data</span><span class='rparen'>)</span>
+
+  <span class='comment'># Get drug category classification (see #get_category)
+</span>  <span class='id identifier rubyid_category'>category</span> <span class='op'>=</span> <span class='id identifier rubyid_get_category'>get_category</span><span class='lparen'>(</span><span class='id identifier rubyid_p_tags'>p_tags</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_drug_data'>drug_data</span><span class='period'>.</span><span class='id identifier rubyid_merge!'>merge!</span><span class='lparen'>(</span><span class='label'>category:</span> <span class='id identifier rubyid_category'>category</span><span class='rparen'>)</span> <span class='kw'>unless</span> <span class='id identifier rubyid_category'>category</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+
+  <span class='comment'># Get information about the drug half-life (see #get_half_life)
+</span>  <span class='id identifier rubyid_half_life'>half_life</span> <span class='op'>=</span> <span class='id identifier rubyid_get_half_life'>get_half_life</span><span class='lparen'>(</span><span class='id identifier rubyid_p_tags'>p_tags</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_drug_data'>drug_data</span><span class='period'>.</span><span class='id identifier rubyid_merge!'>merge!</span><span class='lparen'>(</span><span class='label'>half_life:</span> <span class='id identifier rubyid_half_life'>half_life</span><span class='rparen'>)</span> <span class='kw'>unless</span> <span class='id identifier rubyid_half_life'>half_life</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+
+  <span class='comment'># Get information about the drug target (see #get_interaction_description)
+</span>  <span class='id identifier rubyid_interacion_description'>interacion_description</span> <span class='op'>=</span> <span class='id identifier rubyid_get_interaction_description'>get_interaction_description</span><span class='lparen'>(</span><span class='id identifier rubyid_parsed_data'>parsed_data</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_drug_data'>drug_data</span><span class='period'>.</span><span class='id identifier rubyid_merge!'>merge!</span><span class='lparen'>(</span><span class='label'>interaction_description:</span> <span class='id identifier rubyid_interacion_description'>interacion_description</span><span class='rparen'>)</span> <span class='kw'>unless</span> <span class='id identifier rubyid_interacion_description'>interacion_description</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+  <span class='id identifier rubyid_drug_data'>drug_data</span><span class='period'>.</span><span class='id identifier rubyid_merge!'>merge!</span><span class='lparen'>(</span><span class='label'>drugbank_id:</span> <span class='id identifier rubyid_entry'>entry</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='rparen'>)</span>
+  <span class='kw'>rescue</span>
+    <span class='kw'>return</span> <span class='kw'>nil</span>
+  <span class='kw'>end</span>
+
+  <span class='comment'># Return a hash with DrugBank data
+</span>  <span class='id identifier rubyid_drug_data'>drug_data</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_from_kegg-class_method">
+  
+    .<strong>get_from_kegg</strong>(entry, ontology_data)  &#x21d2; <tt>Hash</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function that allows to extract information from Kegg Drug, receives an entry and a hash where to store the results. From the request you get the data in JSON format and parse it by extracting the fields of interest.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>entry</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Kegg entry id (see #get_info_from_web)</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>ontology_data</span>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>For structure (see #check_entry)</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Hash with information from KEGG</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/WebMining.rb', line 80</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="WebMining (module)">WebMining</a></span></span><span class='period'>.</span><span class='id identifier rubyid_get_from_kegg'>get_from_kegg</span><span class='lparen'>(</span><span class='id identifier rubyid_entry'>entry</span><span class='comma'>,</span> <span class='id identifier rubyid_ontology_data'>ontology_data</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_url'>url</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>http://togows.org/entry/kegg-drug/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entry'>entry</span><span class='embexpr_end'>}</span><span class='tstring_content'>.json</span><span class='tstring_end'>&quot;</span></span>
+  <span class='comment'># Web request
+</span>  <span class='id identifier rubyid_res'>res</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="WebRequest.html" title="WebRequest (module)">WebRequest</a></span></span><span class='op'>::</span><span class='id identifier rubyid_fetch'><span class='object_link'><a href="WebRequest.html#fetch-class_method" title="WebRequest.fetch (method)">fetch</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_url'>url</span><span class='rparen'>)</span>
+  <span class='comment'># Parse JSON file
+</span>  <span class='id identifier rubyid_data'>data</span> <span class='op'>=</span> <span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='id identifier rubyid_res'>res</span><span class='period'>.</span><span class='id identifier rubyid_body'>body</span><span class='rparen'>)</span>
+  <span class='comment'># To check if all fields are complete (see #check_entry)
+</span>  <span class='id identifier rubyid_result'>result</span> <span class='op'>=</span> <span class='id identifier rubyid_check_entry'>check_entry</span><span class='lparen'>(</span><span class='id identifier rubyid_data'>data</span><span class='rparen'>)</span>
+  <span class='comment'># If the result is not nill create a new entry and return the hash
+</span>  <span class='id identifier rubyid_ontology_data'>ontology_data</span><span class='lbracket'>[</span><span class='id identifier rubyid_entry'>entry</span><span class='rbracket'>]</span> <span class='op'>=</span> <span class='id identifier rubyid_result'>result</span> <span class='kw'>unless</span> <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+  <span class='comment'># Else return the same hash received
+</span>  <span class='id identifier rubyid_ontology_data'>ontology_data</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_half_life-class_method">
+  
+    .<strong>get_half_life</strong>(field)  &#x21d2; <tt>String</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function that extracts the half-life information based on half-life keyword</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>field</span>
+      
+      
+        <span class='type'>(<tt>Nokogiri</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>nokogiri object from #xpath function (see #xpath)</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>If no category was found else return nil</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+190
+191
+192
+193
+194</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/WebMining.rb', line 190</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="WebMining (module)">WebMining</a></span></span><span class='period'>.</span><span class='id identifier rubyid_get_half_life'>get_half_life</span><span class='lparen'>(</span><span class='id identifier rubyid_field'>field</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_half_life'>half_life</span> <span class='op'>=</span> <span class='const'>Regexp</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>&gt;(.+half-life.+)&lt;</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'>Regexp</span><span class='op'>::</span><span class='const'>IGNORECASE</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_field'>field</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_tag'>tag</span><span class='op'>|</span> <span class='kw'>return</span> <span class='backref'>$1</span><span class='period'>.</span><span class='id identifier rubyid_gsub'>gsub</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;(.*?)&gt;</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='kw'>if</span> <span class='id identifier rubyid_half_life'>half_life</span><span class='period'>.</span><span class='id identifier rubyid_match'>match</span><span class='lparen'>(</span><span class='id identifier rubyid_tag'>tag</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span><span class='rparen'>)</span> <span class='rbrace'>}</span>
+  <span class='kw'>nil</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_info_from_web-class_method">
+  
+    .<strong>get_info_from_web</strong>(params = {})  &#x21d2; <tt>Hash</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function that receives an initial parameter (it must have at least 6 figures) and the number of drugs to look for. These parameters allow the construction of drug identifiers (Kegg identifiers). Synchronize all module operation to extract data from Kegg-drug and DrugBank.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>params</span>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+        <em class="default">(defaults to: <tt>{}</tt>)</em>
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Hash with the initial params</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>opts</span>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>a customizable set of options</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+  
+    
+    
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Hash with web information</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/WebMining.rb', line 33</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="WebMining (module)">WebMining</a></span></span><span class='period'>.</span><span class='id identifier rubyid_get_info_from_web'>get_info_from_web</span><span class='lparen'>(</span><span class='id identifier rubyid_params'>params</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_initial'>initial</span> <span class='op'>=</span> <span class='id identifier rubyid_params'>params</span><span class='period'>.</span><span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='symbol'>:initial</span><span class='comma'>,</span> <span class='int'>100_100</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_iterations'>iterations</span> <span class='op'>=</span> <span class='id identifier rubyid_params'>params</span><span class='period'>.</span><span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='symbol'>:iterations</span><span class='comma'>,</span> <span class='int'>10</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_ontology_data'>ontology_data</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span>
+  <span class='id identifier rubyid_print'>print</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Web Scrapping from KEGG ... [</span><span class='tstring_end'>&quot;</span></span>
+  <span class='id identifier rubyid_iterations'>iterations</span><span class='period'>.</span><span class='id identifier rubyid_times'>times</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_i'>i</span><span class='op'>|</span>
+    <span class='id identifier rubyid_initial'>initial</span> <span class='op'>+=</span> <span class='int'>1</span>
+    <span class='comment'># Generate drug identifier
+</span>    <span class='id identifier rubyid_entry'>entry</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>D</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_initial'>initial</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span><span class='lbracket'>[</span><span class='int'>1</span><span class='op'>..</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+    <span class='comment'># Get KEGG drug information (see #get_from_kegg)
+</span>    <span class='id identifier rubyid_ontology_data'>ontology_data</span> <span class='op'>=</span> <span class='id identifier rubyid_get_from_kegg'>get_from_kegg</span><span class='lparen'>(</span><span class='id identifier rubyid_entry'>entry</span><span class='comma'>,</span> <span class='id identifier rubyid_ontology_data'>ontology_data</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_print'>print</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/</span><span class='tstring_end'>&quot;</span></span>
+  <span class='kw'>end</span>
+  <span class='id identifier rubyid_print'>print</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>]\n\tKEGG INFORMATION OBTAINED !!\n</span><span class='tstring_end'>&quot;</span></span>
+  <span class='id identifier rubyid_print'>print</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\nWebScrapping from DrugBank ... [</span><span class='tstring_end'>&quot;</span></span>
+  <span class='comment'># Get DrugBank ids to query DrugBank web
+</span>  <span class='id identifier rubyid_drugbank_ids'>drugbank_ids</span> <span class='op'>=</span> <span class='id identifier rubyid_ontology_data'>ontology_data</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_key'>key</span><span class='comma'>,</span> <span class='id identifier rubyid_value'>value</span><span class='op'>|</span> <span class='id identifier rubyid_value'>value</span><span class='lbracket'>[</span><span class='symbol'>:drugbank</span><span class='rbracket'>]</span><span class='rbrace'>}</span>
+
+  <span class='id identifier rubyid_ontology_data_'>ontology_data_</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span>  <span class='comment'># Temp. hash
+</span>  <span class='id identifier rubyid_drugbank_ids'>drugbank_ids</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_drug_id'>drug_id</span><span class='op'>|</span>
+    <span class='comment'># Get DrugBank information (see #get_from_drugbank)
+</span>    <span class='id identifier rubyid_drugbank_data'>drugbank_data</span> <span class='op'>=</span> <span class='id identifier rubyid_get_from_drugbank'>get_from_drugbank</span><span class='lparen'>(</span><span class='id identifier rubyid_drug_id'>drug_id</span><span class='rparen'>)</span>
+    <span class='comment'># If there are any problem getting DrugBank data pass to the next id
+</span>    <span class='kw'>next</span> <span class='kw'>if</span> <span class='id identifier rubyid_drugbank_data'>drugbank_data</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+
+    <span class='id identifier rubyid_ontology_data'>ontology_data</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_entry'>entry</span><span class='comma'>,</span> <span class='id identifier rubyid_value'>value</span><span class='op'>|</span>
+      <span class='comment'># Merge DrugBank and Kegg information in one hash by key
+</span>      <span class='kw'>if</span> <span class='id identifier rubyid_drugbank_data'>drugbank_data</span><span class='lbracket'>[</span><span class='symbol'>:drugbank_id</span><span class='rbracket'>]</span> <span class='op'>==</span> <span class='id identifier rubyid_value'>value</span><span class='lbracket'>[</span><span class='symbol'>:drugbank</span><span class='rbracket'>]</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span>
+        <span class='id identifier rubyid_ontology_data_'>ontology_data_</span><span class='lbracket'>[</span><span class='id identifier rubyid_entry'>entry</span><span class='rbracket'>]</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='label'>kegg:</span> <span class='id identifier rubyid_value'>value</span><span class='comma'>,</span> <span class='label'>drugbank:</span> <span class='id identifier rubyid_drugbank_data'>drugbank_data</span><span class='rbrace'>}</span>
+      <span class='kw'>end</span>
+    <span class='kw'>end</span>
+    <span class='id identifier rubyid_print'>print</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/</span><span class='tstring_end'>&quot;</span></span>
+  <span class='kw'>end</span>
+  <span class='id identifier rubyid_print'>print</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>]\n\tDRUGBANK INFORMATION OBTAINED !!\n\n</span><span class='tstring_end'>&quot;</span></span>
+  <span class='comment'># Return information
+</span>  <span class='id identifier rubyid_ontology_data_'>ontology_data_</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_interaction_description-class_method">
+  
+    .<strong>get_interaction_description</strong>(field)  &#x21d2; <tt>Hash</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function that extracts information about the target as its nature, and function</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>field</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>html DrugBank response</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Hash</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>nil If it was not possible to find the information else return the target(s) information</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/WebMining.rb', line 241</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="WebMining (module)">WebMining</a></span></span><span class='period'>.</span><span class='id identifier rubyid_get_interaction_description'>get_interaction_description</span><span class='lparen'>(</span><span class='id identifier rubyid_field'>field</span><span class='rparen'>)</span>
+  <span class='comment'># Extract &lt;div class=&quot;bond-list-container targets&quot;&gt;
+</span>  <span class='id identifier rubyid_parsed_div'>parsed_div</span> <span class='op'>=</span> <span class='id identifier rubyid_field'>field</span><span class='period'>.</span><span class='id identifier rubyid_xpath'>xpath</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>//div[@class=\&quot;bond-list-container targets\&quot;]</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_parsed_dd'>parsed_dd</span> <span class='op'>=</span>  <span class='const'>Nokogiri</span><span class='op'>::</span><span class='const'>HTML</span><span class='lparen'>(</span><span class='id identifier rubyid_parsed_div'>parsed_div</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span><span class='period'>.</span><span class='id identifier rubyid_downcase!'>downcase!</span><span class='rparen'>)</span>
+  <span class='comment'># Extract &lt;dd&gt; tags
+</span>  <span class='id identifier rubyid_parsed_dd'>parsed_dd</span> <span class='op'>=</span> <span class='id identifier rubyid_parsed_dd'>parsed_dd</span><span class='period'>.</span><span class='id identifier rubyid_xpath'>xpath</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>//dd</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+  <span class='comment'># Remove everything between &lt; &gt;
+</span>  <span class='id identifier rubyid_parsed_dd'>parsed_dd</span> <span class='op'>=</span> <span class='id identifier rubyid_parsed_dd'>parsed_dd</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_n'>n</span><span class='op'>|</span> <span class='id identifier rubyid_n'>n</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span><span class='period'>.</span><span class='id identifier rubyid_gsub!'>gsub!</span><span class='lparen'>(</span><span class='tstring'><span class='regexp_beg'>/</span><span class='tstring_content'>&lt;.*?&gt;</span><span class='regexp_end'>/</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rbrace'>}</span>
+  <span class='id identifier rubyid_result'>result</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
+  <span class='id identifier rubyid_field_type'>field_type</span> <span class='op'>=</span> <span class='int'>0</span> <span class='comment'># Target type position
+</span>  <span class='id identifier rubyid_field_function'>field_function</span> <span class='op'>=</span> <span class='int'>4</span> <span class='comment'># Target function position
+</span>  <span class='id identifier rubyid_uniprot'>uniprot</span> <span class='op'>=</span> <span class='int'>7</span> <span class='comment'># Extract uniprot id
+</span>  <span class='id identifier rubyid_n'>n</span> <span class='op'>=</span> <span class='int'>0</span>
+  <span class='kw'>while</span> <span class='id identifier rubyid_n'>n</span> <span class='op'>&lt;</span> <span class='lparen'>(</span><span class='id identifier rubyid_parsed_dd'>parsed_dd</span><span class='period'>.</span><span class='id identifier rubyid_length'>length</span> <span class='op'>-</span> <span class='int'>1</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_element_type'>element_type</span> <span class='op'>=</span> <span class='id identifier rubyid_parsed_dd'>parsed_dd</span><span class='lbracket'>[</span><span class='id identifier rubyid_field_type'>field_type</span> <span class='op'>+</span> <span class='id identifier rubyid_n'>n</span><span class='rbracket'>]</span> <span class='comment'># Extract target type
+</span>    <span class='id identifier rubyid_element_function'>element_function</span> <span class='op'>=</span> <span class='id identifier rubyid_parsed_dd'>parsed_dd</span><span class='lbracket'>[</span><span class='id identifier rubyid_field_function'>field_function</span> <span class='op'>+</span> <span class='id identifier rubyid_n'>n</span><span class='rbracket'>]</span> <span class='comment'># Extract target function
+</span>    <span class='id identifier rubyid_uniprot_id'>uniprot_id</span> <span class='op'>=</span> <span class='id identifier rubyid_parsed_dd'>parsed_dd</span><span class='lbracket'>[</span><span class='id identifier rubyid_uniprot'>uniprot</span><span class='rbracket'>]</span> <span class='comment'># Extract uniprot id
+</span>    <span class='id identifier rubyid_n'>n</span> <span class='op'>+=</span> <span class='int'>10</span> <span class='comment'># The information for each of the targets has 10 fields
+</span>    <span class='id identifier rubyid_result'>result</span> <span class='op'>&lt;&lt;</span> <span class='lbrace'>{</span><span class='label'>element_type:</span> <span class='id identifier rubyid_element_type'>element_type</span><span class='comma'>,</span> <span class='label'>element_function:</span> <span class='id identifier rubyid_element_function'>element_function</span><span class='comma'>,</span> <span class='label'>uniprot_id:</span> <span class='id identifier rubyid_uniprot_id'>uniprot_id</span><span class='rbrace'>}</span>
+  <span class='kw'>end</span>
+  <span class='comment'># If there are not results return false
+</span>  <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_empty?'>empty?</span> <span class='op'>?</span> <span class='kw'>nil</span> <span class='op'>:</span> <span class='lbrace'>{</span><span class='label'>interactions:</span> <span class='id identifier rubyid_result'>result</span><span class='rbrace'>}</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_interactions-class_method">
+  
+    .<strong>get_interactions</strong>(field)  &#x21d2; <tt>String</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function that extracts the target information directly from the html document</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>field</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>html DrugBank response</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>nil If it was not possible to find the information else return the target(s) information</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/WebMining.rb', line 203</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="WebMining (module)">WebMining</a></span></span><span class='period'>.</span><span class='id identifier rubyid_get_interactions'>get_interactions</span><span class='lparen'>(</span><span class='id identifier rubyid_field'>field</span><span class='rparen'>)</span>
+  <span class='comment'># Define the regex for the table with information about the drug targets
+</span>  <span class='id identifier rubyid_regex'>regex</span> <span class='op'>=</span> <span class='const'>Regexp</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;table class=\&quot;table table-sm responsive-table\&quot; id=\&quot;drug-moa-target-table\&quot;&gt;(.*?)&lt;/table&gt;</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+  <span class='comment'># Remove the new lines
+</span>  <span class='id identifier rubyid_parsed_data'>parsed_data</span> <span class='op'>=</span> <span class='id identifier rubyid_field'>field</span><span class='period'>.</span><span class='id identifier rubyid_xpath'>xpath</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>//table</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span><span class='period'>.</span><span class='id identifier rubyid_gsub'>gsub</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_result'>result</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
+  <span class='comment'># Regex match coincidence
+</span>  <span class='kw'>if</span> <span class='id identifier rubyid_regex'>regex</span><span class='period'>.</span><span class='id identifier rubyid_match'>match</span><span class='lparen'>(</span><span class='id identifier rubyid_parsed_data'>parsed_data</span><span class='rparen'>)</span>
+    <span class='comment'># Remove &lt;span&gt; tags and append a new line
+</span>    <span class='id identifier rubyid_coincidence'>coincidence</span> <span class='op'>=</span> <span class='backref'>$1</span><span class='period'>.</span><span class='id identifier rubyid_gsub'>gsub</span><span class='lparen'>(</span><span class='tstring'><span class='regexp_beg'>/</span><span class='tstring_content'>&lt;span.*?span&gt;</span><span class='regexp_end'>/</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_gsub'>gsub</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&gt;&lt;</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&gt;\n&lt;</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+    <span class='comment'># Get values between &gt; &lt;
+</span>    <span class='id identifier rubyid_values'>values</span> <span class='op'>=</span> <span class='id identifier rubyid_coincidence'>coincidence</span><span class='period'>.</span><span class='id identifier rubyid_scan'>scan</span><span class='lparen'>(</span><span class='tstring'><span class='regexp_beg'>/</span><span class='tstring_content'>&gt;(.*?)&lt;</span><span class='regexp_end'>/</span></span><span class='rparen'>)</span>
+    <span class='comment'># INVALID targets names
+</span>    <span class='id identifier rubyid_not_targets'>not_targets</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>agonism</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>antagonism</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>other</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                   <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>neutral</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>inhibitor</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Organism</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                   <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>agonist</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>A</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>U</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span>
+    <span class='id identifier rubyid_n'>n</span> <span class='op'>=</span> <span class='int'>3</span> <span class='comment'># The first three are the headers of the table where the information is
+</span>    <span class='kw'>while</span> <span class='id identifier rubyid_n'>n</span> <span class='op'>&lt;</span> <span class='lparen'>(</span><span class='id identifier rubyid_values'>values</span><span class='period'>.</span><span class='id identifier rubyid_length'>length</span> <span class='op'>-</span> <span class='int'>1</span><span class='rparen'>)</span> <span class='kw'>do</span>
+      <span class='id identifier rubyid_target'>target</span> <span class='op'>=</span> <span class='id identifier rubyid_values'>values</span><span class='lbracket'>[</span><span class='id identifier rubyid_n'>n</span><span class='rbracket'>]</span>
+      <span class='id identifier rubyid_effect'>effect</span> <span class='op'>=</span> <span class='id identifier rubyid_values'>values</span><span class='lbracket'>[</span><span class='id identifier rubyid_n'>n</span> <span class='op'>+</span> <span class='int'>1</span><span class='rbracket'>]</span>
+      <span class='kw'>return</span> <span class='kw'>nil</span> <span class='kw'>if</span> <span class='id identifier rubyid_effect'>effect</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span> <span class='op'>||</span> <span class='id identifier rubyid_target'>target</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+      <span class='id identifier rubyid_n'>n</span> <span class='op'>+=</span> <span class='int'>3</span>
+      <span class='comment'># If target correspond to effect correct it (temporally disabled)
+</span>      <span class='comment'>#effect, target  = target, values[n - 1] if not_targets.include? target[0]
+</span>      <span class='id identifier rubyid_result'>result</span> <span class='op'>&lt;&lt;</span> <span class='lbrace'>{</span><span class='label'>target:</span> <span class='id identifier rubyid_target'>target</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='comma'>,</span> <span class='label'>interaction_type:</span> <span class='id identifier rubyid_effect'>effect</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='rbrace'>}</span>
+    <span class='kw'>end</span>
+  <span class='kw'>end</span>
+  <span class='comment'># If there are not results return nil
+</span>  <span class='id identifier rubyid_result'>result</span><span class='period'>.</span><span class='id identifier rubyid_empty?'>empty?</span> <span class='op'>?</span> <span class='kw'>nil</span> <span class='op'>:</span> <span class='lbrace'>{</span><span class='label'>interactions:</span> <span class='id identifier rubyid_result'>result</span><span class='rbrace'>}</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Sat Jan 18 19:26:14 2020 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.24 (ruby-2.6.3).
+</div>
+
+    </div>
+  </body>
+</html>

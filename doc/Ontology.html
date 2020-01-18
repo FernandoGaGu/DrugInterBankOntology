@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Module: Ontology
+  
+    &mdash; Documentation by YARD 0.9.24
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" />
+
+<script type="text/javascript">
+  pathId = "Ontology";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index (O)</a> &raquo;
+    
+    
+    <span class="title">Ontology</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Module: Ontology
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+
+  
+  
+  
+  
+  
+
+  
+  <dl>
+    <dt>Included in:</dt>
+    <dd><span class='object_link'><a href="RdfGenerator.html" title="RdfGenerator (class)">RdfGenerator</a></span></dd>
+  </dl>
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>REST/OntologyDesign.rb</dd>
+  </dl>
+  
+</div>
+
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    
+<h2 id="label-Ontology">Ontology</h2>
+
+<p>This module works in conjunction with the RdfGenerator class. It is responsible for managing to implement the ontology conceptualization to transform non-ontological resources to ontological resources</p>
+
+<h2 id="label-Summary">Summary</h2>
+
+<p>This module contains information about the prefixes required by the ontology and the structure of the ontology. The way to create new rdf triples is quite simple more information (see #generate_triplet). The user can define here the structure of the ontology and will automatically generate the corresponding rdf.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Author:</p>
+<ul class="author">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>Fernando García</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div>
+
+
+
+
+
+
+  
+    <h2>
+      Class Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#generate_triplet-class_method" title="generate_triplet (class method)">.<strong>generate_triplet</strong>(params = {})  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>It allows to generate triples from the information of the prefix of the subject, predicate and object and the values that each one will have.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_interaction_type-class_method" title="get_interaction_type (class method)">.<strong>get_interaction_type</strong>(interaction)  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function that standardizes the type of interaction, if it is not defined add “Neutral” and displays a warning message.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_target_type-class_method" title="get_target_type (class method)">.<strong>get_target_type</strong>(target)  &#x21d2; String </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function that standardizes the molecule type.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#ontology_struct-class_method" title="ontology_struct (class method)">.<strong>ontology_struct</strong>(params)  &#x21d2; Array </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function in which the structure of the ontology is defined.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+
+  <div id="class_method_details" class="method_details_list">
+    <h2>Class Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="generate_triplet-class_method">
+  
+    .<strong>generate_triplet</strong>(params = {})  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>It allows to generate triples from the information of the prefix of the subject, predicate and object and the values that each one will have. This function allows the creation of new triples in a simple and comfortable way.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>params</span>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+        <em class="default">(defaults to: <tt>{}</tt>)</em>
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Triplet information</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>opts</span>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>a customizable set of options</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+  
+    
+    
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Triplet</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/OntologyDesign.rb', line 284</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Ontology (module)">Ontology</a></span></span><span class='period'>.</span><span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='id identifier rubyid_params'>params</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_subject'>subject</span> <span class='op'>=</span> <span class='id identifier rubyid_params'>params</span><span class='period'>.</span><span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='symbol'>:subject</span><span class='comma'>,</span> <span class='kw'>nil</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_predicate'>predicate</span> <span class='op'>=</span> <span class='id identifier rubyid_params'>params</span><span class='period'>.</span><span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='symbol'>:predicate</span><span class='comma'>,</span> <span class='kw'>nil</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_object'>object</span> <span class='op'>=</span> <span class='id identifier rubyid_params'>params</span><span class='period'>.</span><span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='symbol'>:object</span><span class='comma'>,</span> <span class='kw'>nil</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_subject_data'>subject_data</span> <span class='op'>=</span> <span class='id identifier rubyid_params'>params</span><span class='period'>.</span><span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='symbol'>:subject_data</span><span class='comma'>,</span> <span class='kw'>nil</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_predicate_data'>predicate_data</span> <span class='op'>=</span> <span class='id identifier rubyid_params'>params</span><span class='period'>.</span><span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='symbol'>:predicate_data</span><span class='comma'>,</span> <span class='kw'>nil</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_object_data'>object_data</span> <span class='op'>=</span> <span class='id identifier rubyid_params'>params</span><span class='period'>.</span><span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='symbol'>:object_data</span><span class='comma'>,</span> <span class='kw'>nil</span><span class='rparen'>)</span>
+
+  <span class='comment'># Create subject URI
+</span>  <span class='id identifier rubyid_subject_construct'>subject_construct</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;</span><span class='embexpr_beg'>#{</span><span class='ivar'>@prefix</span><span class='lbracket'>[</span><span class='id identifier rubyid_subject'>subject</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_subject_data'>subject_data</span><span class='embexpr_end'>}</span><span class='tstring_content'>&gt;\t</span><span class='tstring_end'>&quot;</span></span>
+  <span class='comment'># Create predicate URI
+</span>  <span class='id identifier rubyid_predicate_construct'>predicate_construct</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;</span><span class='embexpr_beg'>#{</span><span class='ivar'>@prefix</span><span class='lbracket'>[</span><span class='id identifier rubyid_predicate'>predicate</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_predicate_data'>predicate_data</span><span class='embexpr_end'>}</span><span class='tstring_content'>&gt;\t</span><span class='tstring_end'>&quot;</span></span>
+
+  <span class='kw'>if</span> <span class='id identifier rubyid_object'>object</span> <span class='op'>==</span> <span class='symbol'>:xsd</span>    <span class='comment'># Create object xsd datatype URI
+</span>    <span class='id identifier rubyid_datatype'>datatype</span> <span class='op'>=</span> <span class='id identifier rubyid_params'>params</span><span class='period'>.</span><span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='symbol'>:datatype</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>string</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_object_contruct'>object_contruct</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_object_data'>object_data</span><span class='embexpr_end'>}</span><span class='tstring_content'>\&quot;^^&lt;</span><span class='embexpr_beg'>#{</span><span class='ivar'>@prefix</span><span class='lbracket'>[</span><span class='symbol'>:xsd</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_datatype'>datatype</span><span class='embexpr_end'>}</span><span class='tstring_content'>&gt; .</span><span class='tstring_end'>&quot;</span></span>
+  <span class='kw'>else</span>                 <span class='comment'># Create a object URI
+</span>    <span class='id identifier rubyid_object_contruct'>object_contruct</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>&lt;</span><span class='embexpr_beg'>#{</span><span class='ivar'>@prefix</span><span class='lbracket'>[</span><span class='id identifier rubyid_object'>object</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_object_data'>object_data</span><span class='embexpr_end'>}</span><span class='tstring_content'>&gt; .</span><span class='tstring_end'>&quot;</span></span>
+  <span class='kw'>end</span>
+  <span class='const'><span class='object_link'><a href="RdfGenerator.html" title="RdfGenerator (class)">RdfGenerator</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new_triplet'><span class='object_link'><a href="RdfGenerator.html#new_triplet-class_method" title="RdfGenerator.new_triplet (method)">new_triplet</a></span></span>
+  <span class='kw'>return</span> <span class='lparen'>(</span><span class='id identifier rubyid_subject_construct'>subject_construct</span> <span class='op'>+</span> <span class='id identifier rubyid_predicate_construct'>predicate_construct</span> <span class='op'>+</span> <span class='id identifier rubyid_object_contruct'>object_contruct</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_interaction_type-class_method">
+  
+    .<strong>get_interaction_type</strong>(interaction)  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function that standardizes the type of interaction, if it is not defined add “Neutral” and displays a warning message.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>params</span>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Hash wth drug-target interaction info</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Interaction type</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+245
+246
+247
+248
+249
+250
+251</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/OntologyDesign.rb', line 245</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Ontology (module)">Ontology</a></span></span><span class='period'>.</span><span class='id identifier rubyid_get_interaction_type'>get_interaction_type</span><span class='lparen'>(</span><span class='id identifier rubyid_interaction'>interaction</span><span class='rparen'>)</span>
+  <span class='ivar'>@interaction_types</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_ontology_interaction'>ontology_interaction</span><span class='comma'>,</span> <span class='id identifier rubyid_synonyms'>synonyms</span><span class='op'>|</span>
+    <span class='kw'>return</span> <span class='id identifier rubyid_ontology_interaction'>ontology_interaction</span> <span class='kw'>if</span> <span class='id identifier rubyid_synonyms'>synonyms</span><span class='period'>.</span><span class='id identifier rubyid_include?'>include?</span><span class='lparen'>(</span><span class='id identifier rubyid_interaction'>interaction</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span><span class='period'>.</span><span class='id identifier rubyid_downcase'>downcase</span><span class='rparen'>)</span>
+  <span class='kw'>end</span>
+  <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>WARNING: Interaction type not present in synonyms list !!!!! -&gt; </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_interaction'>interaction</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+  <span class='kw'>return</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Neutral</span><span class='tstring_end'>&#39;</span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_target_type-class_method">
+  
+    .<strong>get_target_type</strong>(target)  &#x21d2; <tt>String</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function that standardizes the molecule type. If it is not defined displays a warning message.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>params</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Molecule type</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Standard molecule type</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+260
+261
+262
+263
+264
+265
+266
+267</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/OntologyDesign.rb', line 260</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Ontology (module)">Ontology</a></span></span><span class='period'>.</span><span class='id identifier rubyid_get_target_type'>get_target_type</span><span class='lparen'>(</span><span class='id identifier rubyid_target'>target</span><span class='rparen'>)</span>
+  <span class='ivar'>@target_types</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_target_type'>target_type</span><span class='op'>|</span>
+    <span class='kw'>return</span> <span class='id identifier rubyid_target_type'>target_type</span><span class='period'>.</span><span class='id identifier rubyid_capitalize'>capitalize</span> <span class='kw'>if</span> <span class='id identifier rubyid_target'>target</span><span class='period'>.</span><span class='id identifier rubyid_downcase'>downcase</span> <span class='op'>==</span> <span class='id identifier rubyid_target_type'>target_type</span>
+  <span class='kw'>end</span>
+  <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>WARNING: Target type not protein/DNA/RNA/Drug -&gt; </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_target'>target</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+  <span class='comment'># return nil if the target type not match @target_types
+</span>  <span class='kw'>nil</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="ontology_struct-class_method">
+  
+    .<strong>ontology_struct</strong>(params)  &#x21d2; <tt>Array</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function in which the structure of the ontology is defined.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>params</span>
+      
+      
+        <span class='type'>(<tt>Hash</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Hash whose structure must match the conceptualization of the structure in the RdfGenerator class (see class RdfGenerator).</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Array of triples</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/OntologyDesign.rb', line 44</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Ontology (module)">Ontology</a></span></span><span class='period'>.</span><span class='id identifier rubyid_ontology_struct'>ontology_struct</span><span class='lparen'>(</span><span class='id identifier rubyid_params'>params</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
+  <span class='comment'># dibo_data:drug_instance   rdf:ype  dibo_core:Drug
+</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                    <span class='label'>predicate:</span> <span class='symbol'>:rdf</span><span class='comma'>,</span>
+                                    <span class='label'>object:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                    <span class='label'>subject_data:</span> <span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                    <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>type</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                    <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>/Drug</span><span class='tstring_end'>&#39;</span></span><span class='rbrace'>}</span><span class='rparen'>)</span>
+
+  <span class='comment'># dibo_data:drug_instance  dibo_core:hasScientificName  xsd:ScientificName
+</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                     <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                     <span class='label'>object:</span> <span class='symbol'>:xsd</span><span class='comma'>,</span>
+                                     <span class='label'>subject_data:</span> <span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                     <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasScientificName</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                     <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasScientificName</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                     <span class='label'>datatype:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>string</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
+
+  <span class='comment'># dibo_data:drug_instance dibo_core:hasMolecularFormula MolecularFormula
+</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                     <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                     <span class='label'>object:</span> <span class='symbol'>:xsd</span><span class='comma'>,</span>
+                                     <span class='label'>subject_data:</span> <span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                     <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasMolecularFormula</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                     <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasMolecularFormula</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                     <span class='label'>datatype:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>string</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
+
+  <span class='comment'># dibo_data:drug_instance dibo_core:hasMolecularMass dibo_data:molecular_mass_instance
+</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                     <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                     <span class='label'>object:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                     <span class='label'>subject_data:</span> <span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                     <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasMolecularMass</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                     <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasMolecularMass</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
+
+  <span class='comment'># dibo_data:molecular_mass_instance rdf:type dibo_core:MolecularMass
+</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                     <span class='label'>predicate:</span> <span class='symbol'>:rdf</span><span class='comma'>,</span>
+                                     <span class='label'>object:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                     <span class='label'>subject_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasMolecularMass</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                     <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>type</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                     <span class='label'>object_data:</span>  <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/MolecularMass</span><span class='tstring_end'>&quot;</span></span><span class='rbrace'>}</span><span class='rparen'>)</span>
+
+  <span class='comment'>#dibo_data:molecular_mass_instance dibo_core:hasUnit xsd:string
+</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                     <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                     <span class='label'>object:</span> <span class='symbol'>:xsd</span><span class='comma'>,</span>
+                                     <span class='label'>subject_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasMolecularMass</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                     <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasUnit</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                     <span class='label'>object_data:</span>  <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Da</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                     <span class='label'>datatype:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>string</span><span class='tstring_end'>&quot;</span></span><span class='rbrace'>}</span><span class='rparen'>)</span>
+
+  <span class='comment'>#dibo_data:molecular_mass_instance dibo_core:hasValue xsd:double
+</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                     <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                     <span class='label'>object:</span> <span class='symbol'>:xsd</span><span class='comma'>,</span>
+                                     <span class='label'>subject_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasMolecularMass</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                     <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasValue</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                     <span class='label'>object_data:</span>  <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasMolecularMass</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                     <span class='label'>datatype:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>double</span><span class='tstring_end'>&quot;</span></span><span class='rbrace'>}</span><span class='rparen'>)</span>
+
+  <span class='comment'># dibo_data:drug_instance dibo_core:hasDrugBankId xsd:String
+</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                     <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                     <span class='label'>object:</span> <span class='symbol'>:xsd</span><span class='comma'>,</span>
+                                     <span class='label'>subject_data:</span> <span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                     <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                     <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                     <span class='label'>datatype:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>string</span><span class='tstring_end'>&quot;</span></span>  <span class='rbrace'>}</span><span class='rparen'>)</span>
+
+  <span class='comment'># dibo_data:drug_instance dibo_core:hasChebiId xsd:String
+</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                     <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                     <span class='label'>object:</span> <span class='symbol'>:xsd</span><span class='comma'>,</span>
+                                     <span class='label'>subject_data:</span> <span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                     <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasChebiId</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                     <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasChebiId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                     <span class='label'>datatype:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>string</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
+
+  <span class='comment'># dibo_data:drug_instance dibo_core:functionallyGroupedIn dibo_core:PharmacologicSubstance
+</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                     <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                     <span class='label'>object:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                     <span class='label'>subject_data:</span> <span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                     <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#functionallyGroupedIn</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                     <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>functionallyGroupedIn</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rbrace'>}</span><span class='rparen'>)</span>
+
+  <span class='comment'># dibo_data:drug_instance dibo_core:hasHalfLife xsd:String
+</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                     <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                     <span class='label'>object:</span> <span class='symbol'>:xsd</span><span class='comma'>,</span>
+                                     <span class='label'>subject_data:</span> <span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                     <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasHalfLife</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                     <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasHalfLife</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                     <span class='label'>datatype:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>string</span><span class='tstring_end'>&quot;</span></span>  <span class='rbrace'>}</span><span class='rparen'>)</span>
+
+  <span class='comment'># dibo_data:drug_instance dibo_core:hasOtherName xsd:String
+</span>  <span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasOtherName</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_other_name'>other_name</span><span class='op'>|</span>
+    <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                       <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                       <span class='label'>object:</span> <span class='symbol'>:xsd</span><span class='comma'>,</span>
+                                       <span class='label'>subject_data:</span> <span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                       <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasOtherName</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                       <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_other_name'>other_name</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                       <span class='label'>datatype:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>string</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
+  <span class='kw'>end</span>
+
+
+  <span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasTarget</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_target_info'>target_info</span><span class='op'>|</span>
+    <span class='comment'># If there is some field empty return false
+</span>    <span class='kw'>return</span> <span class='kw'>false</span> <span class='kw'>if</span> <span class='id identifier rubyid_target_info'>target_info</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+    <span class='id identifier rubyid_target_info'>target_info</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_value'>value</span><span class='op'>|</span> <span class='kw'>return</span> <span class='kw'>false</span> <span class='kw'>if</span> <span class='id identifier rubyid_value'>value</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span><span class='rbrace'>}</span>
+    <span class='comment'># Interaction is a N-ary class
+</span>    <span class='id identifier rubyid_interaction_URI'>interaction_URI</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="RdfGenerator.html" title="RdfGenerator (class)">RdfGenerator</a></span></span><span class='period'>.</span><span class='id identifier rubyid_unique_identifier'><span class='object_link'><a href="RdfGenerator.html#unique_identifier-class_method" title="RdfGenerator.unique_identifier (method)">unique_identifier</a></span></span>
+
+    <span class='comment'># dibo_data:interaction_instance rdf:type dibo_core:Agonism/Antagonism/Neutral
+</span>    <span class='id identifier rubyid_interaction_type'>interaction_type</span> <span class='op'>=</span> <span class='id identifier rubyid_get_interaction_type'>get_interaction_type</span> <span class='id identifier rubyid_target_info'>target_info</span><span class='lbracket'>[</span><span class='int'>1</span><span class='rbracket'>]</span>
+    <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                       <span class='label'>predicate:</span> <span class='symbol'>:rdf</span><span class='comma'>,</span>
+                                       <span class='label'>object:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                       <span class='label'>subject_data:</span> <span class='id identifier rubyid_interaction_URI'>interaction_URI</span><span class='comma'>,</span>
+                                       <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>type</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                       <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_interaction_type'>interaction_type</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
+
+    <span class='comment'># dibo_data:interaction_instance dibo_core:hasTarget dibo_data:target_instance
+</span>    <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                       <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                       <span class='label'>object:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                       <span class='label'>subject_data:</span> <span class='id identifier rubyid_interaction_URI'>interaction_URI</span><span class='comma'>,</span>
+                                       <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasTarget</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                       <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_target_info'>target_info</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
+
+    <span class='comment'># dibo_data:target_instance rdf:type dibo_core:Protein/Drug/DNA/RNA
+</span>    <span class='id identifier rubyid_target_type'>target_type</span> <span class='op'>=</span> <span class='id identifier rubyid_get_target_type'>get_target_type</span> <span class='id identifier rubyid_target_info'>target_info</span><span class='lbracket'>[</span><span class='int'>2</span><span class='rbracket'>]</span>
+    <span class='kw'>return</span> <span class='kw'>false</span> <span class='kw'>if</span> <span class='id identifier rubyid_target_type'>target_type</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+    <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                       <span class='label'>predicate:</span> <span class='symbol'>:rdf</span><span class='comma'>,</span>
+                                       <span class='label'>object:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                       <span class='label'>subject_data:</span> <span class='id identifier rubyid_target_info'>target_info</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                       <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>type</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                       <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_target_type'>target_type</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
+
+    <span class='comment'># dibo_data:target_instance dibo_core:hasFunction xsd:String
+</span>    <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                       <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                       <span class='label'>object:</span> <span class='symbol'>:xsd</span><span class='comma'>,</span>
+                                       <span class='label'>subject_data:</span> <span class='id identifier rubyid_target_info'>target_info</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                       <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasFunction</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                       <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_target_info'>target_info</span><span class='lbracket'>[</span><span class='int'>3</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                       <span class='label'>datatype:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>string</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
+
+    <span class='comment'># dibo_data:target_instance dibo_core:hasName xsd:String
+</span>    <span class='kw'>return</span> <span class='kw'>false</span> <span class='kw'>if</span> <span class='id identifier rubyid_target_info'>target_info</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+    <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                       <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                       <span class='label'>object:</span> <span class='symbol'>:xsd</span><span class='comma'>,</span>
+                                       <span class='label'>subject_data:</span> <span class='id identifier rubyid_target_info'>target_info</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                       <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasName</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                       <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_target_info'>target_info</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_gsub'>gsub</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>_</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'> </span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                       <span class='label'>datatype:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>string</span><span class='tstring_end'>&quot;</span></span><span class='rbrace'>}</span><span class='rparen'>)</span>
+
+    <span class='comment'># dibo_data:target_instance owl:equivalentClass uniprot:target_uniprot_id
+</span>    <span class='kw'>return</span> <span class='kw'>false</span> <span class='kw'>if</span> <span class='id identifier rubyid_target_info'>target_info</span><span class='lbracket'>[</span><span class='int'>4</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_nil?'>nil?</span>
+    <span class='kw'>if</span> <span class='id identifier rubyid_target_type'>target_type</span> <span class='op'>==</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Protein</span><span class='tstring_end'>&quot;</span></span>
+      <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                         <span class='label'>predicate:</span> <span class='symbol'>:owl</span><span class='comma'>,</span>
+                                         <span class='label'>object:</span> <span class='symbol'>:uniprot</span><span class='comma'>,</span>
+                                         <span class='label'>subject_data:</span> <span class='id identifier rubyid_target_info'>target_info</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='comma'>,</span>
+                                         <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>equivalentClass</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                         <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_target_info'>target_info</span><span class='lbracket'>[</span><span class='int'>4</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_upcase'>upcase</span><span class='period'>.</span><span class='id identifier rubyid_gsub'>gsub</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'> </span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>_</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
+    <span class='kw'>end</span>
+
+
+    <span class='comment'># dibo_data:interaction_instance dibo_core:hasDrug dibo_data:drug_instance
+</span>    <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                       <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                       <span class='label'>object:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                       <span class='label'>subject_data:</span> <span class='id identifier rubyid_interaction_URI'>interaction_URI</span><span class='comma'>,</span>
+                                       <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasDrug</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                       <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
+
+    <span class='comment'># dibo_data:drug_instance rdf:type dibo_core:Drug
+</span>    <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+                                       <span class='label'>predicate:</span> <span class='symbol'>:rdf</span><span class='comma'>,</span>
+                                       <span class='label'>object:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
+                                       <span class='label'>subject_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                       <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>type</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
+                                       <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/Drug</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span><span class='rparen'>)</span>
+  <span class='kw'>end</span>
+  <span class='comment'># Return rdf_triples
+</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Sat Jan 18 19:26:14 2020 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.24 (ruby-2.6.3).
+</div>
+
+    </div>
+  </body>
+</html>

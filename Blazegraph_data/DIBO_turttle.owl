@@ -1,0 +1,481 @@
+@prefix : <https://w3id.org/def/DIBO#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix DIBO: <https://w3id.org/def/DIBO/> .
+@prefix dibo: <https://w3id.org/def/DIBO#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/def/DIBO> .
+
+<https://w3id.org/def/DIBO> rdf:type owl:Ontology ;
+                             owl:versionIRI DIBO:v0.9 ;
+                             owl:imports <http://biomodels.net/SBO/> ;
+                             rdfs:comment "DrugInterBank Ontology (DIBO) offers consensus knowledge about the different functional and structural aspects of a drug. On the one hand, it models the main physicochemical characteristics of a drug, such as the half-life, its formula and molecular mass and nomenclatures. It also includes information on the pharmacokinetic and pharmacodynamic properties, modeling both the metabolism and the mechanism of action."@en ;
+                             rdfs:label "DrugInterBank Ontology (DIBO)" ;
+                             owl:versionInfo "Version 0.9" ;
+                             dibo:license <https://creativecommons.org/licenses/by-nc/4.0/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://w3id.org/def/DIBO#license
+dibo:license rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/def/DIBO/actingAs
+DIBO:actingAs rdf:type owl:ObjectProperty ,
+                       owl:AsymmetricProperty ;
+              rdfs:domain DIBO:Drug ;
+              rdfs:range DIBO:PharmacologicAction ;
+              rdfs:comment "Model the relationship of a drug and its pharmacological action."@en ;
+              rdfs:label "actingAs"@en .
+
+
+###  https://w3id.org/def/DIBO/affectOrgan
+DIBO:affectOrgan rdf:type owl:ObjectProperty ,
+                          owl:AsymmetricProperty ;
+                 rdfs:domain <https://w3id.org/def/DIBO/AgentAffecting/Organs> ;
+                 rdfs:range DIBO:Organ ;
+                 rdfs:label "affectOrgan"@en .
+
+
+###  https://w3id.org/def/DIBO/causedBy
+DIBO:causedBy rdf:type owl:ObjectProperty ;
+              owl:inverseOf DIBO:hasEffect ;
+              rdf:type owl:AsymmetricProperty ;
+              rdfs:comment "An effect that is caused by a drug."@en ;
+              rdfs:label "causedBy"@en .
+
+
+###  https://w3id.org/def/DIBO/functionallyGroupedIn
+DIBO:functionallyGroupedIn rdf:type owl:ObjectProperty ,
+                                    owl:AsymmetricProperty ;
+                           rdfs:domain DIBO:Drug ;
+                           rdfs:range DIBO:PharmacologicSubstance ;
+                           rdfs:comment "Model the functional relationship of a drug and its use"@en ;
+                           rdfs:label "functionallyGroupedIn"@en .
+
+
+###  https://w3id.org/def/DIBO/hasDrug
+DIBO:hasDrug rdf:type owl:ObjectProperty ,
+                      owl:AsymmetricProperty ;
+             rdfs:domain DIBO:Interaction ;
+             rdfs:range DIBO:Drug ;
+             rdfs:comment "Model the interaction in which a certain drug participates."@en ;
+             rdfs:label "hasDrug"@en .
+
+
+###  https://w3id.org/def/DIBO/hasEffect
+DIBO:hasEffect rdf:type owl:ObjectProperty ,
+                        owl:AsymmetricProperty ;
+               rdfs:domain DIBO:Drug ;
+               rdfs:range DIBO:Effect ;
+               rdfs:comment "Effect of a drug."@en ;
+               rdfs:label "hasEffect"@en .
+
+
+###  https://w3id.org/def/DIBO/hasMolecularMass
+DIBO:hasMolecularMass rdf:type owl:ObjectProperty ,
+                               owl:AsymmetricProperty ;
+                      rdfs:domain DIBO:Drug ;
+                      rdfs:range DIBO:MolecularMass ;
+                      rdfs:comment "Relationship between a drug and its molecular mass."@en ;
+                      rdfs:label "hasMolecularMass"@en .
+
+
+###  https://w3id.org/def/DIBO/hasSideEffect
+DIBO:hasSideEffect rdf:type owl:ObjectProperty ,
+                            owl:AsymmetricProperty ;
+                   rdfs:domain DIBO:Drug ;
+                   rdfs:range DIBO:SideEffect ;
+                   rdfs:comment "Relationship between a drug and its side effects."@en ;
+                   rdfs:label "hasSideEffect"@en .
+
+
+###  https://w3id.org/def/DIBO/hasTarget
+DIBO:hasTarget rdf:type owl:ObjectProperty ,
+                        owl:AsymmetricProperty ;
+               rdfs:domain DIBO:Interaction ;
+               rdfs:range <https://www.w3.org/def/DIBO/Target> ;
+               rdfs:comment "Model the interaction relationship between a drug and its therapeutic target."@en ;
+               rdfs:label "hasTarget"@en .
+
+
+###  https://w3id.org/def/DIBO/metabolizedBy
+DIBO:metabolizedBy rdf:type owl:ObjectProperty ,
+                            owl:AsymmetricProperty ;
+                   rdfs:domain DIBO:Drug ;
+                   rdfs:range DIBO:Enzyme ;
+                   rdfs:comment "It relates a drug and the enzyme that metabolizes said drug."@en ;
+                   rdfs:label "metabolizedBy"@en .
+
+
+###  https://w3id.org/def/DIBO/metabolizedIn
+DIBO:metabolizedIn rdf:type owl:ObjectProperty ,
+                            owl:AsymmetricProperty ;
+                   rdfs:domain DIBO:Drug ;
+                   rdfs:range DIBO:Organ ;
+                   rdfs:comment "It relates a drug and the organ in which it is metabolized."@en ;
+                   rdfs:label "metabolizedIn"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/def/DIBO#hasDrugBankId
+dibo:hasDrugBankId rdf:type owl:DatatypeProperty ;
+                   rdfs:domain DIBO:Drug ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "Drugbank database identifier"@en .
+
+
+###  https://w3id.org/def/DIBO#hasMolecularFormula
+dibo:hasMolecularFormula rdf:type owl:DatatypeProperty ;
+                         rdfs:domain DIBO:Drug ;
+                         rdfs:range xsd:string ;
+                         rdfs:comment "Drug atomic composition"@en .
+
+
+###  https://w3id.org/def/DIBO#hasOtherName
+dibo:hasOtherName rdf:type owl:DatatypeProperty ;
+                  rdfs:domain DIBO:Drug ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "Other common names for the drug."@en .
+
+
+###  https://w3id.org/def/DIBO#hasScientificName
+dibo:hasScientificName rdf:type owl:DatatypeProperty ;
+                       rdfs:domain DIBO:Drug ;
+                       rdfs:range xsd:string ;
+                       rdfs:comment "Scientific name by which the drug is identified."@en .
+
+
+###  https://www.w3.org/def/DIBO#hasChebiId
+<https://www.w3.org/def/DIBO#hasChebiId> rdf:type owl:DatatypeProperty ;
+                                         rdfs:domain DIBO:Drug ;
+                                         rdfs:range xsd:string ;
+                                         rdfs:comment "ChEBI identifier"@en .
+
+
+###  https://www.w3.org/def/DIBO#hasHalfLife
+<https://www.w3.org/def/DIBO#hasHalfLife> rdf:type owl:DatatypeProperty ;
+                                          rdfs:domain DIBO:Drug ;
+                                          rdfs:range xsd:string ;
+                                          rdfs:comment "It is defined as the time it takes for the concentration of the drug in the plasma or the total amount in the body to be reduced by 50%"@en .
+
+
+###  https://www.w3.org/def/DIBO#hasUnits
+<https://www.w3.org/def/DIBO#hasUnits> rdf:type owl:DatatypeProperty ;
+                                       rdfs:domain DIBO:MolecularMass ;
+                                       rdfs:range xsd:string ;
+                                       rdfs:comment "It is defined precisely as 1/12 of the mass of an unbound neutral atom of carbon-12 in its nuclear and electronic ground state and at rest."@en .
+
+
+###  https://www.w3.org/def/DIBO#hasValue
+<https://www.w3.org/def/DIBO#hasValue> rdf:type owl:DatatypeProperty ;
+                                       rdfs:domain DIBO:MolecularMass ;
+                                       rdfs:range xsd:double ;
+                                       rdfs:comment "Molecular mass value"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://biomodels.net/SBO/SBO_0000002
+<http://biomodels.net/SBO/SBO_0000002> rdf:type owl:Class ;
+                                       owl:equivalentClass DIBO:MolecularMass .
+
+
+###  http://biomodels.net/SBO/SBO_0000014
+<http://biomodels.net/SBO/SBO_0000014> rdf:type owl:Class ;
+                                       owl:equivalentClass DIBO:Enzyme .
+
+
+###  http://biomodels.net/SBO/SBO_0000250
+<http://biomodels.net/SBO/SBO_0000250> rdf:type owl:Class ;
+                                       owl:equivalentClass DIBO:RNA .
+
+
+###  http://biomodels.net/SBO/SBO_0000251
+<http://biomodels.net/SBO/SBO_0000251> rdf:type owl:Class ;
+                                       owl:equivalentClass DIBO:DNA .
+
+
+###  http://biomodels.net/SBO/SBO_0000634
+<http://biomodels.net/SBO/SBO_0000634> rdf:type owl:Class ;
+                                       owl:equivalentClass DIBO:DNA .
+
+
+###  http://biomodels.net/SBO/SBO_0000635
+<http://biomodels.net/SBO/SBO_0000635> rdf:type owl:Class ;
+                                       owl:equivalentClass DIBO:RNA .
+
+
+###  http://purl.uniprot.org/core/Protein
+<http://purl.uniprot.org/core/Protein> rdf:type owl:Class ;
+                                       owl:equivalentClass DIBO:Protein ;
+                                       rdfs:comment "Protein entity defined by UniProtKb"@en ;
+                                       rdfs:isDefinedBy <http://purl.uniprot.org/core/> .
+
+
+###  http://semanticscience.org/resource/SIO_010003
+<http://semanticscience.org/resource/SIO_010003> rdf:type owl:Class ;
+                                                 owl:equivalentClass DIBO:Organ ;
+                                                 rdfs:comment "Organ entity defined in The Semanticscience Integrated Ontology (SIO) ."@en ;
+                                                 rdfs:isDefinedBy <http://semanticscience.org/resource/> ;
+                                                 rdfs:label "Organ"@en .
+
+
+###  https://bioportal.bioontology.org/ontologies/MESH/D020228
+<https://bioportal.bioontology.org/ontologies/MESH/D020228> rdf:type owl:Class ;
+                                                            owl:equivalentClass DIBO:Effect ;
+                                                            rdfs:comment "Effect entity MESH representation."@en ;
+                                                            rdfs:isDefinedBy <https://bioportal.bioontology.org/ontologies/MESH/> ;
+                                                            rdfs:label "Effect"@en .
+
+
+###  https://bioportal.bioontology.org/ontologies/MESH/D064419
+<https://bioportal.bioontology.org/ontologies/MESH/D064419> rdf:type owl:Class ;
+                                                            owl:equivalentClass DIBO:SideEffect ;
+                                                            rdfs:comment "Side Effect entity MESH representation."@en ;
+                                                            rdfs:isDefinedBy <https://bioportal.bioontology.org/ontologies/MESH/> ;
+                                                            rdfs:label "SideEffect" .
+
+
+###  https://w3id.org/def/DIBO/Adjuvant
+DIBO:Adjuvant rdf:type owl:Class ;
+              rdfs:subClassOf DIBO:PharmacologicSubstance ;
+              rdfs:comment "An agent that enhances the activity or therapeutic effect of another pharmacologic substance without having much, if any, therapeutic impact by itself."@en ;
+              rdfs:label "Adjuvant"@en .
+
+
+###  https://w3id.org/def/DIBO/AgentAffectingBloodorBodyFluid
+DIBO:AgentAffectingBloodorBodyFluid rdf:type owl:Class ;
+                                    rdfs:subClassOf DIBO:PharmacologicSubstance ;
+                                    rdfs:comment "An agent that exerts an effect on the synthesis or function of blood, blood components or body fluids."@en ;
+                                    rdfs:label "Agent Affecting Blood or Body Fluid"@en .
+
+
+###  https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem
+DIBO:AgentAffectingCardiovascularSystem rdf:type owl:Class ;
+                                        rdfs:subClassOf DIBO:PharmacologicSubstance ;
+                                        rdfs:comment "An agent that exerts a physiologic effect on any anatomic entity that is part of the cardiovascular system, including the heart and blood vessels."@en ;
+                                        rdfs:label "Agent Affecting Cardiovascular System"@en .
+
+
+###  https://w3id.org/def/DIBO/AgentAffectingMusculoskeletalSystem
+DIBO:AgentAffectingMusculoskeletalSystem rdf:type owl:Class ;
+                                         rdfs:subClassOf DIBO:PharmacologicSubstance ;
+                                         rdfs:comment "Any agent that exerts an effect on muscle, bones and joints."@en ;
+                                         rdfs:label "Agent Affecting Musculoskeletal System"@en .
+
+
+###  https://w3id.org/def/DIBO/AgentAffectingNervousSystem
+DIBO:AgentAffectingNervousSystem rdf:type owl:Class ;
+                                 rdfs:subClassOf DIBO:PharmacologicSubstance ;
+                                 rdfs:comment "An agent that exerts a physiologic effect on neurotransmission or on any anatomic entity that is part of the nervous system, including the central nervous system (CNS) and peripheral nervous system (PNS)."@en ;
+                                 rdfs:label "Agent Affecting Nervous System"@en .
+
+
+###  https://w3id.org/def/DIBO/AgentAffectingRespiratorySystem
+DIBO:AgentAffectingRespiratorySystem rdf:type owl:Class ;
+                                     rdfs:subClassOf DIBO:PharmacologicSubstance ;
+                                     rdfs:comment "An agent that exerts a physiologic effect on any anatomic entity that is part of the respiratory tract and airways."@en ;
+                                     rdfs:label "Agent Affecting Respiratory System"@en .
+
+
+###  https://w3id.org/def/DIBO/Agonism
+DIBO:Agonism rdf:type owl:Class ;
+             rdfs:subClassOf DIBO:Interaction ;
+             rdfs:comment "An agonist is a chemical that binds to a receptor and activates the receptor to produce a biological response increasing its biological activity." ;
+             rdfs:label "Agonism"@en .
+
+
+###  https://w3id.org/def/DIBO/Antagonism
+DIBO:Antagonism rdf:type owl:Class ;
+                rdfs:subClassOf DIBO:Interaction ;
+                rdfs:comment "Biochemistry Interference in the physiological action of a chemical substance by another." ;
+                rdfs:label "Antagonism"@en .
+
+
+###  https://w3id.org/def/DIBO/AntiInfectiveAgent
+DIBO:AntiInfectiveAgent rdf:type owl:Class ;
+                        rdfs:subClassOf DIBO:PharmacologicSubstance ;
+                        rdfs:comment "A pharmacological agent that can kill or prevent the reproduction of infectious organisms."@en ;
+                        rdfs:label "Anti Infective Agent"@en .
+
+
+###  https://w3id.org/def/DIBO/AntibodyAction
+DIBO:AntibodyAction rdf:type owl:Class ;
+                    rdfs:subClassOf DIBO:PharmacologicAction ;
+                    rdfs:comment "Any agent based on antibodies. A blood protein produced in response to and counteracting a specific antigen"@en ;
+                    rdfs:label "Antibody action"@en .
+
+
+###  https://w3id.org/def/DIBO/AntineoplasicAgent
+DIBO:AntineoplasicAgent rdf:type owl:Class ;
+                        rdfs:subClassOf DIBO:PharmacologicSubstance ;
+                        rdfs:comment "A substance that inhibits the maturation, growth or spread of tumor cells."@en ;
+                        rdfs:label "Antineoplasic Agent"@en .
+
+
+###  https://w3id.org/def/DIBO/ChannelModifier
+DIBO:ChannelModifier rdf:type owl:Class ;
+                     rdfs:subClassOf DIBO:PharmacologicAction ;
+                     rdfs:comment "Any agent that modifies the action of a protein channel."@en ;
+                     rdfs:label "Channel Modifier"@en .
+
+
+###  https://w3id.org/def/DIBO/DNA
+DIBO:DNA rdf:type owl:Class ;
+         rdfs:comment "Nucleic acid that carries the genetic information in cells and some virus, consisting of two chains of nucleotides twisted into a double helix and joined by hydrogen bonds between the complementary bases adenine and thymine or cytosine and guanine." ;
+         rdfs:label "Deoxyribonucleic acid (DNA)"@en .
+
+
+###  https://w3id.org/def/DIBO/Drug
+DIBO:Drug rdf:type owl:Class ;
+          rdfs:comment "Chemical substance which has a physiological effect in a living organism" ;
+          rdfs:label "Drug"@en .
+
+
+###  https://w3id.org/def/DIBO/Effect
+DIBO:Effect rdf:type owl:Class ;
+            rdfs:comment "Something that is produced by a cause or agent" ;
+            rdfs:label "Effect"@en .
+
+
+###  https://w3id.org/def/DIBO/Enzyme
+DIBO:Enzyme rdf:type owl:Class ;
+            rdfs:subClassOf <http://purl.uniprot.org/core/Protein> ;
+            rdfs:comment "Protein complex that realizes its disposition to convalently modify some molecule during a chemical reaction" ;
+            rdfs:label "Enzyme"@en .
+
+
+###  https://w3id.org/def/DIBO/EnzymeModifier
+DIBO:EnzymeModifier rdf:type owl:Class ;
+                    rdfs:subClassOf DIBO:PharmacologicAction ;
+                    rdfs:comment "Any agent that modifies the action of an enzyme."@en ;
+                    rdfs:label "Enzyme Modifier"@en .
+
+
+###  https://w3id.org/def/DIBO/InmunoTherapeuticAgent
+DIBO:InmunoTherapeuticAgent rdf:type owl:Class ;
+                            rdfs:subClassOf DIBO:PharmacologicSubstance ;
+                            rdfs:comment "Therapy based on antidobies."@en ;
+                            rdfs:label "InmunoTherapeutic Agent"@en .
+
+
+###  https://w3id.org/def/DIBO/Interaction
+DIBO:Interaction rdf:type owl:Class ;
+                 rdfs:comment "Mutual or reciprocal action or influence carry out by physico-chemical forces." ;
+                 rdfs:label "Interaction"@en .
+
+
+###  https://w3id.org/def/DIBO/MolecularMass
+DIBO:MolecularMass rdf:type owl:Class ;
+                   rdfs:comment "A measure of the mass of a molecule derived as a sum of weights of its constituent elements multiplied by the number of atoms of each of the element described by its molecular formula." ;
+                   rdfs:label "Molecular Mass"@en .
+
+
+###  https://w3id.org/def/DIBO/Neutral
+DIBO:Neutral rdf:type owl:Class ;
+             rdfs:subClassOf DIBO:Interaction ;
+             rdfs:comment "Interaction that does not affect the activity of an entity."@en ;
+             rdfs:label "Neutral"@en .
+
+
+###  https://w3id.org/def/DIBO/NucleicAcidModifier
+DIBO:NucleicAcidModifier rdf:type owl:Class ;
+                         rdfs:subClassOf DIBO:PharmacologicAction ;
+                         rdfs:comment "Pharmacological action that modifies the metabolism or structure of nucleic acids."@en ;
+                         rdfs:label "Nucleic Acid Modifier"@en .
+
+
+###  https://w3id.org/def/DIBO/Organ
+DIBO:Organ rdf:type owl:Class ;
+           rdfs:comment "Collection of tissues joined in structural unit to serve a common function" ;
+           rdfs:label "Organ"@en .
+
+
+###  https://w3id.org/def/DIBO/PharmacologicAction
+DIBO:PharmacologicAction rdf:type owl:Class ;
+                         rdfs:comment "The branch of pharmacology concerned with the effects of drugs and the mechanism of their action."@en ;
+                         rdfs:label "PharmacologicAction"@en .
+
+
+###  https://w3id.org/def/DIBO/PharmacologicChaperone
+DIBO:PharmacologicChaperone rdf:type owl:Class ;
+                            rdfs:subClassOf DIBO:PharmacologicAction ;
+                            rdfs:comment "Any agent that helps restore the function of the endogenous mutated protein. Pharmaceutical chaperones may help stabilize the protein structure thereby restoring folding and/or preventing misfolding of the protein. This may prevent degradation or inactivation of the protein."@en ;
+                            rdfs:label "Pharmacological Chaperone"@en .
+
+
+###  https://w3id.org/def/DIBO/PharmacologicSubstance
+DIBO:PharmacologicSubstance rdf:type owl:Class ;
+                            rdfs:comment "It refers to the system that is affected by a certain drug or high-level mechanism of action of a drug (Based on NCIT)"@en ;
+                            rdfs:label "Pharmacologic Substance"@en .
+
+
+###  https://w3id.org/def/DIBO/Protein
+DIBO:Protein rdf:type owl:Class ;
+             rdfs:comment "Any group of complex organic macromolecules that contain carbon, hydrogen, oxygen, nitrogen, and usually sulfur and are composed of one or more chains of amino acids." ;
+             rdfs:label "Protein"@en .
+
+
+###  https://w3id.org/def/DIBO/RNA
+DIBO:RNA rdf:type owl:Class ;
+         rdfs:comment "Nucleic acid present in all living cells and many viruses, consisting of a long, usually single-stranded chain of alternating phosphate and ribose units, with one of the bases adenine, guanine, cytosine, or uracil bonded to each ribose molecule." ;
+         rdfs:label "Ribonucleic acid (RNA)"@en .
+
+
+###  https://w3id.org/def/DIBO/ReceptorModifier
+DIBO:ReceptorModifier rdf:type owl:Class ;
+                      rdfs:subClassOf DIBO:PharmacologicAction ;
+                      rdfs:comment "Any agent that modifies the action of a receptor. Membrane receptors and intracellular receptors are included."@en ;
+                      rdfs:label "Receptor Modifier"@en .
+
+
+###  https://w3id.org/def/DIBO/SideEffect
+DIBO:SideEffect rdf:type owl:Class ;
+                rdfs:comment "Disorders that result from the intended use of a drug including metabolic effects and adverse conditions due to toxicity." ;
+                rdfs:label "Side Effect"@en .
+
+
+###  https://w3id.org/def/DIBO/AgentAffecting/Metabolism
+<https://w3id.org/def/DIBO/AgentAffecting/Metabolism> rdf:type owl:Class ;
+                                                      rdfs:subClassOf DIBO:PharmacologicSubstance ;
+                                                      rdfs:comment "An agent that exerts an effect on metabolism or any anatomic entity that is part of the gastrointestinal tract."@en ;
+                                                      rdfs:label "Agent Affecting Metabolism"@en .
+
+
+###  https://w3id.org/def/DIBO/AgentAffecting/Organs
+<https://w3id.org/def/DIBO/AgentAffecting/Organs> rdf:type owl:Class ;
+                                                  rdfs:subClassOf DIBO:PharmacologicSubstance ,
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty DIBO:affectOrgan ;
+                                                                    owl:someValuesFrom <http://semanticscience.org/resource/SIO_010003>
+                                                                  ] ;
+                                                  rdfs:comment "An agent that exerts a physiologic effect on the organs or special senses, including the eyes, ears and nose."@en ;
+                                                  rdfs:label "Agent Affecting Organs"@en .
+
+
+###  https://www.w3.org/def/DIBO/Target
+<https://www.w3.org/def/DIBO/Target> rdf:type owl:Class ;
+                                     owl:disjointUnionOf ( DIBO:DNA
+                                                           DIBO:Drug
+                                                           DIBO:Protein
+                                                           DIBO:RNA
+                                                         ) ;
+                                     rdfs:comment "Molecula that will experience the pharmacological action"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

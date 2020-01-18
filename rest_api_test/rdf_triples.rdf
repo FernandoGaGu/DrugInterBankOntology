@@ -1,0 +1,618 @@
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/UNKNOWN> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P62942> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P62942> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/UNKNOWN> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P62942> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P62942> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/UNKNOWN> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P62942> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P62942> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/UNKNOWN> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P62942> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P62942> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+
+
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/UNKNOWN> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P62942> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P62942> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+
+
+
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasScientificName>	"G-Strophanthin (JAN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C29H44O12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasMolecularMass>	"584.2833"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01092"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasChebiId>	"472805"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/UNKNOWN> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasOtherName>	"G-Strophanthin (JAN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasOtherName>	"Ouabain"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasOtherName>	"Ouabain octahydrate"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/21>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/21>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P05023> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasFunction>	"steroid hormone binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasName>	"Sodium/potassium-transporting ATPase subunit alpha-1"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P05023> .
+<https://w3id.org/def/DIBO/data/21>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01092> .
+<https://w3id.org/def/DIBO/data//DB01092>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/22>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/22>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P05023> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasFunction>	"steroid hormone binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasName>	"Sodium/potassium-transporting ATPase subunit alpha-2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P05023> .
+<https://w3id.org/def/DIBO/data/22>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01092> .
+<https://w3id.org/def/DIBO/data//DB01092>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/23>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/23>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P05023> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasFunction>	"ouabain is an inhibitor to atp1a3"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasName>	"Sodium/potassium-transporting ATPase subunit alpha-3"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P05023> .
+<https://w3id.org/def/DIBO/data/23>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01092> .
+<https://w3id.org/def/DIBO/data//DB01092>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/UNKNOWN> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P62942> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P62942> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+
+
+
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasScientificName>	"G-Strophanthin (JAN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C29H44O12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasMolecularMass>	"584.2833"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01092"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasChebiId>	"472805"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/UNKNOWN> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasOtherName>	"G-Strophanthin (JAN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasOtherName>	"Ouabain"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasOtherName>	"Ouabain octahydrate"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/21>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/21>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P05023> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasFunction>	"steroid hormone binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasName>	"Sodium/potassium-transporting ATPase subunit alpha-1"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P05023> .
+<https://w3id.org/def/DIBO/data/21>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01092> .
+<https://w3id.org/def/DIBO/data//DB01092>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/22>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/22>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P05023> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasFunction>	"steroid hormone binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasName>	"Sodium/potassium-transporting ATPase subunit alpha-2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P05023> .
+<https://w3id.org/def/DIBO/data/22>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01092> .
+<https://w3id.org/def/DIBO/data//DB01092>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/23>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/23>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P05023> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasFunction>	"ouabain is an inhibitor to atp1a3"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasName>	"Sodium/potassium-transporting ATPase subunit alpha-3"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P05023> .
+<https://w3id.org/def/DIBO/data/23>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01092> .
+<https://w3id.org/def/DIBO/data//DB01092>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasScientificName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C20H32O5"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasMolecularMass>	"352.225"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01240"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasChebiId>	"15552"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasHalfLife>	"The in vitro half-life of epoprostenol in human blood at 37°C and pH 7.4 is approximately 6 minutes; the in vivo half-life of epoprostenol in humans is therefore expected to be no greater than 6 minutes."^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (USAN/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostaglandin I2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Prostacyclin"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01240>	<https://w3id.org/def/DIBO#hasOtherName>	"Epoprostenol (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"P2Y purinoceptor 12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/1>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"guanyl-nucleotide exchange factor activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin receptor"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/2>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Agonism> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/Q9H244> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasFunction>	"prostaglandin-i synthase activity"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/def/DIBO#hasName>	"Prostacyclin synthase"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/Q9H244>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/Q9H244> .
+<https://w3id.org/def/DIBO/data/3>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01240> .
+<https://w3id.org/def/DIBO/data//DB01240>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasScientificName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C44H69NO12. H2O"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasMolecularMass>	"821.4925"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB00864"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasChebiId>	"61057"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/UNKNOWN> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus (USP/INN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Tacrolimus hydrate (JP17)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Prograf (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB00864>	<https://w3id.org/def/DIBO#hasOtherName>	"Protopic (TN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P62942> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasFunction>	"type i transforming growth factor beta receptor binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/def/DIBO#hasName>	"Peptidyl-prolyl cis-trans isomerase FKBP1A"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P62942>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P62942> .
+<https://w3id.org/def/DIBO/data/4>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB00864> .
+<https://w3id.org/def/DIBO/data//DB00864>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+
+
+
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasScientificName>	"G-Strophanthin (JAN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasMolecularFormula>	"C29H44O12"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasMolecularMass>	"584.2833"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasDrugBankId>	"DB01092"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasChebiId>	"472805"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#functionallyGroupedIn>	<https://w3id.org/def/DIBO/UNKNOWN> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasHalfLife>	"UNKNOWN"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasOtherName>	"G-Strophanthin (JAN)"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasOtherName>	"Ouabain"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/DB01092>	<https://w3id.org/def/DIBO#hasOtherName>	"Ouabain octahydrate"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/21>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/21>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P05023> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasFunction>	"steroid hormone binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasName>	"Sodium/potassium-transporting ATPase subunit alpha-1"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P05023> .
+<https://w3id.org/def/DIBO/data/21>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01092> .
+<https://w3id.org/def/DIBO/data//DB01092>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/22>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/22>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P05023> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasFunction>	"steroid hormone binding"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasName>	"Sodium/potassium-transporting ATPase subunit alpha-2"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P05023> .
+<https://w3id.org/def/DIBO/data/22>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01092> .
+<https://w3id.org/def/DIBO/data//DB01092>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+<https://w3id.org/def/DIBO/data/23>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Antagonism> .
+<https://w3id.org/def/DIBO/data/23>	<https://w3id.org/def/DIBO#hasTarget>	<https://w3id.org/def/DIBO/data/P05023> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Protein> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasFunction>	"ouabain is an inhibitor to atp1a3"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/def/DIBO#hasName>	"Sodium/potassium-transporting ATPase subunit alpha-3"^^<https://w3id.org/2001/XMLSchema#string> .
+<https://w3id.org/def/DIBO/data/P05023>	<https://w3id.org/2002/07/owl#equivalentClass>	<https://www.uniprot.org/uniprot/P05023> .
+<https://w3id.org/def/DIBO/data/23>	<https://w3id.org/def/DIBO#hasDrug>	<https://w3id.org/def/DIBO/data/DB01092> .
+<https://w3id.org/def/DIBO/data//DB01092>	<https://w3id.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/def/DIBO/Drug> .
+

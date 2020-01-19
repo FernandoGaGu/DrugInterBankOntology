@@ -1,6 +1,6 @@
 # DrugInterBankOntology
 
-DIBO ONTOLOGY IMPLEMENTATION
+<h2>DIBO ONTOLOGY IMPLEMENTATION</h2>
 
 -> In the REST-API folder you can find the html documentation generated with Yard. To view it, download the folder and open the index.html file with a browser. 
 -> The code can be found in the REST directory.

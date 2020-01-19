@@ -6,5 +6,5 @@
   <li>The code can be found in the <b>REST</b> directory.</li>
   <li>The <b>Blazegraph_data</b> file contains the data used to perform SPARQL queries.</li>
   <li>In the <b>SPARQL</b> folder you will find the queries made on the data generated from non-ontological resources.</li>
-  <li>As proof of concept of the model developed, an artificial instance was generated and SPARQL queries were tested against aspects not covered in the queries located in SPARQL. It can be found in <b>SPARQL_ProofOfConcept</b></li>
+  <li>As proof of concept of the model developed, an artificial instance was generated and SPARQL queries were tested against aspects not covered in the queries located in SPARQL. It can be found in <b>SPARQL-PROOF-OF-CONCEPT.</b></li>
 </ol>

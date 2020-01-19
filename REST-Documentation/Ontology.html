@@ -139,6 +139,30 @@
         <li class="public ">
   <span class="summary_signature">
     
+      <a href="#correct_half_life-class_method" title="correct_half_life (class method)">.<strong>correct_half_life</strong>(half_life)  &#x21d2; String<sup>?</sup> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function that check strange half-life params.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
       <a href="#generate_triplet-class_method" title="generate_triplet (class method)">.<strong>generate_triplet</strong>(params = {})  &#x21d2; String </a>
     
 
@@ -242,7 +266,88 @@
 
     
       <div class="method_details first">
-  <h3 class="signature first" id="generate_triplet-class_method">
+  <h3 class="signature first" id="correct_half_life-class_method">
+  
+    .<strong>correct_half_life</strong>(half_life)  &#x21d2; <tt>String</tt><sup>?</sup> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function that check strange half-life params</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>params</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Half-life description</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Correct half-life</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+276
+277
+278
+279</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'REST/OntologyDesign.rb', line 276</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Ontology (module)">Ontology</a></span></span><span class='period'>.</span><span class='id identifier rubyid_correct_half_life'>correct_half_life</span><span class='lparen'>(</span><span class='id identifier rubyid_half_life'>half_life</span><span class='rparen'>)</span>
+  <span class='kw'>return</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>UNKNOWN</span><span class='tstring_end'>&quot;</span></span> <span class='kw'>if</span> <span class='tstring'><span class='regexp_beg'>/</span><span class='tstring_content'>.*class=.*</span><span class='regexp_end'>/</span></span><span class='op'>=~</span><span class='id identifier rubyid_half_life'>half_life</span>
+  <span class='id identifier rubyid_half_life'>half_life</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="generate_triplet-class_method">
   
     .<strong>generate_triplet</strong>(params = {})  &#x21d2; <tt>String</tt> 
   
@@ -327,18 +432,6 @@
       <pre class="lines">
 
 
-284
-285
-286
-287
-288
-289
-290
-291
-292
-293
-294
-295
 296
 297
 298
@@ -348,10 +441,22 @@
 302
 303
 304
-305</pre>
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'REST/OntologyDesign.rb', line 284</span>
+      <pre class="code"><span class="info file"># File 'REST/OntologyDesign.rb', line 296</span>
 
 <span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Ontology (module)">Ontology</a></span></span><span class='period'>.</span><span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='id identifier rubyid_params'>params</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_subject'>subject</span> <span class='op'>=</span> <span class='id identifier rubyid_params'>params</span><span class='period'>.</span><span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='symbol'>:subject</span><span class='comma'>,</span> <span class='kw'>nil</span><span class='rparen'>)</span>
@@ -444,16 +549,16 @@
       <pre class="lines">
 
 
-245
 246
 247
 248
 249
 250
-251</pre>
+251
+252</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'REST/OntologyDesign.rb', line 245</span>
+      <pre class="code"><span class="info file"># File 'REST/OntologyDesign.rb', line 246</span>
 
 <span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Ontology (module)">Ontology</a></span></span><span class='period'>.</span><span class='id identifier rubyid_get_interaction_type'>get_interaction_type</span><span class='lparen'>(</span><span class='id identifier rubyid_interaction'>interaction</span><span class='rparen'>)</span>
   <span class='ivar'>@interaction_types</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_ontology_interaction'>ontology_interaction</span><span class='comma'>,</span> <span class='id identifier rubyid_synonyms'>synonyms</span><span class='op'>|</span>
@@ -531,17 +636,17 @@
       <pre class="lines">
 
 
-260
 261
 262
 263
 264
 265
 266
-267</pre>
+267
+268</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'REST/OntologyDesign.rb', line 260</span>
+      <pre class="code"><span class="info file"># File 'REST/OntologyDesign.rb', line 261</span>
 
 <span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Ontology (module)">Ontology</a></span></span><span class='period'>.</span><span class='id identifier rubyid_get_target_type'>get_target_type</span><span class='lparen'>(</span><span class='id identifier rubyid_target'>target</span><span class='rparen'>)</span>
   <span class='ivar'>@target_types</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_target_type'>target_type</span><span class='op'>|</span>
@@ -812,7 +917,8 @@
 233
 234
 235
-236</pre>
+236
+237</pre>
     </td>
     <td>
       <pre class="code"><span class="info file"># File 'REST/OntologyDesign.rb', line 44</span>
@@ -906,12 +1012,13 @@
                                      <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>functionallyGroupedIn</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rbrace'>}</span><span class='rparen'>)</span>
 
   <span class='comment'># dibo_data:drug_instance dibo_core:hasHalfLife xsd:String
-</span>  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
+</span>  <span class='id identifier rubyid_half_life'>half_life</span> <span class='op'>=</span> <span class='id identifier rubyid_correct_half_life'>correct_half_life</span><span class='lparen'>(</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasHalfLife</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_rdf_triples'>rdf_triples</span> <span class='op'>&lt;&lt;</span>  <span class='id identifier rubyid_generate_triplet'>generate_triplet</span><span class='lparen'>(</span><span class='lbrace'>{</span> <span class='label'>subject:</span> <span class='symbol'>:dibo_data</span><span class='comma'>,</span>
                                      <span class='label'>predicate:</span> <span class='symbol'>:dibo_core</span><span class='comma'>,</span>
                                      <span class='label'>object:</span> <span class='symbol'>:xsd</span><span class='comma'>,</span>
                                      <span class='label'>subject_data:</span> <span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasDrugBankId</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='comma'>,</span>
                                      <span class='label'>predicate_data:</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>#hasHalfLife</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span>
-                                     <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>hasHalfLife</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
+                                     <span class='label'>object_data:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_half_life'>half_life</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span>
                                      <span class='label'>datatype:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>string</span><span class='tstring_end'>&quot;</span></span>  <span class='rbrace'>}</span><span class='rparen'>)</span>
 
   <span class='comment'># dibo_data:drug_instance dibo_core:hasOtherName xsd:String
@@ -1020,7 +1127,7 @@
 </div>
 
       <div id="footer">
-  Generated on Sat Jan 18 19:26:14 2020 by
+  Generated on Sun Jan 19 19:48:07 2020 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.24 (ruby-2.6.3).
 </div>

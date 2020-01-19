@@ -17,7 +17,7 @@
 #
 module Ontology
   # Ontology prefixes
-  @prefix = {owl:'https://w3id.org/2002/07/owl#',
+  @prefix = {owl:'http://www.w3.org/2002/07/owl#',
              rdf:'https://w3id.org/1999/02/22-rdf-syntax-ns#',
              xsd:'https://w3id.org/2001/XMLSchema#',
              rdfs: 'https://w3id.org/2000/01/rdf-schema#',
@@ -130,12 +130,13 @@ module Ontology
                                        object_data: "/#{params['functionallyGroupedIn']}"})
 
     # dibo_data:drug_instance dibo_core:hasHalfLife xsd:String
+    half_life = correct_half_life(params['hasHalfLife'])
     rdf_triples <<  generate_triplet({ subject: :dibo_data,
                                        predicate: :dibo_core,
                                        object: :xsd,
                                        subject_data: params['hasDrugBankId'],
                                        predicate_data: '#hasHalfLife',
-                                       object_data: "#{params['hasHalfLife']}",
+                                       object_data: "#{half_life}",
                                        datatype: "string"  })
 
     # dibo_data:drug_instance dibo_core:hasOtherName xsd:String
@@ -264,6 +265,17 @@ module Ontology
     puts "WARNING: Target type not protein/DNA/RNA/Drug -> #{target}"
     # return nil if the target type not match @target_types
     nil
+  end
+
+  # Function that check strange half-life params
+  #
+  # @param params [String] Half-life description
+  #
+  # @return [String, nil] Correct half-life
+  #
+  def Ontology.correct_half_life(half_life)
+    return "UNKNOWN" if /.*class=.*/=~half_life
+    half_life
   end
 
   # It allows to generate triples from the information of the prefix of the subject,

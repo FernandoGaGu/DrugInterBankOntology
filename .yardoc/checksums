@@ -1,5 +1,5 @@
-REST/main.rb 7a683baf081da3e9561c5df485bc158c3a95c75b
+REST/main.rb 39878f8161ac27f9eeb79f1b08aa5226af15e17d
 REST/WebMining.rb 05f4ceda8c0d8fbe833397272d1aa8320849d778
 REST/WebRequest.rb 7ede98694718edfd01dc17c4a82fc1cb757590b1
 REST/RdfGenerator.rb e42025f2cef70a54a27c7b9b15628157481c8d02
-REST/OntologyDesign.rb d3fb8154efc2d9fda29780ea966e9509f28554b9
+REST/OntologyDesign.rb b0ca1fc1db5b78f577388c1bde7b493c929dc225

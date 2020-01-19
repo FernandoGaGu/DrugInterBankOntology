@@ -113,7 +113,7 @@ user = input_user
 output_file, interactions_number = user[0], user[1]
 
 # Mine information
-ontology_data = WebMining::get_info_from_web(initial:100_010,
+ontology_data = WebMining::get_info_from_web(initial:100_500,
                                              iterations: interactions_number)
 
 # Create a new RdfGenerator object

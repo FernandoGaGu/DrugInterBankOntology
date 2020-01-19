@@ -10,27 +10,34 @@
 @base <https://w3id.org/def/DIBO> .
 
 <https://w3id.org/def/DIBO> rdf:type owl:Ontology ;
-                             owl:versionIRI DIBO:v0.9 ;
+                             owl:versionIRI DIBO:v1.0 ;
                              owl:imports <http://biomodels.net/SBO/> ;
-                             rdfs:comment "DrugInterBank Ontology (DIBO) offers consensus knowledge about the different functional and structural aspects of a drug. On the one hand, it models the main physicochemical characteristics of a drug, such as the half-life, its formula and molecular mass and nomenclatures. It also includes information on the pharmacokinetic and pharmacodynamic properties, modeling both the metabolism and the mechanism of action."@en ;
+                             <http://creativecommons.org/ns#License> "https://creativecommons.org/licenses/by-nc/4.0/"^^xsd:anyURI ;
+                             rdfs:comment """Authors:
+
+Fernando García Gutiérrez.
+José Manuel Gómez Silva.
+
+Master in Computational Biology.
+Polytechnic University of Madrid (UPM)."""@en ,
+                                          "DrugInterBank Ontology (DIBO) offers consensus knowledge about the different functional and structural aspects of a drug, but more specifically on its interaction with other molecules. On the one hand, it models the main physicochemical characteristics of a drug, such as the half-life, its formula and molecular mass and nomenclatures. It also includes information on the pharmacokinetic and pharmacodynamic properties, modeling both the metabolism and the mechanism of action."@en ;
                              rdfs:label "DrugInterBank Ontology (DIBO)" ;
-                             owl:versionInfo "Version 0.9" ;
-                             dibo:license <https://creativecommons.org/licenses/by-nc/4.0/> .
+                             owl:versionInfo "Version 1.0" .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
-###  https://w3id.org/def/DIBO#license
-dibo:license rdf:type owl:AnnotationProperty .
+###  http://creativecommons.org/ns#License
+<http://creativecommons.org/ns#License> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  https://w3id.org/def/DIBO/actingAs
-DIBO:actingAs rdf:type owl:ObjectProperty ,
+###  https://w3id.org/def/DIBO#actingAs
+dibo:actingAs rdf:type owl:ObjectProperty ,
                        owl:AsymmetricProperty ;
               rdfs:domain DIBO:Drug ;
               rdfs:range DIBO:PharmacologicAction ;
@@ -38,24 +45,24 @@ DIBO:actingAs rdf:type owl:ObjectProperty ,
               rdfs:label "actingAs"@en .
 
 
-###  https://w3id.org/def/DIBO/affectOrgan
-DIBO:affectOrgan rdf:type owl:ObjectProperty ,
+###  https://w3id.org/def/DIBO#affectOrgan
+dibo:affectOrgan rdf:type owl:ObjectProperty ,
                           owl:AsymmetricProperty ;
                  rdfs:domain <https://w3id.org/def/DIBO/AgentAffecting/Organs> ;
                  rdfs:range DIBO:Organ ;
                  rdfs:label "affectOrgan"@en .
 
 
-###  https://w3id.org/def/DIBO/causedBy
-DIBO:causedBy rdf:type owl:ObjectProperty ;
-              owl:inverseOf DIBO:hasEffect ;
+###  https://w3id.org/def/DIBO#causedBy
+dibo:causedBy rdf:type owl:ObjectProperty ;
+              owl:inverseOf dibo:hasEffect ;
               rdf:type owl:AsymmetricProperty ;
               rdfs:comment "An effect that is caused by a drug."@en ;
               rdfs:label "causedBy"@en .
 
 
-###  https://w3id.org/def/DIBO/functionallyGroupedIn
-DIBO:functionallyGroupedIn rdf:type owl:ObjectProperty ,
+###  https://w3id.org/def/DIBO#functionallyGroupedIn
+dibo:functionallyGroupedIn rdf:type owl:ObjectProperty ,
                                     owl:AsymmetricProperty ;
                            rdfs:domain DIBO:Drug ;
                            rdfs:range DIBO:PharmacologicSubstance ;
@@ -63,8 +70,8 @@ DIBO:functionallyGroupedIn rdf:type owl:ObjectProperty ,
                            rdfs:label "functionallyGroupedIn"@en .
 
 
-###  https://w3id.org/def/DIBO/hasDrug
-DIBO:hasDrug rdf:type owl:ObjectProperty ,
+###  https://w3id.org/def/DIBO#hasDrug
+dibo:hasDrug rdf:type owl:ObjectProperty ,
                       owl:AsymmetricProperty ;
              rdfs:domain DIBO:Interaction ;
              rdfs:range DIBO:Drug ;
@@ -72,8 +79,8 @@ DIBO:hasDrug rdf:type owl:ObjectProperty ,
              rdfs:label "hasDrug"@en .
 
 
-###  https://w3id.org/def/DIBO/hasEffect
-DIBO:hasEffect rdf:type owl:ObjectProperty ,
+###  https://w3id.org/def/DIBO#hasEffect
+dibo:hasEffect rdf:type owl:ObjectProperty ,
                         owl:AsymmetricProperty ;
                rdfs:domain DIBO:Drug ;
                rdfs:range DIBO:Effect ;
@@ -81,8 +88,8 @@ DIBO:hasEffect rdf:type owl:ObjectProperty ,
                rdfs:label "hasEffect"@en .
 
 
-###  https://w3id.org/def/DIBO/hasMolecularMass
-DIBO:hasMolecularMass rdf:type owl:ObjectProperty ,
+###  https://w3id.org/def/DIBO#hasMolecularMass
+dibo:hasMolecularMass rdf:type owl:ObjectProperty ,
                                owl:AsymmetricProperty ;
                       rdfs:domain DIBO:Drug ;
                       rdfs:range DIBO:MolecularMass ;
@@ -90,8 +97,8 @@ DIBO:hasMolecularMass rdf:type owl:ObjectProperty ,
                       rdfs:label "hasMolecularMass"@en .
 
 
-###  https://w3id.org/def/DIBO/hasSideEffect
-DIBO:hasSideEffect rdf:type owl:ObjectProperty ,
+###  https://w3id.org/def/DIBO#hasSideEffect
+dibo:hasSideEffect rdf:type owl:ObjectProperty ,
                             owl:AsymmetricProperty ;
                    rdfs:domain DIBO:Drug ;
                    rdfs:range DIBO:SideEffect ;
@@ -99,8 +106,8 @@ DIBO:hasSideEffect rdf:type owl:ObjectProperty ,
                    rdfs:label "hasSideEffect"@en .
 
 
-###  https://w3id.org/def/DIBO/hasTarget
-DIBO:hasTarget rdf:type owl:ObjectProperty ,
+###  https://w3id.org/def/DIBO#hasTarget
+dibo:hasTarget rdf:type owl:ObjectProperty ,
                         owl:AsymmetricProperty ;
                rdfs:domain DIBO:Interaction ;
                rdfs:range <https://www.w3.org/def/DIBO/Target> ;
@@ -108,8 +115,8 @@ DIBO:hasTarget rdf:type owl:ObjectProperty ,
                rdfs:label "hasTarget"@en .
 
 
-###  https://w3id.org/def/DIBO/metabolizedBy
-DIBO:metabolizedBy rdf:type owl:ObjectProperty ,
+###  https://w3id.org/def/DIBO#metabolizedBy
+dibo:metabolizedBy rdf:type owl:ObjectProperty ,
                             owl:AsymmetricProperty ;
                    rdfs:domain DIBO:Drug ;
                    rdfs:range DIBO:Enzyme ;
@@ -117,8 +124,8 @@ DIBO:metabolizedBy rdf:type owl:ObjectProperty ,
                    rdfs:label "metabolizedBy"@en .
 
 
-###  https://w3id.org/def/DIBO/metabolizedIn
-DIBO:metabolizedIn rdf:type owl:ObjectProperty ,
+###  https://w3id.org/def/DIBO#metabolizedIn
+dibo:metabolizedIn rdf:type owl:ObjectProperty ,
                             owl:AsymmetricProperty ;
                    rdfs:domain DIBO:Drug ;
                    rdfs:range DIBO:Organ ;
@@ -130,11 +137,25 @@ DIBO:metabolizedIn rdf:type owl:ObjectProperty ,
 #    Data properties
 #################################################################
 
+###  https://w3id.org/def/DIBO#hasChebiId
+dibo:hasChebiId rdf:type owl:DatatypeProperty ;
+                rdfs:domain DIBO:Drug ;
+                rdfs:range xsd:string ;
+                rdfs:comment "ChEBI identifier"@en .
+
+
 ###  https://w3id.org/def/DIBO#hasDrugBankId
 dibo:hasDrugBankId rdf:type owl:DatatypeProperty ;
                    rdfs:domain DIBO:Drug ;
                    rdfs:range xsd:string ;
                    rdfs:comment "Drugbank database identifier"@en .
+
+
+###  https://w3id.org/def/DIBO#hasHalfLife
+dibo:hasHalfLife rdf:type owl:DatatypeProperty ;
+                 rdfs:domain DIBO:Drug ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "It is defined as the time it takes for the concentration of the drug in the plasma or the total amount in the body to be reduced by 50%"@en .
 
 
 ###  https://w3id.org/def/DIBO#hasMolecularFormula
@@ -158,18 +179,11 @@ dibo:hasScientificName rdf:type owl:DatatypeProperty ;
                        rdfs:comment "Scientific name by which the drug is identified."@en .
 
 
-###  https://www.w3.org/def/DIBO#hasChebiId
-<https://www.w3.org/def/DIBO#hasChebiId> rdf:type owl:DatatypeProperty ;
-                                         rdfs:domain DIBO:Drug ;
-                                         rdfs:range xsd:string ;
-                                         rdfs:comment "ChEBI identifier"@en .
-
-
-###  https://www.w3.org/def/DIBO#hasHalfLife
-<https://www.w3.org/def/DIBO#hasHalfLife> rdf:type owl:DatatypeProperty ;
-                                          rdfs:domain DIBO:Drug ;
-                                          rdfs:range xsd:string ;
-                                          rdfs:comment "It is defined as the time it takes for the concentration of the drug in the plasma or the total amount in the body to be reduced by 50%"@en .
+###  https://w3id.org/def/DIBO#hasValue
+dibo:hasValue rdf:type owl:DatatypeProperty ;
+              rdfs:domain DIBO:MolecularMass ;
+              rdfs:range xsd:double ;
+              rdfs:comment "Molecular mass value"@en .
 
 
 ###  https://www.w3.org/def/DIBO#hasUnits
@@ -177,13 +191,6 @@ dibo:hasScientificName rdf:type owl:DatatypeProperty ;
                                        rdfs:domain DIBO:MolecularMass ;
                                        rdfs:range xsd:string ;
                                        rdfs:comment "It is defined precisely as 1/12 of the mass of an unbound neutral atom of carbon-12 in its nuclear and electronic ground state and at rest."@en .
-
-
-###  https://www.w3.org/def/DIBO#hasValue
-<https://www.w3.org/def/DIBO#hasValue> rdf:type owl:DatatypeProperty ;
-                                       rdfs:domain DIBO:MolecularMass ;
-                                       rdfs:range xsd:double ;
-                                       rdfs:comment "Molecular mass value"@en .
 
 
 #################################################################
@@ -461,7 +468,7 @@ DIBO:SideEffect rdf:type owl:Class ;
 <https://w3id.org/def/DIBO/AgentAffecting/Organs> rdf:type owl:Class ;
                                                   rdfs:subClassOf DIBO:PharmacologicSubstance ,
                                                                   [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty DIBO:affectOrgan ;
+                                                                    owl:onProperty dibo:affectOrgan ;
                                                                     owl:someValuesFrom <http://semanticscience.org/resource/SIO_010003>
                                                                   ] ;
                                                   rdfs:comment "An agent that exerts a physiologic effect on the organs or special senses, including the eyes, ears and nose."@en ;

@@ -8,3 +8,4 @@
   <li>In the <b>SPARQL</b> folder you will find the queries made on the data generated from non-ontological resources.</li>
   <li>As proof of concept of the model developed, an artificial instance was generated and SPARQL queries were tested against aspects not covered in the queries located in SPARQL. It can be found in <b>SPARQL-PROOF-OF-CONCEPT.</b></li>
 </ol>
+<img src="DIBO ontology.png">

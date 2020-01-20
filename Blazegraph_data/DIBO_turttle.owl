@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org/def/DIBO#> .
+@prefix : <https://w3id.org/def/DIBO/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -50,6 +50,7 @@ dibo:affectOrgan rdf:type owl:ObjectProperty ,
                           owl:AsymmetricProperty ;
                  rdfs:domain <https://w3id.org/def/DIBO/AgentAffecting/Organs> ;
                  rdfs:range DIBO:Organ ;
+                 rdfs:comment "A drug that affect an organ"@en ;
                  rdfs:label "affectOrgan"@en .
 
 
@@ -179,18 +180,18 @@ dibo:hasScientificName rdf:type owl:DatatypeProperty ;
                        rdfs:comment "Scientific name by which the drug is identified."@en .
 
 
+###  https://w3id.org/def/DIBO#hasUnits
+dibo:hasUnits rdf:type owl:DatatypeProperty ;
+              rdfs:domain DIBO:MolecularMass ;
+              rdfs:range xsd:string ;
+              rdfs:comment "It is defined precisely as 1/12 of the mass of an unbound neutral atom of carbon-12 in its nuclear and electronic ground state and at rest."@en .
+
+
 ###  https://w3id.org/def/DIBO#hasValue
 dibo:hasValue rdf:type owl:DatatypeProperty ;
               rdfs:domain DIBO:MolecularMass ;
               rdfs:range xsd:double ;
               rdfs:comment "Molecular mass value"@en .
-
-
-###  https://www.w3.org/def/DIBO#hasUnits
-<https://www.w3.org/def/DIBO#hasUnits> rdf:type owl:DatatypeProperty ;
-                                       rdfs:domain DIBO:MolecularMass ;
-                                       rdfs:range xsd:string ;
-                                       rdfs:comment "It is defined precisely as 1/12 of the mass of an unbound neutral atom of carbon-12 in its nuclear and electronic ground state and at rest."@en .
 
 
 #################################################################

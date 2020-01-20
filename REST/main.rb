@@ -124,13 +124,13 @@ ontology_data.each do |key, value|
   processed_information = adapt_to_ontology value
   # Generate RDF using the RdfGenerator object
   generator.generate_rdf(processed_information)
-  # Get the generated rdf data from RdfGenerator object
-  rdf_data = generator.rdf
-  # Save the rdf data in the output file
-  file = File.exists?(output_file) ? File.open(output_file, "a") :  File.open(output_file, "w")
-  file.puts rdf_data
-  file.close
 end
+# Get the generated rdf data from RdfGenerator object
+rdf_data = generator.rdf
+# Save the rdf data in the output file
+file = File.exists?(output_file) ? File.open(output_file, "a") :  File.open(output_file, "w")
+file.puts rdf_data
+file.close
 
 # Display the number of triples
 generator.number_of_triples?

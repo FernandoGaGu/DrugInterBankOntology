@@ -18,9 +18,9 @@
 module Ontology
   # Ontology prefixes
   @prefix = {owl:'http://www.w3.org/2002/07/owl#',
-             rdf:'https://w3id.org/1999/02/22-rdf-syntax-ns#',
-             xsd:'https://w3id.org/2001/XMLSchema#',
-             rdfs: 'https://w3id.org/2000/01/rdf-schema#',
+             rdf:'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+             xsd:'http://www.w3.org/2001/XMLSchema#',
+             rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
              uniprot: 'http://purl.uniprot.org/uniprot/',
              dibo_core:'https://w3id.org/def/DIBO',
              dibo_data:'https://w3id.org/def/DIBO/data/'}

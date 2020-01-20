@@ -1,0 +1,2688 @@
+@prefix dibo: <https://w3id.org/def/DIBO#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://w3id.org/def/DIBO/data/DB01186>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Pergolide mesylate (USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C19H26N2S. CH4SO3"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/410.1698> ;
+  dibo:hasDrugBankId "DB01186"^^xsd:string ;
+  dibo:hasChebiId "8021"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Pergolide mesylate (USP)"^^xsd:string, "Pergolide mesilate (JAN)"^^xsd:string, "Permax (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/410.1698>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 4.101698e+2 .
+
+<https://w3id.org/def/DIBO/data/6>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Dopamine_D2_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/Dopamine_D2_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "potassium channel regulator activity"^^xsd:string ;
+  dibo:hasName "Dopamine D2 receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416> .
+
+<https://w3id.org/def/DIBO/data/7>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Dopamine_D3_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/Dopamine_D3_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "g-protein coupled amine receptor activity"^^xsd:string ;
+  dibo:hasName "Dopamine D3 receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416> .
+
+<https://w3id.org/def/DIBO/data/8>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Dopamine_D4_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/Dopamine_D4_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "sh3 domain binding"^^xsd:string ;
+  dibo:hasName "Dopamine D4 receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416> .
+
+<https://w3id.org/def/DIBO/data/9>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_1A> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_1A>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "serotonin receptor activity"^^xsd:string ;
+  dibo:hasName "5-hydroxytryptamine receptor 1A"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416>, <http://purl.uniprot.org/uniprot/P08588> .
+
+<https://w3id.org/def/DIBO/data/10>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_2B> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_2B>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "serotonin receptor activity"^^xsd:string ;
+  dibo:hasName "5-hydroxytryptamine receptor 2B"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416> .
+
+<https://w3id.org/def/DIBO/data/11>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_2A> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_2A>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "virus receptor activity"^^xsd:string ;
+  dibo:hasName "5-hydroxytryptamine receptor 2A"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416> .
+
+<https://w3id.org/def/DIBO/data/12>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_1D> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_1D>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "serotonin receptor activity"^^xsd:string ;
+  dibo:hasName "5-hydroxytryptamine receptor 1D"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416> .
+
+<https://w3id.org/def/DIBO/data/13>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-2B_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/Alpha-2B_adrenergic_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "epinephrine binding"^^xsd:string ;
+  dibo:hasName "Alpha-2B adrenergic receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416> .
+
+<https://w3id.org/def/DIBO/data/14>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-2A_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/Alpha-2A_adrenergic_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "thioesterase binding"^^xsd:string ;
+  dibo:hasName "Alpha-2A adrenergic receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416>, <http://purl.uniprot.org/uniprot/P08913> .
+
+<https://w3id.org/def/DIBO/data/15>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-2C_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/Alpha-2C_adrenergic_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "protein homodimerization activity"^^xsd:string ;
+  dibo:hasName "Alpha-2C adrenergic receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416> .
+
+<https://w3id.org/def/DIBO/data/16>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Dopamine_D5_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/Dopamine_D5_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "g-protein coupled amine receptor activity"^^xsd:string ;
+  dibo:hasName "Dopamine D5 receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416> .
+
+<https://w3id.org/def/DIBO/data/17>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Dopamine_D1_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/Dopamine_D1_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "g-protein coupled amine receptor activity"^^xsd:string ;
+  dibo:hasName "Dopamine D1 receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416> .
+
+<https://w3id.org/def/DIBO/data/18>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_1B> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_1B>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "serotonin receptor activity"^^xsd:string ;
+  dibo:hasName "5-hydroxytryptamine receptor 1B"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416>, <http://purl.uniprot.org/uniprot/P08588> .
+
+<https://w3id.org/def/DIBO/data/19>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_2C> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_2C>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "serotonin receptor activity"^^xsd:string ;
+  dibo:hasName "5-hydroxytryptamine receptor 2C"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416> .
+
+<https://w3id.org/def/DIBO/data/20>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-1A_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/Alpha-1A_adrenergic_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "protein heterodimerization activity"^^xsd:string ;
+  dibo:hasName "Alpha-1A adrenergic receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416>, <http://purl.uniprot.org/uniprot/P08913>, <http://purl.uniprot.org/uniprot/P35348> .
+
+<https://w3id.org/def/DIBO/data/21>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-1B_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/Alpha-1B_adrenergic_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "protein heterodimerization activity"^^xsd:string ;
+  dibo:hasName "Alpha-1B adrenergic receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416>, <http://purl.uniprot.org/uniprot/P08913>, <http://purl.uniprot.org/uniprot/P35348> .
+
+<https://w3id.org/def/DIBO/data/22>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-1D_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01186> .
+
+<https://w3id.org/def/DIBO/data/Alpha-1D_adrenergic_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "alpha1-adrenergic receptor activity"^^xsd:string ;
+  dibo:hasName "Alpha-1D adrenergic receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14416>, <http://purl.uniprot.org/uniprot/P08913>, <http://purl.uniprot.org/uniprot/P35348> .
+
+<https://w3id.org/def/DIBO/data/DB01121>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Phenacemide (JAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C9H10N2O2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/178.0742> ;
+  dibo:hasDrugBankId "DB01121"^^xsd:string ;
+  dibo:hasChebiId "8049"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Phenacemide (JAN/INN)"^^xsd:string, "Phenurone (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/178.0742>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 1.780742e+2 .
+
+<https://w3id.org/def/DIBO/data/25>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_1_subunit_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01121> .
+
+<https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_1_subunit_alpha>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated sodium channel activity"^^xsd:string ;
+  dibo:hasName "Sodium channel protein type 1 subunit alpha"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498>, <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/DB00780>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Phenelzine sulfate (USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C8H12N2. H2SO4"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/234.0674> ;
+  dibo:hasDrugBankId "DB00780"^^xsd:string ;
+  dibo:hasChebiId "8061"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/AgentAffectingNervousSystem> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Phenelzine sulfate (USP)"^^xsd:string, "Nardil (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/234.0674>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.340674e+2 .
+
+<https://w3id.org/def/DIBO/data/26>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Amine_oxidase_[flavin-containing]_A> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00780> .
+
+<https://w3id.org/def/DIBO/data/Amine_oxidase_[flavin-containing]_A>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "serotonin binding"^^xsd:string ;
+  dibo:hasName "Amine oxidase [flavin-containing] A"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P21397>, <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/27>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Amine_oxidase_[flavin-containing]_B> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00780> .
+
+<https://w3id.org/def/DIBO/data/Amine_oxidase_[flavin-containing]_B>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "primary amine oxidase activity"^^xsd:string ;
+  dibo:hasName "Amine oxidase [flavin-containing] B"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P21397>, <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/28>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Membrane_primary_amine_oxidase> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00780> .
+
+<https://w3id.org/def/DIBO/data/Membrane_primary_amine_oxidase>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "tryptamine:oxygen oxidoreductase (deaminating) activity"^^xsd:string ;
+  dibo:hasName "Membrane primary amine oxidase"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P21397> .
+
+<https://w3id.org/def/DIBO/data/29>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/4-aminobutyrate_aminotransferase,_mitochondrial> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00780> .
+
+<https://w3id.org/def/DIBO/data/4-aminobutyrate_aminotransferase,_mitochondrial>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "succinate-semialdehyde dehydrogenase binding"^^xsd:string ;
+  dibo:hasName "4-aminobutyrate aminotransferase, mitochondrial"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P21397>, <http://purl.uniprot.org/uniprot/Q9UBS5> .
+
+<https://w3id.org/def/DIBO/data/30>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alanine_aminotransferase_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00780> .
+
+<https://w3id.org/def/DIBO/data/Alanine_aminotransferase_1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "pyridoxal phosphate binding"^^xsd:string ;
+  dibo:hasName "Alanine aminotransferase 1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P21397> .
+
+<https://w3id.org/def/DIBO/data/31>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alanine_aminotransferase_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00780> .
+
+<https://w3id.org/def/DIBO/data/Alanine_aminotransferase_2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "pyridoxal phosphate binding"^^xsd:string ;
+  dibo:hasName "Alanine aminotransferase 2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P21397> .
+
+<https://w3id.org/def/DIBO/data/32>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Glutamic_acid_decarboxylase> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00780> .
+
+<https://w3id.org/def/DIBO/data/Glutamic_acid_decarboxylase>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "pyridoxal phosphate binding"^^xsd:string ;
+  dibo:hasName "Glutamic acid decarboxylase"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P21397> .
+
+<https://w3id.org/def/DIBO/data/DB00692>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Phentolamine mesylate (USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C17H19N3O. CH4SO3"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/377.1409> ;
+  dibo:hasDrugBankId "DB00692"^^xsd:string ;
+  dibo:hasChebiId "8081"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Phentolamine mesylate (USP)"^^xsd:string, "Phentolamine mesilate (JAN/INN)"^^xsd:string, "Regitine (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/377.1409>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.771409e+2 .
+
+<https://w3id.org/def/DIBO/data/43>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-2A_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00692> .
+
+<https://w3id.org/def/DIBO/data/44>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-1A_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00692> .
+
+<https://w3id.org/def/DIBO/data/45>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-1B_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00692> .
+
+<https://w3id.org/def/DIBO/data/46>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-1D_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00692> .
+
+<https://w3id.org/def/DIBO/data/DB00812>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Phenylbutazone (JP17/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C19H20N2O2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/308.1525> ;
+  dibo:hasDrugBankId "DB00812"^^xsd:string ;
+  dibo:hasChebiId "48574"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Phenylbutazone (JP17/USP/INN)"^^xsd:string, "Azolid (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/308.1525>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.081525e+2 .
+
+<https://w3id.org/def/DIBO/data/47>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Prostaglandin_G/H_synthase_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00812> .
+
+<https://w3id.org/def/DIBO/data/Prostaglandin_G/H_synthase_2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "prostaglandin-endoperoxide synthase activity"^^xsd:string ;
+  dibo:hasName "Prostaglandin G/H synthase 2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35354> .
+
+<https://w3id.org/def/DIBO/data/48>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Prostacyclin_synthase> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00812> .
+
+<https://w3id.org/def/DIBO/data/Prostacyclin_synthase>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "prostaglandin-i synthase activity"^^xsd:string ;
+  dibo:hasName "Prostacyclin synthase"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35354> .
+
+<https://w3id.org/def/DIBO/data/49>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Prostaglandin_G/H_synthase_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00812> .
+
+<https://w3id.org/def/DIBO/data/Prostaglandin_G/H_synthase_1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "prostaglandin-endoperoxide synthase activity"^^xsd:string, "converts arachidonate to prostaglandin h2 (pgh2), a committed step in prostanoid synthesis. involved in the constitutive production of prostanoids in particular in the stomach and platelets. in gas..."^^xsd:string ;
+  dibo:hasName "Prostaglandin G/H synthase 1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35354>, <http://purl.uniprot.org/uniprot/PROSTAGLANDIN_G/H_SYNTHASE_1> .
+
+<https://w3id.org/def/DIBO/data/DB00388>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Phenylephrine hydrochloride (JP17/USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C9H13NO2. HCl"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/203.0713> ;
+  dibo:hasDrugBankId "DB00388"^^xsd:string ;
+  dibo:hasChebiId "8094"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Phenylephrine hydrochloride (JP17/USP)"^^xsd:string, "Neo-synephrine (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/203.0713>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.030713e+2 .
+
+<https://w3id.org/def/DIBO/data/50>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-1A_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00388> .
+
+<https://w3id.org/def/DIBO/data/51>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-1B_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00388> .
+
+<https://w3id.org/def/DIBO/data/52>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-1D_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00388> .
+
+<https://w3id.org/def/DIBO/data/DB00960>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Pindolol (JP17/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C14H20N2O2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/248.1525> ;
+  dibo:hasDrugBankId "DB00960"^^xsd:string ;
+  dibo:hasChebiId "8214"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Pindolol (JP17/USP/INN)"^^xsd:string, "Blocklin-L (TN)"^^xsd:string, "Carvisken (TN)"^^xsd:string, "Visken (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/248.1525>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.481525e+2 .
+
+<https://w3id.org/def/DIBO/data/56>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Beta-1_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00960> .
+
+<https://w3id.org/def/DIBO/data/Beta-1_adrenergic_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "receptor signaling protein activity"^^xsd:string ;
+  dibo:hasName "Beta-1 adrenergic receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P08588>, <http://purl.uniprot.org/uniprot/P07550> .
+
+<https://w3id.org/def/DIBO/data/57>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Beta-2_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00960> .
+
+<https://w3id.org/def/DIBO/data/Beta-2_adrenergic_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "protein homodimerization activity"^^xsd:string ;
+  dibo:hasName "Beta-2 adrenergic receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P08588>, <http://purl.uniprot.org/uniprot/P07550> .
+
+<https://w3id.org/def/DIBO/data/58>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_1A> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00960> .
+
+<https://w3id.org/def/DIBO/data/59>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/5-hydroxytryptamine_receptor_1B> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00960> .
+
+<https://w3id.org/def/DIBO/data/60>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Beta-3_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00960> .
+
+<https://w3id.org/def/DIBO/data/Beta-3_adrenergic_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "protein homodimerization activity"^^xsd:string ;
+  dibo:hasName "Beta-3 adrenergic receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P08588> .
+
+<https://w3id.org/def/DIBO/data/DB00633>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Dexmedetomidine (USAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C13H16N2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/200.1313> ;
+  dibo:hasDrugBankId "DB00633"^^xsd:string ;
+  dibo:hasChebiId "4466"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Dexmedetomidine (USAN/INN)"^^xsd:string, "Dexdor (TN)"^^xsd:string, "Precedex (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/200.1313>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.001313e+2 .
+
+<https://w3id.org/def/DIBO/data/61>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Alpha-2A_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00633> .
+
+<https://w3id.org/def/DIBO/data/DB00727>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Nitroglycerin (JP17/USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C3H5N3O9"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/227.0026> ;
+  dibo:hasDrugBankId "DB00727"^^xsd:string ;
+  dibo:hasChebiId "28787"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Nitroglycerin (JP17/USP)"^^xsd:string, "Glyceryl trinitrate"^^xsd:string, "Minitran (TN)"^^xsd:string, "Nitro-bid (TN)"^^xsd:string, "Nitro-dur (TN)"^^xsd:string, "Nitromist (TN)"^^xsd:string, "Transderm-nitro (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/227.0026>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.270026e+2 .
+
+<https://w3id.org/def/DIBO/data/62>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Atrial_natriuretic_peptide_receptor_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00727> .
+
+<https://w3id.org/def/DIBO/data/Atrial_natriuretic_peptide_receptor_1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "this is a possible target of nitroglycerin, supported by an in vitro study."^^xsd:string, "protein kinase activity"^^xsd:string ;
+  dibo:hasName "Atrial natriuretic peptide receptor 1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/NPR1>, <http://purl.uniprot.org/uniprot/P16066> .
+
+<https://w3id.org/def/DIBO/data/DB00883>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Isosorbide dinitrate (JP17/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C6H8N2O8"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/236.0281> ;
+  dibo:hasDrugBankId "DB00883"^^xsd:string ;
+  dibo:hasChebiId "6061"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Isosorbide dinitrate (JP17/USP/INN)"^^xsd:string, "Dilatrate-sr (TN)"^^xsd:string, "Isordil (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/236.0281>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.360281e+2 .
+
+<https://w3id.org/def/DIBO/data/63>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Atrial_natriuretic_peptide_receptor_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00883> .
+
+<https://w3id.org/def/DIBO/data/DB01612>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Amyl nitrite (JP17/USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C5H11NO2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/117.079> ;
+  dibo:hasDrugBankId "DB01612"^^xsd:string ;
+  dibo:hasChebiId "2691"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Amyl nitrite (JP17/USP)"^^xsd:string, "Aspiral (TN)"^^xsd:string, "Vaporole (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/117.079>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 1.170790e+2 .
+
+<https://w3id.org/def/DIBO/data/64>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Atrial_natriuretic_peptide_receptor_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01612> .
+
+<https://w3id.org/def/DIBO/data/DB01144>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Dichlorphenamide (USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C6H6Cl2N2O4S2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/303.9146> ;
+  dibo:hasDrugBankId "DB01144"^^xsd:string ;
+  dibo:hasChebiId "101085"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Dichlorphenamide (USP)"^^xsd:string, "Diclofenamide (JAN/INN)"^^xsd:string, "Daranide (TN)"^^xsd:string, "Keveyis (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/303.9146>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.039146e+2 .
+
+<https://w3id.org/def/DIBO/data/65>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01144> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase_2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase 2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P00918>, <http://purl.uniprot.org/uniprot/P55017>, <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/66>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01144> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase_1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase 1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P00918>, <http://purl.uniprot.org/uniprot/P55017>, <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/67>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_4> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01144> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase_4>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase 4"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P00918>, <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/68>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_7> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01144> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase_7>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase 7"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P00918>, <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/69>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01144> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase_3>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase 3"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P00918>, <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/DB00880>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Chlorothiazide (JAN/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C7H6ClN3O4S2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/294.9488> ;
+  dibo:hasDrugBankId "DB00880"^^xsd:string ;
+  dibo:hasChebiId "3640"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Chlorothiazide (JAN/USP/INN)"^^xsd:string, "Diuril (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/294.9488>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.949488e+2 .
+
+<https://w3id.org/def/DIBO/data/70>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Solute_carrier_family_12_member_3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00880> .
+
+<https://w3id.org/def/DIBO/data/Solute_carrier_family_12_member_3>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "transporter activity"^^xsd:string ;
+  dibo:hasName "Solute carrier family 12 member 3"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P55017> .
+
+<https://w3id.org/def/DIBO/data/71>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00880> .
+
+<https://w3id.org/def/DIBO/data/72>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00880> .
+
+<https://w3id.org/def/DIBO/data/DB00985>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Dimenhydrinate (JP17/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C17H21NO. C7H7ClN4O2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/469.1881> ;
+  dibo:hasDrugBankId "DB00985"^^xsd:string ;
+  dibo:hasChebiId "4604"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Dimenhydrinate (JP17/USP/INN)"^^xsd:string, "Dramamine (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/469.1881>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 4.691881e+2 .
+
+<https://w3id.org/def/DIBO/data/73>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Histamine_H1_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00985> .
+
+<https://w3id.org/def/DIBO/data/Histamine_H1_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "histamine receptor activity"^^xsd:string ;
+  dibo:hasName "Histamine H1 receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35367> .
+
+<https://w3id.org/def/DIBO/data/DB00342>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Terfenadine (JAN/USAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C32H41NO2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/471.3137> ;
+  dibo:hasDrugBankId "DB00342"^^xsd:string ;
+  dibo:hasChebiId "9453"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Terfenadine (JAN/USAN/INN)"^^xsd:string, "Seldane (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/471.3137>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 4.713137e+2 .
+
+<https://w3id.org/def/DIBO/data/74>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Histamine_H1_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00342> .
+
+<https://w3id.org/def/DIBO/data/75>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Potassium_voltage-gated_channel_subfamily_H_member_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00342> .
+
+<https://w3id.org/def/DIBO/data/Potassium_voltage-gated_channel_subfamily_H_member_2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated potassium channel activity involved in ventricular cardiac muscle cell action potential repolarization"^^xsd:string ;
+  dibo:hasName "Potassium voltage-gated channel subfamily H member 2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35367> .
+
+<https://w3id.org/def/DIBO/data/76>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00342> .
+
+<https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M3>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "receptor activity"^^xsd:string ;
+  dibo:hasName "Muscarinic acetylcholine receptor M3"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35367>, <http://purl.uniprot.org/uniprot/P20309>, <http://purl.uniprot.org/uniprot/P11229> .
+
+<https://w3id.org/def/DIBO/data/77>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00342> .
+
+<https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "phosphatidylinositol phospholipase c activity"^^xsd:string ;
+  dibo:hasName "Muscarinic acetylcholine receptor M1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35367>, <http://purl.uniprot.org/uniprot/P20309>, <http://purl.uniprot.org/uniprot/P11229> .
+
+<https://w3id.org/def/DIBO/data/78>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M5> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00342> .
+
+<https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M5>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "phosphatidylinositol phospholipase c activity"^^xsd:string ;
+  dibo:hasName "Muscarinic acetylcholine receptor M5"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35367> .
+
+<https://w3id.org/def/DIBO/data/79>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M4> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00342> .
+
+<https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M4>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "guanyl-nucleotide exchange factor activity"^^xsd:string ;
+  dibo:hasName "Muscarinic acetylcholine receptor M4"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35367>, <http://purl.uniprot.org/uniprot/P20309> .
+
+<https://w3id.org/def/DIBO/data/80>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00342> .
+
+<https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "g-protein coupled acetylcholine receptor activity"^^xsd:string ;
+  dibo:hasName "Muscarinic acetylcholine receptor M2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35367>, <http://purl.uniprot.org/uniprot/P20309>, <http://purl.uniprot.org/uniprot/P11229> .
+
+<https://w3id.org/def/DIBO/data/DB00796>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Candesartan (USAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C24H20N6O3"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/440.1597> ;
+  dibo:hasDrugBankId "DB00796"^^xsd:string ;
+  dibo:hasChebiId "3347"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Candesartan (USAN/INN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/440.1597>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 4.401597e+2 .
+
+<https://w3id.org/def/DIBO/data/81>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Type-1_angiotensin_II_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00796> .
+
+<https://w3id.org/def/DIBO/data/Type-1_angiotensin_II_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "protein heterodimerization activity"^^xsd:string ;
+  dibo:hasName "Type-1 angiotensin II receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P30556> .
+
+<https://w3id.org/def/DIBO/data/DB01029>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Irbesartan (JP17/USAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C25H28N6O"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/428.2325> ;
+  dibo:hasDrugBankId "DB01029"^^xsd:string ;
+  dibo:hasChebiId "5959"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Irbesartan (JP17/USAN/INN)"^^xsd:string, "Avapro (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/428.2325>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 4.282325e+2 .
+
+<https://w3id.org/def/DIBO/data/82>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Type-1_angiotensin_II_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01029> .
+
+<https://w3id.org/def/DIBO/data/83>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Transcription_factor_AP-1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01029> .
+
+<https://w3id.org/def/DIBO/data/Transcription_factor_AP-1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "transcriptional activator activity, rna polymerase ii transcription factor binding"^^xsd:string ;
+  dibo:hasName "Transcription factor AP-1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P30556> .
+
+<https://w3id.org/def/DIBO/data/DB01085>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Pilocarpine (JAN/USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C11H16N2O2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/208.1212> ;
+  dibo:hasDrugBankId "DB01085"^^xsd:string ;
+  dibo:hasChebiId "8207"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Pilocarpine (JAN/USP)"^^xsd:string, "Ocusert pilo-20 (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/208.1212>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.081212e+2 .
+
+<https://w3id.org/def/DIBO/data/87>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01085> .
+
+<https://w3id.org/def/DIBO/data/88>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01085> .
+
+<https://w3id.org/def/DIBO/data/89>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01085> .
+
+<https://w3id.org/def/DIBO/data/90>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M4> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01085> .
+
+<https://w3id.org/def/DIBO/data/DB01003>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Cromolyn sodium (USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C23H14O11. 2Na"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/512.0332> ;
+  dibo:hasDrugBankId "DB01003"^^xsd:string ;
+  dibo:hasChebiId "128458"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Cromolyn sodium (USP)"^^xsd:string, "Sodium cromoglicate (JP17)"^^xsd:string, "Gastrocrom (TN)"^^xsd:string, "Intal (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/512.0332>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 5.120332e+2 .
+
+<https://w3id.org/def/DIBO/data/91>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Calcium-activated_potassium_channel_subunit_alpha-1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01003> .
+
+<https://w3id.org/def/DIBO/data/Calcium-activated_potassium_channel_subunit_alpha-1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated potassium channel activity"^^xsd:string ;
+  dibo:hasName "Calcium-activated potassium channel subunit alpha-1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q12791> .
+
+<https://w3id.org/def/DIBO/data/92>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Protein_S100-P> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01003> .
+
+<https://w3id.org/def/DIBO/data/Protein_S100-P>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "magnesium ion binding"^^xsd:string ;
+  dibo:hasName "Protein S100-P"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q12791> .
+
+<https://w3id.org/def/DIBO/data/DB00716>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Nedocromil sodium (USAN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C19H15NO7. 2Na"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/415.0644> ;
+  dibo:hasDrugBankId "DB00716"^^xsd:string ;
+  dibo:hasChebiId "7493"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Nedocromil sodium (USAN)"^^xsd:string, "Alocril (TN)"^^xsd:string, "Tilade (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/415.0644>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 4.150644e+2 .
+
+<https://w3id.org/def/DIBO/data/93>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Cysteinyl_leukotriene_receptor_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00716> .
+
+<https://w3id.org/def/DIBO/data/Cysteinyl_leukotriene_receptor_1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "leukotriene receptor activity"^^xsd:string ;
+  dibo:hasName "Cysteinyl leukotriene receptor 1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q9Y271> .
+
+<https://w3id.org/def/DIBO/data/94>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Cysteinyl_leukotriene_receptor_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00716> .
+
+<https://w3id.org/def/DIBO/data/Cysteinyl_leukotriene_receptor_2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "leukotriene receptor activity"^^xsd:string ;
+  dibo:hasName "Cysteinyl leukotriene receptor 2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q9Y271> .
+
+<https://w3id.org/def/DIBO/data/95>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/fMet-Leu-Phe_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00716> .
+
+<https://w3id.org/def/DIBO/data/fMet-Leu-Phe_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "receptor activity"^^xsd:string ;
+  dibo:hasName "fMet-Leu-Phe receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q9Y271> .
+
+<https://w3id.org/def/DIBO/data/96>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Prostaglandin_D2_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00716> .
+
+<https://w3id.org/def/DIBO/data/Prostaglandin_D2_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "prostaglandin j receptor activity"^^xsd:string ;
+  dibo:hasName "Prostaglandin D2 receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q9Y271> .
+
+<https://w3id.org/def/DIBO/data/97>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Heat_shock_protein_HSP_90-alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00716> .
+
+<https://w3id.org/def/DIBO/data/Heat_shock_protein_HSP_90-alpha>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "molecular chaperone that promotes the maturation, structural maintenance and proper regulation of specific target proteins involved for instance in cell cycle control and signal transduction. under..."^^xsd:string ;
+  dibo:hasName "Heat shock protein HSP 90-alpha"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q9Y271> .
+
+<https://w3id.org/def/DIBO/data/DB00471>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Montelukast sodium (JP17/USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C35H35ClNO3S. Na"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/607.1924> ;
+  dibo:hasDrugBankId "DB00471"^^xsd:string ;
+  dibo:hasChebiId "6993"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Montelukast sodium (JP17/USP)"^^xsd:string, "Singulair (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/607.1924>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 6.071924e+2 .
+
+<https://w3id.org/def/DIBO/data/99>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Cysteinyl_leukotriene_receptor_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00471> .
+
+<https://w3id.org/def/DIBO/data/100>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Arachidonate_5-lipoxygenase> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00471> .
+
+<https://w3id.org/def/DIBO/data/Arachidonate_5-lipoxygenase>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "iron ion binding"^^xsd:string ;
+  dibo:hasName "Arachidonate 5-lipoxygenase"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q9Y271> .
+
+<https://w3id.org/def/DIBO/data/DB00962>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Zaleplon (JAN/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C17H15N5O"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/305.1277> ;
+  dibo:hasDrugBankId "DB00962"^^xsd:string ;
+  dibo:hasChebiId "10102"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Zaleplon (JAN/USP/INN)"^^xsd:string, "Sonata (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/305.1277>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.051277e+2 .
+
+<https://w3id.org/def/DIBO/data/101>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00962> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "inhibitory extracellular ligand-gated ion channel activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit alpha-1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/102>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Translocator_protein> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00962> .
+
+<https://w3id.org/def/DIBO/data/Translocator_protein>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "cholesterol binding"^^xsd:string ;
+  dibo:hasName "Translocator protein"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/DB01595>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Nitrazepam (JP17/USAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C15H11N3O3"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/281.08> ;
+  dibo:hasDrugBankId "DB01595"^^xsd:string ;
+  dibo:hasChebiId "7581"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Nitrazepam (JP17/USAN/INN)"^^xsd:string, "Benzalin (TN)"^^xsd:string, "Nitrazepam (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/281.08>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.810800e+2 .
+
+<https://w3id.org/def/DIBO/data/103>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/104>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "inhibitory extracellular ligand-gated ion channel activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit alpha-2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/105>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-3>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "inhibitory extracellular ligand-gated ion channel activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit alpha-3"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/106>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-4> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-4>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "inhibitory extracellular ligand-gated ion channel activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit alpha-4"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/107>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-5> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-5>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "transporter activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit alpha-5"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/108>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-6> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-6>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "inhibitory extracellular ligand-gated ion channel activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit alpha-6"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/109>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_beta-1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_beta-1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "ligand-gated ion channel activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit beta-1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/110>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_beta-2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_beta-2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "inhibitory extracellular ligand-gated ion channel activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit beta-2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/111>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_beta-3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_beta-3>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "gaba-gated chloride ion channel activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit beta-3"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/112>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_gamma-1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_gamma-1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "inhibitory extracellular ligand-gated ion channel activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit gamma-1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/113>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_gamma-2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_gamma-2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "inhibitory extracellular ligand-gated ion channel activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit gamma-2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/114>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_gamma-3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_gamma-3>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "inhibitory extracellular ligand-gated ion channel activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit gamma-3"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/115>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_delta> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_delta>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "gaba-a receptor activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit delta"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/116>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_epsilon> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_epsilon>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "inhibitory extracellular ligand-gated ion channel activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit epsilon"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/117>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_pi> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_pi>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "gaba-a receptor activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit pi"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/118>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_rho-1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_rho-1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "gaba-a receptor activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit rho-1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/119>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_rho-2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_rho-2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "gaba-a receptor activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit rho-2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/120>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_rho-3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_rho-3>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "gaba-a receptor activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit rho-3"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/121>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_theta> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_theta>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "transmembrane signaling receptor activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid receptor subunit theta"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/122>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_1_subunit_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01595> .
+
+<https://w3id.org/def/DIBO/data/DB00776>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Oxcarbazepine (JAN/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C15H12N2O2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/252.0899> ;
+  dibo:hasDrugBankId "DB00776"^^xsd:string ;
+  dibo:hasChebiId "7824"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Oxcarbazepine (JAN/USP/INN)"^^xsd:string, "Oxtellar (TN)"^^xsd:string, "Trileptal (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/252.0899>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.520899e+2 .
+
+<https://w3id.org/def/DIBO/data/DB01080>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Vigabatrin (JAN/USAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C6H11NO2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/129.079> ;
+  dibo:hasDrugBankId "DB01080"^^xsd:string ;
+  dibo:hasChebiId "63638"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Vigabatrin (JAN/USAN/INN)"^^xsd:string, "Sabril (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/129.079>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 1.290790e+2 .
+
+<https://w3id.org/def/DIBO/data/125>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_type_B_receptor_subunit_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01080> .
+
+<https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_type_B_receptor_subunit_1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "g-protein coupled gaba receptor activity"^^xsd:string ;
+  dibo:hasName "Gamma-aminobutyric acid type B receptor subunit 1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q9UBS5> .
+
+<https://w3id.org/def/DIBO/data/126>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/4-aminobutyrate_aminotransferase,_mitochondrial> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01080> .
+
+<https://w3id.org/def/DIBO/data/DB00949>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Felbamate (USAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C11H14N2O4"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/238.0954> ;
+  dibo:hasDrugBankId "DB00949"^^xsd:string ;
+  dibo:hasChebiId "4995"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Felbamate (USAN/INN)"^^xsd:string, "Felbatol (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/238.0954>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.380954e+2 .
+
+<https://w3id.org/def/DIBO/data/127>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Glutamate_receptor_ionotropic,_NMDA_2B> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00949> .
+
+<https://w3id.org/def/DIBO/data/Glutamate_receptor_ionotropic,_NMDA_2B>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Glutamate receptor ionotropic, NMDA 2B"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q13224> .
+
+<https://w3id.org/def/DIBO/data/128>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Glutamate_receptor_ionotropic,_NMDA_3A> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00949> .
+
+<https://w3id.org/def/DIBO/data/Glutamate_receptor_ionotropic,_NMDA_3A>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "protein phosphatase 2a binding"^^xsd:string ;
+  dibo:hasName "Glutamate receptor ionotropic, NMDA 3A"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q13224> .
+
+<https://w3id.org/def/DIBO/data/129>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Glutamate_receptor_ionotropic,_NMDA_2A> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00949> .
+
+<https://w3id.org/def/DIBO/data/Glutamate_receptor_ionotropic,_NMDA_2A>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Glutamate receptor ionotropic, NMDA 2A"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q13224> .
+
+<https://w3id.org/def/DIBO/data/DB00909>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Zonisamide (JP17/USAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C8H8N2O3S"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/212.0256> ;
+  dibo:hasDrugBankId "DB00909"^^xsd:string ;
+  dibo:hasChebiId "10127"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Zonisamide (JP17/USAN/INN)"^^xsd:string, "Excegran (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/212.0256>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.120256e+2 .
+
+<https://w3id.org/def/DIBO/data/132>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_1_subunit_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/133>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_2_subunit_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_2_subunit_alpha>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated sodium channel activity"^^xsd:string ;
+  dibo:hasName "Sodium channel protein type 2 subunit alpha"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/134>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_3_subunit_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_3_subunit_alpha>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated sodium channel activity"^^xsd:string ;
+  dibo:hasName "Sodium channel protein type 3 subunit alpha"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/135>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_4_subunit_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_4_subunit_alpha>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated sodium channel activity"^^xsd:string ;
+  dibo:hasName "Sodium channel protein type 4 subunit alpha"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/136>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_5_subunit_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_5_subunit_alpha>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated sodium channel activity involved in sa node cell action potential"^^xsd:string ;
+  dibo:hasName "Sodium channel protein type 5 subunit alpha"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498>, <http://purl.uniprot.org/uniprot/Q14524> .
+
+<https://w3id.org/def/DIBO/data/137>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_9_subunit_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_9_subunit_alpha>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated sodium channel activity"^^xsd:string ;
+  dibo:hasName "Sodium channel protein type 9 subunit alpha"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/138>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_11_subunit_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_11_subunit_alpha>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated sodium channel activity"^^xsd:string ;
+  dibo:hasName "Sodium channel protein type 11 subunit alpha"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/139>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_subunit_beta-1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Sodium_channel_subunit_beta-1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated sodium channel activity involved in purkinje myocyte action potential"^^xsd:string ;
+  dibo:hasName "Sodium channel subunit beta-1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/140>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_subunit_beta-2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Sodium_channel_subunit_beta-2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated sodium channel activity involved in cardiac muscle cell action potential"^^xsd:string ;
+  dibo:hasName "Sodium channel subunit beta-2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/141>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_subunit_beta-3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Sodium_channel_subunit_beta-3>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated sodium channel activity involved in cardiac muscle cell action potential"^^xsd:string ;
+  dibo:hasName "Sodium channel subunit beta-3"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/142>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_subunit_beta-4> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Sodium_channel_subunit_beta-4>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated sodium channel activity involved in cardiac muscle cell action potential"^^xsd:string ;
+  dibo:hasName "Sodium channel subunit beta-4"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/143>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Voltage-dependent_T-type_calcium_channel_subunit_alpha-1G> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Voltage-dependent_T-type_calcium_channel_subunit_alpha-1G>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "scaffold protein binding"^^xsd:string ;
+  dibo:hasName "Voltage-dependent T-type calcium channel subunit alpha-1G"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498>, <http://purl.uniprot.org/uniprot/O43497> .
+
+<https://w3id.org/def/DIBO/data/144>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Voltage-dependent_T-type_calcium_channel_subunit_alpha-1H> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Voltage-dependent_T-type_calcium_channel_subunit_alpha-1H>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "scaffold protein binding"^^xsd:string ;
+  dibo:hasName "Voltage-dependent T-type calcium channel subunit alpha-1H"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/145>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Voltage-dependent_T-type_calcium_channel_subunit_alpha-1I> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Voltage-dependent_T-type_calcium_channel_subunit_alpha-1I>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated calcium channel activity"^^xsd:string ;
+  dibo:hasName "Voltage-dependent T-type calcium channel subunit alpha-1I"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/146>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/147>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/148>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/149>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_4> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/150>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_5A,_mitochondrial> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase_5A,_mitochondrial>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase 5A, mitochondrial"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/151>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_5B,_mitochondrial> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase_5B,_mitochondrial>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase 5B, mitochondrial"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/152>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_6> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase_6>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase 6"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/153>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_7> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/154>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase-related_protein> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase-related_protein>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase-related protein"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/155>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_9> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase_9>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase 9"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/156>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase-related_protein_10> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase-related_protein_10>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "not available"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase-related protein 10"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/157>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase-related_protein_11> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase-related_protein_11>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "not available"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase-related protein 11"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/158>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_12> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase_12>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase 12"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/159>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_13> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase_13>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase 13"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/160>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Carbonic_anhydrase_14> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/Carbonic_anhydrase_14>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "metal ion binding"^^xsd:string ;
+  dibo:hasName "Carbonic anhydrase 14"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P35498> .
+
+<https://w3id.org/def/DIBO/data/161>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Amine_oxidase_[flavin-containing]_B> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/162>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Amine_oxidase_[flavin-containing]_A> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00909> .
+
+<https://w3id.org/def/DIBO/data/DB00593>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Ethosuximide (JP17/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C7H11NO2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/141.079> ;
+  dibo:hasDrugBankId "DB00593"^^xsd:string ;
+  dibo:hasChebiId "4887"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Ethosuximide (JP17/USP/INN)"^^xsd:string, "Zarontin (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/141.079>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 1.410790e+2 .
+
+<https://w3id.org/def/DIBO/data/163>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Voltage-dependent_T-type_calcium_channel_subunit_alpha-1G> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00593> .
+
+<https://w3id.org/def/DIBO/data/DB00986>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Glycopyrrolate (USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C19H28NO3. Br"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/397.1253> ;
+  dibo:hasDrugBankId "DB00986"^^xsd:string ;
+  dibo:hasChebiId "5494"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Glycopyrrolate (USP)"^^xsd:string, "Glycopyrronium bromide (JAN/INN)"^^xsd:string, "Cuvposa (TN)"^^xsd:string, "Robinul (TN)"^^xsd:string, "Seebri breezhaler (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/397.1253>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.971253e+2 .
+
+<https://w3id.org/def/DIBO/data/164>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00986> .
+
+<https://w3id.org/def/DIBO/data/165>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00986> .
+
+<https://w3id.org/def/DIBO/data/166>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Muscarinic_acetylcholine_receptor_M2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00986> .
+
+<https://w3id.org/def/DIBO/data/DB00683>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Midazolam (JAN/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C18H13ClFN3"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/325.0782> ;
+  dibo:hasDrugBankId "DB00683"^^xsd:string ;
+  dibo:hasChebiId "6931"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Midazolam (JAN/USP/INN)"^^xsd:string, "Dormicum (TN)"^^xsd:string, "Buccolam (TN)"^^xsd:string, "Nayzilam (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/325.0782>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.250782e+2 .
+
+<https://w3id.org/def/DIBO/data/206>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00683> .
+
+<https://w3id.org/def/DIBO/data/207>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00683> .
+
+<https://w3id.org/def/DIBO/data/208>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-5> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00683> .
+
+<https://w3id.org/def/DIBO/data/209>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00683> .
+
+<https://w3id.org/def/DIBO/data/210>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-4> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00683> .
+
+<https://w3id.org/def/DIBO/data/211>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-6> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00683> .
+
+<https://w3id.org/def/DIBO/data/DB01086>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Benzocaine (USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C9H11NO2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/165.079> ;
+  dibo:hasDrugBankId "DB01086"^^xsd:string ;
+  dibo:hasChebiId "116735"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Benzocaine (USP/INN)"^^xsd:string, "Ethyl aminobenzoate (JP17)"^^xsd:string, "Parathesin (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/165.079>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 1.650790e+2 .
+
+<https://w3id.org/def/DIBO/data/212>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_10_subunit_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01086> .
+
+<https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_10_subunit_alpha>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated sodium channel activity"^^xsd:string ;
+  dibo:hasName "Sodium channel protein type 10 subunit alpha"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q9Y5Y9> .
+
+<https://w3id.org/def/DIBO/data/DB00750>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Prilocaine (USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C13H20N2O"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/220.1576> ;
+  dibo:hasDrugBankId "DB00750"^^xsd:string ;
+  dibo:hasChebiId "8404"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Prilocaine (USP/INN)"^^xsd:string, "Propitocaine (JAN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/220.1576>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.201576e+2 .
+
+<https://w3id.org/def/DIBO/data/213>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sodium_channel_protein_type_5_subunit_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00750> .
+
+<https://w3id.org/def/DIBO/data/DB00977>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Ethinyl estradiol (USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C20H24O2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/296.1776> ;
+  dibo:hasDrugBankId "DB00977"^^xsd:string ;
+  dibo:hasChebiId "4903"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/AgentAffectingCardiovascularSystem> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Ethinyl estradiol (USP)"^^xsd:string, "Ethinylestradiol (JP17/INN)"^^xsd:string, "Estinyl (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/296.1776>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.961776e+2 .
+
+<https://w3id.org/def/DIBO/data/214>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Estrogen_receptor_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00977> .
+
+<https://w3id.org/def/DIBO/data/Estrogen_receptor_alpha>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Estrogen receptor alpha"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P03372> .
+
+<https://w3id.org/def/DIBO/data/215>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Nuclear_receptor_subfamily_1_group_I_member_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00977> .
+
+<https://w3id.org/def/DIBO/data/Nuclear_receptor_subfamily_1_group_I_member_2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string, "nuclear receptor that binds and is activated by variety of endogenous and xenobiotic compounds. transcription factor that activates the transcription of multiple genes involved in the metabolism an..."^^xsd:string ;
+  dibo:hasName "Nuclear receptor subfamily 1 group I member 2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P03372>, <http://purl.uniprot.org/uniprot/Q9BQB6>, <http://purl.uniprot.org/uniprot/Q07869>, <http://purl.uniprot.org/uniprot/P10275> .
+
+<https://w3id.org/def/DIBO/data/216>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Sex_hormone-binding_globulin> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00977> .
+
+<https://w3id.org/def/DIBO/data/Sex_hormone-binding_globulin>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "functions as an androgen transport protein, but may also be involved in receptor mediated processes. each dimer binds one molecule of steroid. specific for 5-alpha-dihydrotestosterone, testosterone..."^^xsd:string ;
+  dibo:hasName "Sex hormone-binding globulin"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P03372> .
+
+<https://w3id.org/def/DIBO/data/DB01351>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Amobarbital (JP17/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C11H18N2O3"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/226.1317> ;
+  dibo:hasDrugBankId "DB01351"^^xsd:string ;
+  dibo:hasChebiId "2673"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/AgentAffectingNervousSystem> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Amobarbital (JP17/INN)"^^xsd:string, "Isomytal (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/226.1317>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.261317e+2 .
+
+<https://w3id.org/def/DIBO/data/217>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01351> .
+
+<https://w3id.org/def/DIBO/data/218>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01351> .
+
+<https://w3id.org/def/DIBO/data/219>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-3> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01351> .
+
+<https://w3id.org/def/DIBO/data/220>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-4> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01351> .
+
+<https://w3id.org/def/DIBO/data/221>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-5> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01351> .
+
+<https://w3id.org/def/DIBO/data/222>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gamma-aminobutyric_acid_receptor_subunit_alpha-6> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01351> .
+
+<https://w3id.org/def/DIBO/data/223>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Neuronal_acetylcholine_receptor_subunit_alpha-4> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01351> .
+
+<https://w3id.org/def/DIBO/data/Neuronal_acetylcholine_receptor_subunit_alpha-4>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "ligand-gated ion channel activity"^^xsd:string ;
+  dibo:hasName "Neuronal acetylcholine receptor subunit alpha-4"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/224>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Neuronal_acetylcholine_receptor_subunit_alpha-7> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01351> .
+
+<https://w3id.org/def/DIBO/data/Neuronal_acetylcholine_receptor_subunit_alpha-7>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "toxic substance binding"^^xsd:string ;
+  dibo:hasName "Neuronal acetylcholine receptor subunit alpha-7"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/225>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Glutamate_receptor_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01351> .
+
+<https://w3id.org/def/DIBO/data/Glutamate_receptor_2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "ionotropic glutamate receptor activity"^^xsd:string ;
+  dibo:hasName "Glutamate receptor 2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/226>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Glutamate_receptor_ionotropic,_kainate_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01351> .
+
+<https://w3id.org/def/DIBO/data/Glutamate_receptor_ionotropic,_kainate_2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "kainate selective glutamate receptor activity"^^xsd:string ;
+  dibo:hasName "Glutamate receptor ionotropic, kainate 2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P14867> .
+
+<https://w3id.org/def/DIBO/data/DB00190>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Carbidopa (USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C10H14N2O4. H2O"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/244.1059> ;
+  dibo:hasDrugBankId "DB00190"^^xsd:string ;
+  dibo:hasChebiId "3395"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Carbidopa (USP)"^^xsd:string, "Carbidopa hydrate (JP17)"^^xsd:string, "Lodosyn (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/244.1059>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.441059e+2 .
+
+<https://w3id.org/def/DIBO/data/227>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Aromatic-L-amino-acid_decarboxylase> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00190> .
+
+<https://w3id.org/def/DIBO/data/Aromatic-L-amino-acid_decarboxylase>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "pyridoxal phosphate binding"^^xsd:string ;
+  dibo:hasName "Aromatic-L-amino-acid decarboxylase"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P20711> .
+
+<https://w3id.org/def/DIBO/data/DB00550>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Propylthiouracil (JP17/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C7H10N2OS"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/170.0514> ;
+  dibo:hasDrugBankId "DB00550"^^xsd:string ;
+  dibo:hasChebiId "8502"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Propylthiouracil (JP17/USP/INN)"^^xsd:string, "Propylthiouracil (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/170.0514>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 1.700514e+2 .
+
+<https://w3id.org/def/DIBO/data/242>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Thyroid_peroxidase> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00550> .
+
+<https://w3id.org/def/DIBO/data/Thyroid_peroxidase>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "peroxidase activity"^^xsd:string ;
+  dibo:hasName "Thyroid peroxidase"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P07202> .
+
+<https://w3id.org/def/DIBO/data/DB00682>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Warfarin sodium (USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C19H15O4. Na"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/330.0868> ;
+  dibo:hasDrugBankId "DB00682"^^xsd:string ;
+  dibo:hasChebiId "10034"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Warfarin sodium (USP)"^^xsd:string, "Coumadin (TN)"^^xsd:string, "Jantoven (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/330.0868>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.300868e+2 .
+
+<https://w3id.org/def/DIBO/data/249>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Vitamin_K_epoxide_reductase_complex_subunit_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00682> .
+
+<https://w3id.org/def/DIBO/data/Vitamin_K_epoxide_reductase_complex_subunit_1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "vitamin-k-epoxide reductase (warfarin-sensitive) activity"^^xsd:string ;
+  dibo:hasName "Vitamin K epoxide reductase complex subunit 1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q9BQB6> .
+
+<https://w3id.org/def/DIBO/data/250>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Nuclear_receptor_subfamily_1_group_I_member_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00682> .
+
+<https://w3id.org/def/DIBO/data/DB01039>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Fenofibrate (JAN/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C20H21ClO4"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/360.1128> ;
+  dibo:hasDrugBankId "DB01039"^^xsd:string ;
+  dibo:hasChebiId "5001"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Fenofibrate (JAN/USP/INN)"^^xsd:string, "Antara (TN)"^^xsd:string, "Lipantil (TN)"^^xsd:string, "Lipofen (TN)"^^xsd:string, "Tricor (TN)"^^xsd:string, "Triglide (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/360.1128>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.601128e+2 .
+
+<https://w3id.org/def/DIBO/data/251>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Peroxisome_proliferator-activated_receptor_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01039> .
+
+<https://w3id.org/def/DIBO/data/Peroxisome_proliferator-activated_receptor_alpha>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Peroxisome proliferator-activated receptor alpha"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q07869> .
+
+<https://w3id.org/def/DIBO/data/252>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Matrix_metalloproteinase-25> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01039> .
+
+<https://w3id.org/def/DIBO/data/Matrix_metalloproteinase-25>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "may activate progelatinase a."^^xsd:string ;
+  dibo:hasName "Matrix metalloproteinase-25"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q07869> .
+
+<https://w3id.org/def/DIBO/data/253>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Nuclear_receptor_subfamily_1_group_I_member_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01039> .
+
+<https://w3id.org/def/DIBO/data/DB03783>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Phenacetin (JAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C10H13NO2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/179.0946> ;
+  dibo:hasDrugBankId "DB03783"^^xsd:string ;
+  dibo:hasChebiId "8050"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Phenacetin (JAN/INN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/179.0946>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 1.790946e+2 .
+
+<https://w3id.org/def/DIBO/data/259>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Prostaglandin_G/H_synthase_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB03783> .
+
+<https://w3id.org/def/DIBO/data/DB01394>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Colchicine (JP17/USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C22H25NO6"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/399.1682> ;
+  dibo:hasDrugBankId "DB01394"^^xsd:string ;
+  dibo:hasChebiId "27882"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Colchicine (JP17/USP)"^^xsd:string, "Colchicine (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/399.1682>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.991682e+2 .
+
+<https://w3id.org/def/DIBO/data/260>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Tubulin_beta_chain> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01394> .
+
+<https://w3id.org/def/DIBO/data/Tubulin_beta_chain>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "ubiquitin protein ligase binding"^^xsd:string ;
+  dibo:hasName "Tubulin beta chain"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P07437> .
+
+<https://w3id.org/def/DIBO/data/DB00014>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Goserelin acetate (JAN/USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C59H84N18O14. (C2H4O2)x"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/0.0> ;
+  dibo:hasDrugBankId "DB00014"^^xsd:string ;
+  dibo:hasChebiId "5523"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/AntineoplasicAgent> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Goserelin acetate (JAN/USP)"^^xsd:string, "Zoladex (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/0.0>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 0.000000e+0 .
+
+<https://w3id.org/def/DIBO/data/261>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Lutropin-choriogonadotropic_hormone_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00014> .
+
+<https://w3id.org/def/DIBO/data/Lutropin-choriogonadotropic_hormone_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "luteinizing hormone receptor activity"^^xsd:string ;
+  dibo:hasName "Lutropin-choriogonadotropic hormone receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P22888> .
+
+<https://w3id.org/def/DIBO/data/262>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Gonadotropin-releasing_hormone_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00014> .
+
+<https://w3id.org/def/DIBO/data/Gonadotropin-releasing_hormone_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "peptide binding"^^xsd:string ;
+  dibo:hasName "Gonadotropin-releasing hormone receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P22888> .
+
+<https://w3id.org/def/DIBO/data/DB00357>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Aminoglutethimide (USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C13H16N2O2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/232.1212> ;
+  dibo:hasDrugBankId "DB00357"^^xsd:string ;
+  dibo:hasChebiId "2654"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/AntineoplasicAgent> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Aminoglutethimide (USP/INN)"^^xsd:string, "Cytadren (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/232.1212>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.321212e+2 .
+
+<https://w3id.org/def/DIBO/data/263>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Cytochrome_P450_19A1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00357> .
+
+<https://w3id.org/def/DIBO/data/Cytochrome_P450_19A1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "oxygen binding"^^xsd:string ;
+  dibo:hasName "Cytochrome P450 19A1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P11511> .
+
+<https://w3id.org/def/DIBO/data/264>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Cholesterol_side-chain_cleavage_enzyme,_mitochondrial> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00357> .
+
+<https://w3id.org/def/DIBO/data/Cholesterol_side-chain_cleavage_enzyme,_mitochondrial>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, nad(p)h as one donor, and incorporation of one atom of oxygen"^^xsd:string ;
+  dibo:hasName "Cholesterol side-chain cleavage enzyme, mitochondrial"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P11511> .
+
+<https://w3id.org/def/DIBO/data/DB01357>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Mestranol (JP17/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C21H26O2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/310.1933> ;
+  dibo:hasDrugBankId "DB01357"^^xsd:string ;
+  dibo:hasChebiId "6784"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Mestranol (JP17/USP/INN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/310.1933>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.101933e+2 .
+
+<https://w3id.org/def/DIBO/data/265>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Estrogen_receptor_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01357> .
+
+<https://w3id.org/def/DIBO/data/DB04575>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Quinestrol (USAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C25H32O2"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/364.2402> ;
+  dibo:hasDrugBankId "DB04575"^^xsd:string ;
+  dibo:hasChebiId "8716"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Quinestrol (USAN/INN)"^^xsd:string, "Estrovis (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/364.2402>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.642402e+2 .
+
+<https://w3id.org/def/DIBO/data/266>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Estrogen_receptor_alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB04575> .
+
+<https://w3id.org/def/DIBO/data/DB00582>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Voriconazole (JP17/USAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C16H14F3N5O"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/349.115> ;
+  dibo:hasDrugBankId "DB00582"^^xsd:string ;
+  dibo:hasChebiId "10023"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Voriconazole (JP17/USAN/INN)"^^xsd:string, "Vfend (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/349.115>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.491150e+2 .
+
+<https://w3id.org/def/DIBO/data/271>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Cytochrome_P450_51> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00582> .
+
+<https://w3id.org/def/DIBO/data/Cytochrome_P450_51>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "sterol 14-demethylase activity"^^xsd:string ;
+  dibo:hasName "Cytochrome P450 51"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P10613> .
+
+<https://w3id.org/def/DIBO/data/DB00529>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Foscarnet sodium (USAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "CO5P. 3Na"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/191.9176> ;
+  dibo:hasDrugBankId "DB00529"^^xsd:string ;
+  dibo:hasChebiId "141644"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Foscarnet sodium (USAN/INN)"^^xsd:string, "Foscavir (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/191.9176>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 1.919176e+2 .
+
+<https://w3id.org/def/DIBO/data/272>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/DNA_polymerase_catalytic_subunit> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00529> .
+
+<https://w3id.org/def/DIBO/data/DNA_polymerase_catalytic_subunit>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "nucleotide binding"^^xsd:string, "rna-dna hybrid ribonuclease activity"^^xsd:string ;
+  dibo:hasName "DNA polymerase catalytic subunit"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P08546> .
+
+<https://w3id.org/def/DIBO/data/273>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/DNA_polymerase_catalytic_subunit> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00529> .
+
+<https://w3id.org/def/DIBO/data/DB04572>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Thiotepa (JAN/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C6H12N3PS"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/189.049> ;
+  dibo:hasDrugBankId "DB04572"^^xsd:string ;
+  dibo:hasChebiId "9570"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/AntineoplasicAgent> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Thiotepa (JAN/USP/INN)"^^xsd:string, "Thioplex (TN)"^^xsd:string, "Tepadina (TN)"^^xsd:string, "Rethio (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/189.049>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 1.890490e+2 .
+
+<https://w3id.org/def/DIBO/data/DB00499>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Flutamide (JP17/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C11H11F3N2O3"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/276.0722> ;
+  dibo:hasDrugBankId "DB00499"^^xsd:string ;
+  dibo:hasChebiId "5132"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "The plasma half-life for the alpha-hydroxylated metabolite of flutamide (an active metabolite) is approximately 6 hours."^^xsd:string ;
+  dibo:hasOtherName "Flutamide (JP17/USP/INN)"^^xsd:string, "Eulexin (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/276.0722>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.760722e+2 .
+
+<https://w3id.org/def/DIBO/data/279>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Androgen_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00499> .
+
+<https://w3id.org/def/DIBO/data/Androgen_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Androgen receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P10275> .
+
+<https://w3id.org/def/DIBO/data/280>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Aryl_hydrocarbon_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00499> .
+
+<https://w3id.org/def/DIBO/data/Aryl_hydrocarbon_receptor>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "transcription regulatory region dna binding"^^xsd:string ;
+  dibo:hasName "Aryl hydrocarbon receptor"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P10275> .
+
+<https://w3id.org/def/DIBO/data/281>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Nuclear_receptor_subfamily_1_group_I_member_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00499> .
+
+<https://w3id.org/def/DIBO/data/DB00359>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Sulfadiazine (JAN/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C10H10N4O2S"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/250.0524> ;
+  dibo:hasDrugBankId "DB00359"^^xsd:string ;
+  dibo:hasChebiId "9328"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Sulfadiazine (JAN/USP/INN)"^^xsd:string, "Sulfapyrimidine"^^xsd:string, "Sulfadiazine (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/250.0524>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.500524e+2 .
+
+<https://w3id.org/def/DIBO/data/282>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Dihydropteroate_synthetase> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00359> .
+
+<https://w3id.org/def/DIBO/data/Dihydropteroate_synthetase>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "dihydropteroate synthase activity"^^xsd:string ;
+  dibo:hasName "Dihydropteroate synthetase"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q27738> .
+
+<https://w3id.org/def/DIBO/data/DB01208>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Sparfloxacin (JAN/USAN/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C19H22F2N4O3"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/392.166> ;
+  dibo:hasDrugBankId "DB01208"^^xsd:string ;
+  dibo:hasChebiId "9212"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/AntiInfectiveAgent> ;
+  dibo:hasHalfLife "Mean terminal elimination half-life of 20 hours (range 16-30 hours). Prolonged in patients with renal impairment (creatinine clearance &lt;50 mL/min)."^^xsd:string ;
+  dibo:hasOtherName "Sparfloxacin (JAN/USAN/INN)"^^xsd:string, "SPFX"^^xsd:string, "Zagam (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/392.166>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.921660e+2 .
+
+<https://w3id.org/def/DIBO/data/283>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/DNA_topoisomerase_4_subunit_A> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01208> .
+
+<https://w3id.org/def/DIBO/data/DNA_topoisomerase_4_subunit_A>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "dna topoisomerase type ii (atp-hydrolyzing) activity"^^xsd:string ;
+  dibo:hasName "DNA topoisomerase 4 subunit A"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P43702> .
+
+<https://w3id.org/def/DIBO/data/284>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/DNA_gyrase_subunit_A> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01208> .
+
+<https://w3id.org/def/DIBO/data/DNA_gyrase_subunit_A>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "dna topoisomerase type ii (atp-hydrolyzing) activity"^^xsd:string ;
+  dibo:hasName "DNA gyrase subunit A"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P43702> .
+
+<https://w3id.org/def/DIBO/data/285>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/DNA_topoisomerase_2-alpha> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01208> .
+
+<https://w3id.org/def/DIBO/data/DNA_topoisomerase_2-alpha>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "ubiquitin binding"^^xsd:string ;
+  dibo:hasName "DNA topoisomerase 2-alpha"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P43702> .
+
+<https://w3id.org/def/DIBO/data/DB00250>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Dapsone (USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C12H12N2O2S"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/248.0619> ;
+  dibo:hasDrugBankId "DB00250"^^xsd:string ;
+  dibo:hasChebiId "4325"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Dapsone (USP)"^^xsd:string, "Diaphenylsulfone (JAN)"^^xsd:string, "Aczone (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/248.0619>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 2.480619e+2 .
+
+<https://w3id.org/def/DIBO/data/287>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Inactive_dihydropteroate_synthase_2> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00250> .
+
+<https://w3id.org/def/DIBO/data/Inactive_dihydropteroate_synthase_2>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "has very low affinity for the dhps substrate 6-hydroxymethyl-7,8-dihydropterin-pyrophosphate, but can bind the inhibitor dapsone. seems to lack dihydropteroate synthase activity, and does probably not function in folate metabolism (by similarity)."^^xsd:string ;
+  dibo:hasName "Inactive dihydropteroate synthase 2"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P0C0X2> .
+
+<https://w3id.org/def/DIBO/data/288>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Dihydropteroate_synthase_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00250> .
+
+<https://w3id.org/def/DIBO/data/Dihydropteroate_synthase_1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "metal ion binding"^^xsd:string ;
+  dibo:hasName "Dihydropteroate synthase 1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/P0C0X2> .
+
+<https://w3id.org/def/DIBO/data/DB00222>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Glimepiride (JP17/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C24H34N4O5S"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/490.225> ;
+  dibo:hasDrugBankId "DB00222"^^xsd:string ;
+  dibo:hasChebiId "5383"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Glimepiride (JP17/USP/INN)"^^xsd:string, "Amaryl (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/490.225>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 4.902250e+2 .
+
+<https://w3id.org/def/DIBO/data/289>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/ATP-sensitive_inward_rectifier_potassium_channel_11> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00222> .
+
+<https://w3id.org/def/DIBO/data/ATP-sensitive_inward_rectifier_potassium_channel_11>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "voltage-gated potassium channel activity"^^xsd:string ;
+  dibo:hasName "ATP-sensitive inward rectifier potassium channel 11"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q14654> .
+
+<https://w3id.org/def/DIBO/data/290>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/ATP-sensitive_inward_rectifier_potassium_channel_1> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00222> .
+
+<https://w3id.org/def/DIBO/data/ATP-sensitive_inward_rectifier_potassium_channel_1>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "phosphatidylinositol-4,5-bisphosphate binding"^^xsd:string ;
+  dibo:hasName "ATP-sensitive inward rectifier potassium channel 1"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q14654> .
+
+<https://w3id.org/def/DIBO/data/291>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/ATP-binding_cassette_sub-family_C_member_8> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00222> .
+
+<https://w3id.org/def/DIBO/data/ATP-binding_cassette_sub-family_C_member_8>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "sulfonylurea receptor activity"^^xsd:string ;
+  dibo:hasName "ATP-binding cassette sub-family C member 8"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q14654>, <http://purl.uniprot.org/uniprot/Q09428> .
+
+<https://w3id.org/def/DIBO/data/DB00912>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Repaglinide (JAN/USP/INN)"^^xsd:string ;
+  dibo:hasMolecularFormula "C27H36N2O4"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/452.2675> ;
+  dibo:hasDrugBankId "DB00912"^^xsd:string ;
+  dibo:hasChebiId "8805"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Repaglinide (JAN/USP/INN)"^^xsd:string, "Prandin (TN)"^^xsd:string, "Surepost (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/452.2675>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 4.522675e+2 .
+
+<https://w3id.org/def/DIBO/data/292>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/ATP-binding_cassette_sub-family_C_member_8> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00912> .
+
+<https://w3id.org/def/DIBO/data/293>
+  a <https://w3id.org/def/DIBO/Agonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Peroxisome_proliferator-activated_receptor_gamma> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00912> .
+
+<https://w3id.org/def/DIBO/data/Peroxisome_proliferator-activated_receptor_gamma>
+  a <https://w3id.org/def/DIBO/Protein> ;
+  dibo:hasFunction "zinc ion binding"^^xsd:string ;
+  dibo:hasName "Peroxisome proliferator-activated receptor gamma"^^xsd:string ;
+  owl:equivalentClass <http://purl.uniprot.org/uniprot/Q09428> .
+
+<https://w3id.org/def/DIBO/data/DB01193>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Acebutolol hydrochloride (JP17/USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C18H28N2O4. HCl"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/372.1816> ;
+  dibo:hasDrugBankId "DB01193"^^xsd:string ;
+  dibo:hasChebiId "2380"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "The plasma elimination half-life is approximately 3 to 4 hours. The half-life of its metabolite, diacetolol, is 8 to 13 hours."^^xsd:string ;
+  dibo:hasOtherName "Acebutolol hydrochloride (JP17/USP)"^^xsd:string, "Sectral (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/372.1816>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.721816e+2 .
+
+<https://w3id.org/def/DIBO/data/297>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Beta-1_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01193> .
+
+<https://w3id.org/def/DIBO/data/298>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Beta-2_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB01193> .
+
+<https://w3id.org/def/DIBO/data/DB00195>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Betaxolol hydrochloride (JP17/USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C18H29NO3. HCl"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/343.1914> ;
+  dibo:hasDrugBankId "DB00195"^^xsd:string ;
+  dibo:hasChebiId "643228"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Betaxolol hydrochloride (JP17/USP)"^^xsd:string, "Betoptic (TN)"^^xsd:string, "Kerlone (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/343.1914>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.431914e+2 .
+
+<https://w3id.org/def/DIBO/data/299>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Beta-1_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00195> .
+
+<https://w3id.org/def/DIBO/data/300>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Beta-2_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00195> .
+
+<https://w3id.org/def/DIBO/data/DB00521>
+  a <https://w3id.org/def/DIBO/Drug> ;
+  dibo:hasScientificName "Carteolol hydrochloride (JP17/USP)"^^xsd:string ;
+  dibo:hasMolecularFormula "C16H24N2O3. HCl"^^xsd:string ;
+  dibo:hasMolecularMass <https://w3id.org/def/DIBO/data/328.1554> ;
+  dibo:hasDrugBankId "DB00521"^^xsd:string ;
+  dibo:hasChebiId "3438"^^xsd:string ;
+  dibo:functionallyGroupedIn <https://w3id.org/def/DIBO/UNKNOWN> ;
+  dibo:hasHalfLife "UNKNOWN"^^xsd:string ;
+  dibo:hasOtherName "Carteolol hydrochloride (JP17/USP)"^^xsd:string, "Cartrol (TN)"^^xsd:string, "Ocupress (TN)"^^xsd:string .
+
+<https://w3id.org/def/DIBO/data/328.1554>
+  a <https://w3id.org/def/DIBO/MolecularMass> ;
+  dibo:hasUnit "Da"^^xsd:string ;
+  dibo:hasValue 3.281554e+2 .
+
+<https://w3id.org/def/DIBO/data/301>
+  a <https://w3id.org/def/DIBO/Antagonism> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Beta-2_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00521> .
+
+<https://w3id.org/def/DIBO/data/302>
+  a <https://w3id.org/def/DIBO/Neutral> ;
+  dibo:hasTarget <https://w3id.org/def/DIBO/data/Beta-1_adrenergic_receptor> ;
+  dibo:hasDrug <https://w3id.org/def/DIBO/data/DB00521> .

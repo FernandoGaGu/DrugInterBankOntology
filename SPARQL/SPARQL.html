@@ -13089,10 +13089,10 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-sparql-nb"><pre><span></span><span class="x">%endpoint http://192.168.1.128:9999/blazegraph/namespace/DIBO/sparql</span>
+<div class=" highlight hl-sparql-nb"><pre><span></span><span class="x">%endpoint http://192.168.1.131:9999/blazegraph/namespace/DIBO/sparql</span>
 </pre></div>
 
     </div>
@@ -13110,7 +13110,7 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div class="krn-spql"><div class="magic">Endpoint set to: http://192.168.1.128:9999/blazegraph/namespace/DIBO/sparql</div></div>
+<div class="krn-spql"><div class="magic">Endpoint set to: http://192.168.1.131:9999/blazegraph/namespace/DIBO/sparql</div></div>
 </div>
 
 </div>
@@ -13128,16 +13128,16 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dibo</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/def/DIBO#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">dibo_core</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/def/DIBO/&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">dibo_data</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/def/DIBO/data&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">rdf</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/1999/02/22-rdf-syntax-ns#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">rdf</span><span class="p">:</span> <span class="nl">&lt;https://www.w3id.org/1999/02/22-rdf-syntax-ns#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">xsd</span><span class="p">:</span> <span class="nl">&lt;&#39;https://w3id.org/2001/XMLSchema#&gt;</span>
-<span class="k">SELECT</span> <span class="k">DISTINCT</span> <span class="nv">?superClass</span>
+<span class="k">PREFIX</span> <span class="nn">xsd</span><span class="p">:</span> <span class="nl">&lt;https://www.w3id.org/2001/XMLSchema#&gt;</span>
+<span class="k">SELECT</span>  <span class="nv">?superClass</span>
 <span class="k">WHERE</span><span class="p">{</span>
     <span class="nv">?interaction</span> <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasTarget</span> <span class="nv">?target</span> <span class="p">;</span>
                  <span class="k">a</span> <span class="nv">?class</span> <span class="p">.</span>
@@ -13160,7 +13160,7 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div class="krn-spql"><table><tr class=hdr><th>superClass</th></tr><tr class=odd><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr></table><div class="tinfo">Total: 1, Shown: 1</div></div>
+<div class="krn-spql"><table><tr class=hdr><th>superClass</th></tr><tr class=odd><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=even><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=odd><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=even><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=odd><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=even><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=odd><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=even><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=odd><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=even><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=odd><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=even><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=odd><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=even><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=odd><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=even><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=odd><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=even><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=odd><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr><tr class=even><td class=val><a href="https://w3id.org/def/DIBO/Interaction" target="_other">https://w3id.org/def/DIBO/Interaction</a></td></tr></table><div class="tinfo">Total: 197, Shown: 20</div></div>
 </div>
 
 </div>
@@ -13178,7 +13178,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dibo</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/def/DIBO#&gt;</span>
@@ -13186,8 +13186,9 @@ div#notebook {
 <span class="k">PREFIX</span> <span class="nn">dibo_data</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/def/DIBO/data&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdf</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/1999/02/22-rdf-syntax-ns#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">xsd</span><span class="p">:</span> <span class="nl">&lt;&#39;https://w3id.org/2001/XMLSchema#&gt;</span>
-<span class="k">SELECT</span> <span class="nv">?drugName</span> <span class="nv">?targetName</span> <span class="nv">?interactionDescription</span> <span class="nv">?targetFunction</span>
+<span class="k">PREFIX</span> <span class="nn">xsd</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/2001/XMLSchema#&gt;</span>
+<span class="k">SELECT</span> <span class="k">distinct</span> <span class="p">(</span><span class="nv">?drugName</span> <span class="k">AS</span> <span class="nv">?DRUG_NAME</span><span class="p">)</span> <span class="p">(</span><span class="nv">?targetName</span> <span class="k">AS</span> <span class="nv">?TARGET</span><span class="p">)</span> 
+<span class="p">(</span><span class="nv">?interactionDescription</span> <span class="k">AS</span> <span class="nv">?INTERACTION</span><span class="p">)</span> <span class="p">(</span><span class="nv">?targetFunction</span> <span class="k">AS</span> <span class="nv">?FUNCTION</span><span class="p">)</span>
 <span class="k">WHERE</span> <span class="p">{</span>      
     <span class="nv">?interaction</span> <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasTarget</span> <span class="nv">?target</span> <span class="p">;</span>
                  <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasDrug</span> <span class="nv">?drug</span> <span class="p">;</span>
@@ -13196,7 +13197,7 @@ div#notebook {
     <span class="nv">?target</span> <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasName</span> <span class="nv">?targetName</span> <span class="p">;</span>
             <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasFunction</span> <span class="nv">?targetFunction</span> <span class="p">.</span>
     <span class="nv">?drug</span> <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasScientificName</span> <span class="nv">?drugName</span> <span class="p">.</span>
-<span class="p">}</span> <span class="k">LIMIT</span> <span class="mi">10</span>
+<span class="p">}</span> <span class="k">LIMIT</span> <span class="mi">5</span>
 </pre></div>
 
     </div>
@@ -13214,40 +13215,25 @@ div#notebook {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div class="krn-spql"><table><tr class=hdr><th>drugName</th>
-<th>targetName</th>
-<th>interactionDescription</th>
-<th>targetFunction</th></tr><tr class=odd><td class=val>Epoprostenol (USAN/INN)</td>
-<td class=val>P2Y purinoceptor 12</td>
-<td class=val>Agonism</td>
-<td class=val>guanyl-nucleotide exchange factor activity</td></tr><tr class=even><td class=val>Epoprostenol (USAN/INN)</td>
-<td class=val>Prostacyclin receptor</td>
-<td class=val>Agonism</td>
-<td class=val>guanyl-nucleotide exchange factor activity</td></tr><tr class=odd><td class=val>Epoprostenol (USAN/INN)</td>
-<td class=val>Prostacyclin synthase</td>
-<td class=val>Agonism</td>
-<td class=val>prostaglandin-i synthase activity</td></tr><tr class=even><td class=val>Androstenedione (JAN)</td>
-<td class=val>Estradiol 17-beta-dehydrogenase 1</td>
-<td class=val>Agonism</td>
-<td class=val>testosterone dehydrogenase (nad+) activity</td></tr><tr class=odd><td class=val>Androstenedione (JAN)</td>
-<td class=val>3 beta-hydroxysteroid dehydrogenase/Delta 5--&amp;gt;4-isomerase type 1</td>
-<td class=val>Agonism</td>
-<td class=val>steroid delta-isomerase activity</td></tr><tr class=even><td class=val>Androstenedione (JAN)</td>
-<td class=val>6-deoxyerythronolide B hydroxylase</td>
-<td class=val>Agonism</td>
-<td class=val>oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen</td></tr><tr class=odd><td class=val>Androstenedione (JAN)</td>
-<td class=val>Aldo-keto reductase family 1 member C3</td>
-<td class=val>Agonism</td>
-<td class=val>trans-1,2-dihydrobenzene-1,2-diol dehydrogenase activity</td></tr><tr class=even><td class=val>Formaldehyde (USP)</td>
-<td class=val>D-alanyl-D-alanine carboxypeptidase</td>
-<td class=val>Neutral</td>
-<td class=val>catalyzes distinct carboxypeptidation and transpeptidation reactions during the last stages of wall peptidoglycan synthesis. mistaking a beta-lactam antibiotic molecule for a normal substrate (i.e....</td></tr><tr class=odd><td class=val>Dinoprostone (JAN/USP/INN)</td>
-<td class=val>Prostaglandin E2 receptor EP2 subtype</td>
-<td class=val>Agonism</td>
-<td class=val>prostaglandin e receptor activity</td></tr><tr class=even><td class=val>Dinoprostone (JAN/USP/INN)</td>
-<td class=val>Prostaglandin E2 receptor EP1 subtype</td>
-<td class=val>Agonism</td>
-<td class=val>prostaglandin e receptor activity</td></tr></table><div class="tinfo">Total: 10, Shown: 10</div></div>
+<div class="krn-spql"><table><tr class=hdr><th>DRUG_NAME</th>
+<th>TARGET</th>
+<th>INTERACTION</th>
+<th>FUNCTION</th></tr><tr class=odd><td class=val>Betaxolol hydrochloride (JP17/USP)</td>
+<td class=val>Beta-1 adrenergic receptor</td>
+<td class=val>Antagonism</td>
+<td class=val>receptor signaling protein activity</td></tr><tr class=even><td class=val>Betaxolol hydrochloride (JP17/USP)</td>
+<td class=val>Beta-2 adrenergic receptor</td>
+<td class=val>Antagonism</td>
+<td class=val>protein homodimerization activity</td></tr><tr class=odd><td class=val>Glimepiride (JP17/USP/INN)</td>
+<td class=val>ATP-sensitive inward rectifier potassium channel 11</td>
+<td class=val>Antagonism</td>
+<td class=val>voltage-gated potassium channel activity</td></tr><tr class=even><td class=val>Glimepiride (JP17/USP/INN)</td>
+<td class=val>ATP-sensitive inward rectifier potassium channel 1</td>
+<td class=val>Antagonism</td>
+<td class=val>phosphatidylinositol-4,5-bisphosphate binding</td></tr><tr class=odd><td class=val>Dapsone (USP)</td>
+<td class=val>Inactive dihydropteroate synthase 2</td>
+<td class=val>Antagonism</td>
+<td class=val>has very low affinity for the dhps substrate 6-hydroxymethyl-7,8-dihydropterin-pyrophosphate, but can bind the inhibitor dapsone. seems to lack dihydropteroate synthase activity, and does probably not function in folate metabolism (by similarity).</td></tr></table><div class="tinfo">Total: 5, Shown: 5</div></div>
 </div>
 
 </div>
@@ -13265,7 +13251,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[82]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dibo</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/def/DIBO#&gt;</span>
@@ -13301,23 +13287,27 @@ div#notebook {
 <div class="output_html rendered_html output_subarea ">
 <div class="krn-spql"><table><tr class=hdr><th>DRUG_NAME</th>
 <th>FUNCTION</th>
-<th>DESCRIPTION</th></tr><tr class=odd><td class=val>Epoprostenol (USAN/INN)</td>
+<th>DESCRIPTION</th></tr><tr class=odd><td class=val>Phentolamine mesylate (USP)</td>
 <td class=val>Agent Affecting Cardiovascular System</td>
-<td class=val>An agent that exerts a physiologic effect on any anatomic entity that is part of the cardiovascular system, including the heart and blood vessels.</td></tr><tr class=even><td class=val>Capreomycin sulfate (JAN/USP)</td>
+<td class=val>An agent that exerts a physiologic effect on any anatomic entity that is part of the cardiovascular system, including the heart and blood vessels.</td></tr><tr class=even><td class=val>Candesartan (USAN/INN)</td>
+<td class=val>Agent Affecting Cardiovascular System</td>
+<td class=val>An agent that exerts a physiologic effect on any anatomic entity that is part of the cardiovascular system, including the heart and blood vessels.</td></tr><tr class=odd><td class=val>Ethinyl estradiol (USP)</td>
+<td class=val>Agent Affecting Cardiovascular System</td>
+<td class=val>An agent that exerts a physiologic effect on any anatomic entity that is part of the cardiovascular system, including the heart and blood vessels.</td></tr><tr class=even><td class=val>Irbesartan (JP17/USAN/INN)</td>
+<td class=val>Agent Affecting Cardiovascular System</td>
+<td class=val>An agent that exerts a physiologic effect on any anatomic entity that is part of the cardiovascular system, including the heart and blood vessels.</td></tr><tr class=odd><td class=val>Phenelzine sulfate (USP)</td>
+<td class=val>Agent Affecting Nervous System</td>
+<td class=val>An agent that exerts a physiologic effect on neurotransmission or on any anatomic entity that is part of the nervous system, including the central nervous system (CNS) and peripheral nervous system (PNS).</td></tr><tr class=even><td class=val>Amobarbital (JP17/INN)</td>
+<td class=val>Agent Affecting Nervous System</td>
+<td class=val>An agent that exerts a physiologic effect on neurotransmission or on any anatomic entity that is part of the nervous system, including the central nervous system (CNS) and peripheral nervous system (PNS).</td></tr><tr class=odd><td class=val>Sparfloxacin (JAN/USAN/INN)</td>
 <td class=val>Anti Infective Agent</td>
-<td class=val>A pharmacological agent that can kill or prevent the reproduction of infectious organisms.</td></tr><tr class=odd><td class=val>Trimethoprim (JAN/USP/INN)</td>
-<td class=val>Anti Infective Agent</td>
-<td class=val>A pharmacological agent that can kill or prevent the reproduction of infectious organisms.</td></tr><tr class=even><td class=val>Chloramphenicol (JP17/USP/INN)</td>
-<td class=val>Anti Infective Agent</td>
-<td class=val>A pharmacological agent that can kill or prevent the reproduction of infectious organisms.</td></tr><tr class=odd><td class=val>Folic acid (JP17/USP/INN)</td>
+<td class=val>A pharmacological agent that can kill or prevent the reproduction of infectious organisms.</td></tr><tr class=even><td class=val>Goserelin acetate (JAN/USP)</td>
 <td class=val>Antineoplasic Agent</td>
-<td class=val>A substance that inhibits the maturation, growth or spread of tumor cells.</td></tr><tr class=even><td class=val>Methotrexate (JP17/USP/INN)</td>
+<td class=val>A substance that inhibits the maturation, growth or spread of tumor cells.</td></tr><tr class=odd><td class=val>Aminoglutethimide (USP/INN)</td>
 <td class=val>Antineoplasic Agent</td>
-<td class=val>A substance that inhibits the maturation, growth or spread of tumor cells.</td></tr><tr class=odd><td class=val>Etoposide (JP17/USP/INN)</td>
+<td class=val>A substance that inhibits the maturation, growth or spread of tumor cells.</td></tr><tr class=even><td class=val>Thiotepa (JAN/USP/INN)</td>
 <td class=val>Antineoplasic Agent</td>
-<td class=val>A substance that inhibits the maturation, growth or spread of tumor cells.</td></tr><tr class=even><td class=val>Testolactone (USP/INN)</td>
-<td class=val>Antineoplasic Agent</td>
-<td class=val>A substance that inhibits the maturation, growth or spread of tumor cells.</td></tr></table><div class="tinfo">Total: 8, Shown: 8</div></div>
+<td class=val>A substance that inhibits the maturation, growth or spread of tumor cells.</td></tr></table><div class="tinfo">Total: 10, Shown: 10</div></div>
 </div>
 
 </div>
@@ -13335,7 +13325,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dibo</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/def/DIBO#&gt;</span>
@@ -13376,61 +13366,67 @@ div#notebook {
 <div class="krn-spql"><table><tr class=hdr><th>DRUG_NAME</th>
 <th>FUNCTION</th>
 <th>TARGET</th>
-<th>TARGET_FUNCTION</th></tr><tr class=odd><td class=val>Capreomycin sulfate (JAN/USP)</td>
-<td class=val>Anti Infective Agent</td>
-<td class=val>16S/23S rRNA (cytidine-2'-O)-methyltransferase TlyA</td>
-<td class=val>acts as a host evasion factor, that significantly contributes to the pathogenesis of m.tuberculosis by modulating adaptive immune responses by inhibiting host-protective th1 and th17 cytokine responses as well as autophagy (pubmed:25847237). catalyzes the 2'-o-methylation at nucleotides c1409 in 16s rrna and c1920 in 23s rrna (pubmed:16857584, pubmed:20854656). is likely involved in ribosomal biogenesis (pubmed:21443791). also exhibits hemolytic activity in vitro, by binding with and oligomerizing into host cell membranes (pubmed:20854656, pubmed:9611795).</td></tr><tr class=even><td class=val>Chloramphenicol (JP17/USP/INN)</td>
-<td class=val>Anti Infective Agent</td>
-<td class=val>50S ribosomal protein L16</td>
-<td class=val>trna binding</td></tr><tr class=odd><td class=val>Methotrexate (JP17/USP/INN)</td>
+<th>TARGET_FUNCTION</th></tr><tr class=odd><td class=val>Phenelzine sulfate (USP)</td>
+<td class=val>Agent Affecting Nervous System</td>
+<td class=val>4-aminobutyrate aminotransferase, mitochondrial</td>
+<td class=val>succinate-semialdehyde dehydrogenase binding</td></tr><tr class=even><td class=val>Phenelzine sulfate (USP)</td>
+<td class=val>Agent Affecting Nervous System</td>
+<td class=val>Alanine aminotransferase 1</td>
+<td class=val>pyridoxal phosphate binding</td></tr><tr class=odd><td class=val>Phenelzine sulfate (USP)</td>
+<td class=val>Agent Affecting Nervous System</td>
+<td class=val>Alanine aminotransferase 2</td>
+<td class=val>pyridoxal phosphate binding</td></tr><tr class=even><td class=val>Phentolamine mesylate (USP)</td>
+<td class=val>Agent Affecting Cardiovascular System</td>
+<td class=val>Alpha-1A adrenergic receptor</td>
+<td class=val>protein heterodimerization activity</td></tr><tr class=odd><td class=val>Phentolamine mesylate (USP)</td>
+<td class=val>Agent Affecting Cardiovascular System</td>
+<td class=val>Alpha-1B adrenergic receptor</td>
+<td class=val>protein heterodimerization activity</td></tr><tr class=even><td class=val>Phentolamine mesylate (USP)</td>
+<td class=val>Agent Affecting Cardiovascular System</td>
+<td class=val>Alpha-1D adrenergic receptor</td>
+<td class=val>alpha1-adrenergic receptor activity</td></tr><tr class=odd><td class=val>Phentolamine mesylate (USP)</td>
+<td class=val>Agent Affecting Cardiovascular System</td>
+<td class=val>Alpha-2A adrenergic receptor</td>
+<td class=val>thioesterase binding</td></tr><tr class=even><td class=val>Phenelzine sulfate (USP)</td>
+<td class=val>Agent Affecting Nervous System</td>
+<td class=val>Amine oxidase [flavin-containing] A</td>
+<td class=val>serotonin binding</td></tr><tr class=odd><td class=val>Phenelzine sulfate (USP)</td>
+<td class=val>Agent Affecting Nervous System</td>
+<td class=val>Amine oxidase [flavin-containing] B</td>
+<td class=val>primary amine oxidase activity</td></tr><tr class=even><td class=val>Aminoglutethimide (USP/INN)</td>
 <td class=val>Antineoplasic Agent</td>
-<td class=val>Bifunctional purine biosynthesis protein PURH</td>
-<td class=val>protein homodimerization activity</td></tr><tr class=even><td class=val>Chloramphenicol (JP17/USP/INN)</td>
-<td class=val>Anti Infective Agent</td>
-<td class=val>Complement decay-accelerating factor</td>
-<td class=val>virus receptor activity</td></tr><tr class=odd><td class=val>Testolactone (USP/INN)</td>
+<td class=val>Cholesterol side-chain cleavage enzyme, mitochondrial</td>
+<td class=val>oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, nad(p)h as one donor, and incorporation of one atom of oxygen</td></tr><tr class=odd><td class=val>Aminoglutethimide (USP/INN)</td>
 <td class=val>Antineoplasic Agent</td>
 <td class=val>Cytochrome P450 19A1</td>
-<td class=val>oxygen binding</td></tr><tr class=even><td class=val>Methotrexate (JP17/USP/INN)</td>
-<td class=val>Antineoplasic Agent</td>
-<td class=val>Dihydrofolate reductase</td>
-<td class=val>nadph binding</td></tr><tr class=odd><td class=val>Trimethoprim (JAN/USP/INN)</td>
+<td class=val>oxygen binding</td></tr><tr class=even><td class=val>Sparfloxacin (JAN/USAN/INN)</td>
 <td class=val>Anti Infective Agent</td>
-<td class=val>Dihydrofolate reductase</td>
-<td class=val>nadph binding</td></tr><tr class=even><td class=val>Etoposide (JP17/USP/INN)</td>
-<td class=val>Antineoplasic Agent</td>
+<td class=val>DNA gyrase subunit A</td>
+<td class=val>dna topoisomerase type ii (atp-hydrolyzing) activity</td></tr><tr class=odd><td class=val>Sparfloxacin (JAN/USAN/INN)</td>
+<td class=val>Anti Infective Agent</td>
 <td class=val>DNA topoisomerase 2-alpha</td>
-<td class=val>ubiquitin binding</td></tr><tr class=odd><td class=val>Etoposide (JP17/USP/INN)</td>
-<td class=val>Antineoplasic Agent</td>
-<td class=val>DNA topoisomerase 2-beta</td>
-<td class=val>protein kinase c binding</td></tr><tr class=even><td class=val>Chloramphenicol (JP17/USP/INN)</td>
+<td class=val>ubiquitin binding</td></tr><tr class=even><td class=val>Sparfloxacin (JAN/USAN/INN)</td>
 <td class=val>Anti Infective Agent</td>
-<td class=val>Dr hemagglutinin structural subunit</td>
-<td class=val>not available</td></tr><tr class=odd><td class=val>Folic acid (JP17/USP/INN)</td>
-<td class=val>Antineoplasic Agent</td>
-<td class=val>Folate receptor alpha</td>
-<td class=val>binds to folate and reduced folic acid derivatives and mediates delivery of 5-methyltetrahydrofolate and folate analogs into the interior of cells. has high affinity for folate and folic acid analo...</td></tr><tr class=even><td class=val>Folic acid (JP17/USP/INN)</td>
-<td class=val>Antineoplasic Agent</td>
-<td class=val>Folate receptor beta</td>
-<td class=val>methotrexate binding</td></tr><tr class=odd><td class=val>Folic acid (JP17/USP/INN)</td>
-<td class=val>Antineoplasic Agent</td>
-<td class=val>Folate receptor gamma</td>
-<td class=val>folic acid binding</td></tr><tr class=even><td class=val>Epoprostenol (USAN/INN)</td>
+<td class=val>DNA topoisomerase 4 subunit A</td>
+<td class=val>dna topoisomerase type ii (atp-hydrolyzing) activity</td></tr><tr class=odd><td class=val>Ethinyl estradiol (USP)</td>
 <td class=val>Agent Affecting Cardiovascular System</td>
-<td class=val>P2Y purinoceptor 12</td>
-<td class=val>guanyl-nucleotide exchange factor activity</td></tr><tr class=odd><td class=val>Epoprostenol (USAN/INN)</td>
-<td class=val>Agent Affecting Cardiovascular System</td>
-<td class=val>Prostacyclin receptor</td>
-<td class=val>guanyl-nucleotide exchange factor activity</td></tr><tr class=even><td class=val>Epoprostenol (USAN/INN)</td>
-<td class=val>Agent Affecting Cardiovascular System</td>
-<td class=val>Prostacyclin synthase</td>
-<td class=val>prostaglandin-i synthase activity</td></tr><tr class=odd><td class=val>Methotrexate (JP17/USP/INN)</td>
-<td class=val>Antineoplasic Agent</td>
-<td class=val>Thymidylate synthase</td>
-<td class=val>thymidylate synthase activity</td></tr><tr class=even><td class=val>Trimethoprim (JAN/USP/INN)</td>
-<td class=val>Anti Infective Agent</td>
-<td class=val>Thymidylate synthase</td>
-<td class=val>thymidylate synthase activity</td></tr></table><div class="tinfo">Total: 18, Shown: 18</div></div>
+<td class=val>Estrogen receptor alpha</td>
+<td class=val>zinc ion binding</td></tr><tr class=even><td class=val>Amobarbital (JP17/INN)</td>
+<td class=val>Agent Affecting Nervous System</td>
+<td class=val>Gamma-aminobutyric acid receptor subunit alpha-1</td>
+<td class=val>inhibitory extracellular ligand-gated ion channel activity</td></tr><tr class=odd><td class=val>Amobarbital (JP17/INN)</td>
+<td class=val>Agent Affecting Nervous System</td>
+<td class=val>Gamma-aminobutyric acid receptor subunit alpha-2</td>
+<td class=val>inhibitory extracellular ligand-gated ion channel activity</td></tr><tr class=even><td class=val>Amobarbital (JP17/INN)</td>
+<td class=val>Agent Affecting Nervous System</td>
+<td class=val>Gamma-aminobutyric acid receptor subunit alpha-3</td>
+<td class=val>inhibitory extracellular ligand-gated ion channel activity</td></tr><tr class=odd><td class=val>Amobarbital (JP17/INN)</td>
+<td class=val>Agent Affecting Nervous System</td>
+<td class=val>Gamma-aminobutyric acid receptor subunit alpha-4</td>
+<td class=val>inhibitory extracellular ligand-gated ion channel activity</td></tr><tr class=even><td class=val>Amobarbital (JP17/INN)</td>
+<td class=val>Agent Affecting Nervous System</td>
+<td class=val>Gamma-aminobutyric acid receptor subunit alpha-5</td>
+<td class=val>transporter activity</td></tr></table><div class="tinfo">Total: 35, Shown: 20</div></div>
 </div>
 
 </div>
@@ -13448,7 +13444,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dibo</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/def/DIBO#&gt;</span>
@@ -13493,127 +13489,127 @@ div#notebook {
 <th>MM_UNITS</th>
 <th>HALF_LIFE</th>
 <th>DRUGBANK</th>
-<th>CheBI</th></tr><tr class=odd><td class=val>Capreomycin sulfate (JAN/USP)</td>
-<td class=val>C25H43N14O7R. 2H2SO4</td>
+<th>CheBI</th></tr><tr class=odd><td class=val>Goserelin acetate (JAN/USP)</td>
+<td class=val>C59H84N18O14. (C2H4O2)x</td>
 <td class=val>0.0</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00314</td>
-<td class=val>3372</td></tr><tr class=even><td class=val>Oxytocin (JP17/USP/INN)</td>
-<td class=val>C43H66N12O12S2</td>
-<td class=val>1006.4365</td>
+<td class=val>DB00014</td>
+<td class=val>5523</td></tr><tr class=even><td class=val>Amyl nitrite (JP17/USP)</td>
+<td class=val>C5H11NO2</td>
+<td class=val>117.079</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00107</td>
-<td class=val>7872</td></tr><tr class=odd><td class=val>Niacin (USP)</td>
-<td class=val>C6H5NO2</td>
-<td class=val>123.032</td>
+<td class=val>DB01612</td>
+<td class=val>2691</td></tr><tr class=odd><td class=val>Vigabatrin (JAN/USAN/INN)</td>
+<td class=val>C6H11NO2</td>
+<td class=val>129.079</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00627</td>
-<td class=val>15940</td></tr><tr class=even><td class=val>Pyrazinamide (JP17/USP/INN)</td>
-<td class=val>C5H5N3O</td>
-<td class=val>123.0433</td>
+<td class=val>DB01080</td>
+<td class=val>63638</td></tr><tr class=even><td class=val>Ethosuximide (JP17/USP/INN)</td>
+<td class=val>C7H11NO2</td>
+<td class=val>141.079</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00339</td>
-<td class=val>45285</td></tr><tr class=odd><td class=val>Salicylic acid (JP17/USP)</td>
-<td class=val>C7H6O3</td>
-<td class=val>138.0317</td>
+<td class=val>DB00593</td>
+<td class=val>4887</td></tr><tr class=odd><td class=val>Benzocaine (USP/INN)</td>
+<td class=val>C9H11NO2</td>
+<td class=val>165.079</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00936</td>
-<td class=val>16914</td></tr><tr class=even><td class=val>Methionine (USP)</td>
-<td class=val>C5H11NO2S</td>
-<td class=val>149.051</td>
+<td class=val>DB01086</td>
+<td class=val>116735</td></tr><tr class=even><td class=val>Propylthiouracil (JP17/USP/INN)</td>
+<td class=val>C7H10N2OS</td>
+<td class=val>170.0514</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00134</td>
-<td class=val>16643</td></tr><tr class=odd><td class=val>Epinephrine (USP/INN)</td>
-<td class=val>C9H13NO3</td>
-<td class=val>183.0895</td>
-<td class=val>Da</td>
-<td class=val>UNKOWN</td>
-<td class=val>DB00668</td>
-<td class=val>28918</td></tr><tr class=even><td class=val>Levodopa (JP17/USP/INN)</td>
-<td class=val>C9H11NO4</td>
-<td class=val>197.0688</td>
+<td class=val>DB00550</td>
+<td class=val>8502</td></tr><tr class=odd><td class=val>Phenacemide (JAN/INN)</td>
+<td class=val>C9H10N2O2</td>
+<td class=val>178.0742</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB01235</td>
-<td class=val>15765</td></tr><tr class=odd><td class=val>Tryptophan (USP/INN)</td>
-<td class=val>C11H12N2O2</td>
-<td class=val>204.0899</td>
+<td class=val>DB01121</td>
+<td class=val>8049</td></tr><tr class=even><td class=val>Phenacetin (JAN/INN)</td>
+<td class=val>C10H13NO2</td>
+<td class=val>179.0946</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00150</td>
-<td class=val>16828</td></tr><tr class=even><td class=val>Methoxsalen (JP17/USP)</td>
-<td class=val>C12H8O4</td>
-<td class=val>216.0423</td>
+<td class=val>DB03783</td>
+<td class=val>8050</td></tr><tr class=odd><td class=val>Thiotepa (JAN/USP/INN)</td>
+<td class=val>C6H12N3PS</td>
+<td class=val>189.049</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00553</td>
-<td class=val>18358</td></tr><tr class=odd><td class=val>Mefenamic acid (JP17/USP/INN)</td>
-<td class=val>C15H15NO2</td>
-<td class=val>241.1103</td>
-<td class=val>Da</td>
-<td class=val>The fecal route of elimination accounts for up to 20% of the dose, mainly in the form of unconjugated 3-carboxymefenamic acid.3 The elimination half-life of mefenamic acid is approximately two hours. Mefenamic acid, its metabolites and conjugates are primarily excreted by the kidneys. Both renal and hepatic excretion are significant pathways of elimination.</td>
-<td class=val>DB00784</td>
-<td class=val>6717</td></tr><tr class=even><td class=val>Diflunisal (JAN/USP/INN)</td>
-<td class=val>C13H8F2O3</td>
-<td class=val>250.0442</td>
+<td class=val>DB04572</td>
+<td class=val>9570</td></tr><tr class=even><td class=val>Foscarnet sodium (USAN/INN)</td>
+<td class=val>CO5P. 3Na</td>
+<td class=val>191.9176</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00861</td>
-<td class=val>39669</td></tr><tr class=odd><td class=val>Ketoprofen (JP17/USP/INN)</td>
-<td class=val>C16H14O3</td>
-<td class=val>254.0943</td>
+<td class=val>DB00529</td>
+<td class=val>141644</td></tr><tr class=odd><td class=val>Dexmedetomidine (USAN/INN)</td>
+<td class=val>C13H16N2</td>
+<td class=val>200.1313</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB01009</td>
-<td class=val>6128</td></tr><tr class=even><td class=val>Albendazole (JAN/USP/INN)</td>
-<td class=val>C12H15N3O2S</td>
-<td class=val>265.0885</td>
-<td class=val>Da</td>
-<td class=val>Terminal elimination half-life ranges from 8 to 12 hours (single dose, 400mg).</td>
-<td class=val>DB00518</td>
-<td class=val>16664</td></tr><tr class=odd><td class=val>Adenosine (JAN/USP)</td>
-<td class=val>C10H13N5O4</td>
-<td class=val>267.0968</td>
+<td class=val>DB00633</td>
+<td class=val>4466</td></tr><tr class=even><td class=val>Phenylephrine hydrochloride (JP17/USP)</td>
+<td class=val>C9H13NO2. HCl</td>
+<td class=val>203.0713</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00640</td>
-<td class=val>16335</td></tr><tr class=even><td class=val>Androstenedione (JAN)</td>
-<td class=val>C19H26O2</td>
-<td class=val>286.1933</td>
+<td class=val>DB00388</td>
+<td class=val>8094</td></tr><tr class=odd><td class=val>Pilocarpine (JAN/USP)</td>
+<td class=val>C11H16N2O2</td>
+<td class=val>208.1212</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB01536</td>
-<td class=val>16422</td></tr><tr class=odd><td class=val>Testosterone (JAN/USP)</td>
-<td class=val>C19H28O2</td>
-<td class=val>288.2089</td>
+<td class=val>DB01085</td>
+<td class=val>8207</td></tr><tr class=even><td class=val>Zonisamide (JP17/USAN/INN)</td>
+<td class=val>C8H8N2O3S</td>
+<td class=val>212.0256</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00624</td>
-<td class=val>17347</td></tr><tr class=even><td class=val>Hyoscyamine (USP)</td>
-<td class=val>C17H23NO3</td>
-<td class=val>289.1678</td>
+<td class=val>DB00909</td>
+<td class=val>10127</td></tr><tr class=odd><td class=val>Prilocaine (USP/INN)</td>
+<td class=val>C13H20N2O</td>
+<td class=val>220.1576</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00424</td>
-<td class=val>17486</td></tr><tr class=odd><td class=val>Trimethoprim (JAN/USP/INN)</td>
-<td class=val>C14H18N4O3</td>
-<td class=val>290.1379</td>
+<td class=val>DB00750</td>
+<td class=val>8404</td></tr><tr class=even><td class=val>Amobarbital (JP17/INN)</td>
+<td class=val>C11H18N2O3</td>
+<td class=val>226.1317</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00440</td>
-<td class=val>45924</td></tr><tr class=even><td class=val>Disulfiram (JP17/USP/INN)</td>
-<td class=val>C10H20N2S4</td>
-<td class=val>296.0509</td>
+<td class=val>DB01351</td>
+<td class=val>2673</td></tr><tr class=odd><td class=val>Nitroglycerin (JP17/USP)</td>
+<td class=val>C3H5N3O9</td>
+<td class=val>227.0026</td>
 <td class=val>Da</td>
 <td class=val>UNKNOWN</td>
-<td class=val>DB00822</td>
-<td class=val>4659</td></tr></table><div class="tinfo">Total: 37, Shown: 20</div></div>
+<td class=val>DB00727</td>
+<td class=val>28787</td></tr><tr class=even><td class=val>Aminoglutethimide (USP/INN)</td>
+<td class=val>C13H16N2O2</td>
+<td class=val>232.1212</td>
+<td class=val>Da</td>
+<td class=val>UNKNOWN</td>
+<td class=val>DB00357</td>
+<td class=val>2654</td></tr><tr class=odd><td class=val>Phenelzine sulfate (USP)</td>
+<td class=val>C8H12N2. H2SO4</td>
+<td class=val>234.0674</td>
+<td class=val>Da</td>
+<td class=val>UNKNOWN</td>
+<td class=val>DB00780</td>
+<td class=val>8061</td></tr><tr class=even><td class=val>Isosorbide dinitrate (JP17/USP/INN)</td>
+<td class=val>C6H8N2O8</td>
+<td class=val>236.0281</td>
+<td class=val>Da</td>
+<td class=val>UNKNOWN</td>
+<td class=val>DB00883</td>
+<td class=val>6061</td></tr></table><div class="tinfo">Total: 56, Shown: 20</div></div>
 </div>
 
 </div>
@@ -13632,7 +13628,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[101]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dibo</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/def/DIBO#&gt;</span>
@@ -13646,7 +13642,7 @@ div#notebook {
                    <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasTarget</span> <span class="nv">?protein</span> <span class="p">.</span>
     <span class="nv">?proten</span> <span class="k">a</span> <span class="nn">dibo_core</span><span class="p">:</span><span class="nt">Protein</span> <span class="p">;</span>
               <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasName</span> <span class="nv">?name</span> <span class="p">.</span>
-    <span class="k">FILTER</span> <span class="nf">REGEX</span><span class="p">(</span><span class="nv">?name</span><span class="p">,</span> <span class="s">&quot;dopamine&quot;</span><span class="p">,</span> <span class="s">&quot;i&quot;</span><span class="p">)</span>
+    <span class="k">FILTER</span> <span class="nf">REGEX</span><span class="p">(</span><span class="nv">?name</span><span class="p">,</span> <span class="s">&quot;aminotransferase&quot;</span><span class="p">,</span> <span class="s">&quot;i&quot;</span><span class="p">)</span>
 <span class="p">}</span> <span class="k">limit</span> <span class="mi">1</span>
 </pre></div>
 
@@ -13677,13 +13673,13 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Busca-los-F&#193;RMACOS-que-act&#250;an-como-AGONISTAS-para-la-PROTE&#205;NA-con-UNIPROT-ID-&quot;P21728&quot;-(Dopamine-receptor)">Busca los F&#193;RMACOS que act&#250;an como AGONISTAS para la PROTE&#205;NA con UNIPROT ID "P21728" (<em>Dopamine receptor</em>)<a class="anchor-link" href="#Busca-los-F&#193;RMACOS-que-act&#250;an-como-AGONISTAS-para-la-PROTE&#205;NA-con-UNIPROT-ID-&quot;P21728&quot;-(Dopamine-receptor)">&#182;</a></h2>
+<h2 id="Busca-los-F&#193;RMACOS-que-act&#250;an-como-AGONISTAS-para-la-PROTE&#205;NA-con-UNIPROT-ID-&quot;Q09428&quot;">Busca los F&#193;RMACOS que act&#250;an como AGONISTAS para la PROTE&#205;NA con UNIPROT ID "Q09428"<a class="anchor-link" href="#Busca-los-F&#193;RMACOS-que-act&#250;an-como-AGONISTAS-para-la-PROTE&#205;NA-con-UNIPROT-ID-&quot;Q09428&quot;">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[135]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dibo</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/def/DIBO#&gt;</span>
@@ -13693,12 +13689,13 @@ div#notebook {
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">owl</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2002/07/owl#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">uniprotkb</span><span class="p">:</span> <span class="nl">&lt;http://purl.uniprot.org/uniprot/&gt;</span>
-<span class="k">SELECT</span> <span class="k">distinct</span> <span class="p">(</span><span class="nv">?drugName</span> <span class="k">AS</span> <span class="nv">?DRUG_NAME</span><span class="p">)</span> <span class="p">(</span><span class="nv">?otherName</span> <span class="k">AS</span> <span class="nv">?OTHER_NAME</span><span class="p">)</span>
+<span class="k">SELECT</span> <span class="k">distinct</span> <span class="p">(</span><span class="nv">?drugName</span> <span class="k">AS</span> <span class="nv">?DRUG_NAME</span><span class="p">)</span> <span class="p">(</span><span class="nv">?otherName</span> <span class="k">AS</span> <span class="nv">?OTHER_NAME</span><span class="p">)</span> <span class="p">(</span><span class="nv">?proteinName</span> <span class="k">AS</span> <span class="nv">?PROTEIN</span><span class="p">)</span>
 <span class="k">WHERE</span> <span class="p">{</span> 
     <span class="nv">?interaction</span> <span class="k">a</span> <span class="nn">dibo_core</span><span class="p">:</span><span class="nt">Agonism</span> <span class="p">;</span>
                    <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasTarget</span> <span class="nv">?protein</span> <span class="p">;</span>
                    <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasDrug</span> <span class="nv">?drug</span> <span class="p">.</span>
-    <span class="nv">?protein</span> <span class="nn">owl</span><span class="p">:</span><span class="nt">equivalentClass</span> <span class="nn">uniprotkb</span><span class="p">:</span><span class="nt">P21728</span> <span class="p">.</span>
+    <span class="nv">?protein</span> <span class="nn">owl</span><span class="p">:</span><span class="nt">equivalentClass</span> <span class="nn">uniprotkb</span><span class="p">:</span><span class="nt">Q09428</span> <span class="p">;</span>
+             <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasName</span> <span class="nv">?proteinName</span> <span class="p">.</span>
     <span class="nv">?drug</span> <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasScientificName</span> <span class="nv">?drugName</span> <span class="p">;</span>
              <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasOtherName</span> <span class="nv">?otherName</span> 
 <span class="p">}</span>
@@ -13720,9 +13717,18 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea ">
 <div class="krn-spql"><table><tr class=hdr><th>DRUG_NAME</th>
-<th>OTHER_NAME</th></tr><tr class=odd><td class=val>Levodopa (JP17/USP/INN)</td>
-<td class=val>Dopar (TN)</td></tr><tr class=even><td class=val>Levodopa (JP17/USP/INN)</td>
-<td class=val>Levodopa (JP17/USP/INN)</td></tr></table><div class="tinfo">Total: 2, Shown: 2</div></div>
+<th>OTHER_NAME</th>
+<th>PROTEIN</th></tr><tr class=odd><td class=val>Glimepiride (JP17/USP/INN)</td>
+<td class=val>Amaryl (TN)</td>
+<td class=val>ATP-binding cassette sub-family C member 8</td></tr><tr class=even><td class=val>Glimepiride (JP17/USP/INN)</td>
+<td class=val>Glimepiride (JP17/USP/INN)</td>
+<td class=val>ATP-binding cassette sub-family C member 8</td></tr><tr class=odd><td class=val>Repaglinide (JAN/USP/INN)</td>
+<td class=val>Prandin (TN)</td>
+<td class=val>Peroxisome proliferator-activated receptor gamma</td></tr><tr class=even><td class=val>Repaglinide (JAN/USP/INN)</td>
+<td class=val>Repaglinide (JAN/USP/INN)</td>
+<td class=val>Peroxisome proliferator-activated receptor gamma</td></tr><tr class=odd><td class=val>Repaglinide (JAN/USP/INN)</td>
+<td class=val>Surepost (TN)</td>
+<td class=val>Peroxisome proliferator-activated receptor gamma</td></tr></table><div class="tinfo">Total: 5, Shown: 5</div></div>
 </div>
 
 </div>
@@ -13740,7 +13746,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[137]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dibo</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/def/DIBO#&gt;</span>
@@ -13775,15 +13781,15 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea ">
 <div class="krn-spql"><table><tr class=hdr><th>proteinName</th>
-<th>uniprotURI</th></tr><tr class=odd><td class=val>16S/23S rRNA (cytidine-2'-O)-methyltransferase TlyA</td>
-<td class=val><a href="http://purl.uniprot.org/uniprot/P9WJ63" target="_other">http://purl.uniprot.org/uniprot/P9WJ63</a></td></tr><tr class=even><td class=val>3 beta-hydroxysteroid dehydrogenase/Delta 5--&amp;gt;4-isomerase type 1</td>
-<td class=val><a href="http://purl.uniprot.org/uniprot/P14061" target="_other">http://purl.uniprot.org/uniprot/P14061</a></td></tr><tr class=odd><td class=val>50S ribosomal protein L16</td>
-<td class=val><a href="http://purl.uniprot.org/uniprot/P0ADY7" target="_other">http://purl.uniprot.org/uniprot/P0ADY7</a></td></tr><tr class=even><td class=val>6-deoxyerythronolide B hydroxylase</td>
-<td class=val><a href="http://purl.uniprot.org/uniprot/P14061" target="_other">http://purl.uniprot.org/uniprot/P14061</a></td></tr><tr class=odd><td class=val>Adenosine receptor A1</td>
-<td class=val><a href="http://purl.uniprot.org/uniprot/P29274" target="_other">http://purl.uniprot.org/uniprot/P29274</a></td></tr><tr class=even><td class=val>Adenosine receptor A2a</td>
-<td class=val><a href="http://purl.uniprot.org/uniprot/P29274" target="_other">http://purl.uniprot.org/uniprot/P29274</a></td></tr><tr class=odd><td class=val>Adenosine receptor A2b</td>
-<td class=val><a href="http://purl.uniprot.org/uniprot/P29274" target="_other">http://purl.uniprot.org/uniprot/P29274</a></td></tr><tr class=even><td class=val>Adenosine receptor A3</td>
-<td class=val><a href="http://purl.uniprot.org/uniprot/P29274" target="_other">http://purl.uniprot.org/uniprot/P29274</a></td></tr></table><div class="tinfo">Total: 8, Shown: 8</div></div>
+<th>uniprotURI</th></tr><tr class=odd><td class=val>Neuronal acetylcholine receptor subunit alpha-4</td>
+<td class=val><a href="http://purl.uniprot.org/uniprot/P14867" target="_other">http://purl.uniprot.org/uniprot/P14867</a></td></tr><tr class=even><td class=val>Neuronal acetylcholine receptor subunit alpha-7</td>
+<td class=val><a href="http://purl.uniprot.org/uniprot/P14867" target="_other">http://purl.uniprot.org/uniprot/P14867</a></td></tr><tr class=odd><td class=val>Nuclear receptor subfamily 1 group I member 2</td>
+<td class=val><a href="http://purl.uniprot.org/uniprot/P03372" target="_other">http://purl.uniprot.org/uniprot/P03372</a></td></tr><tr class=even><td class=val>Nuclear receptor subfamily 1 group I member 2</td>
+<td class=val><a href="http://purl.uniprot.org/uniprot/P10275" target="_other">http://purl.uniprot.org/uniprot/P10275</a></td></tr><tr class=odd><td class=val>Nuclear receptor subfamily 1 group I member 2</td>
+<td class=val><a href="http://purl.uniprot.org/uniprot/Q07869" target="_other">http://purl.uniprot.org/uniprot/Q07869</a></td></tr><tr class=even><td class=val>Nuclear receptor subfamily 1 group I member 2</td>
+<td class=val><a href="http://purl.uniprot.org/uniprot/Q9BQB6" target="_other">http://purl.uniprot.org/uniprot/Q9BQB6</a></td></tr><tr class=odd><td class=val>Peroxisome proliferator-activated receptor alpha</td>
+<td class=val><a href="http://purl.uniprot.org/uniprot/Q07869" target="_other">http://purl.uniprot.org/uniprot/Q07869</a></td></tr><tr class=even><td class=val>Peroxisome proliferator-activated receptor gamma</td>
+<td class=val><a href="http://purl.uniprot.org/uniprot/Q09428" target="_other">http://purl.uniprot.org/uniprot/Q09428</a></td></tr></table><div class="tinfo">Total: 8, Shown: 8</div></div>
 </div>
 
 </div>
@@ -13810,7 +13816,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[142]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="x">%endpoint http://sparql.uniprot.org/sparql/</span>
@@ -13842,7 +13848,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[144]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sparql-nb"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dibo</span><span class="p">:</span> <span class="nl">&lt;https://w3id.org/def/DIBO#&gt;</span>
@@ -13859,7 +13865,7 @@ div#notebook {
     <span class="nv">?gene</span>  <span class="nn">skos</span><span class="p">:</span><span class="nt">altLabel</span> <span class="nv">?geneName</span> <span class="p">.</span>
     <span class="nv">?proteinURI</span> <span class="nn">up</span><span class="p">:</span><span class="nt">encodedBy</span> <span class="nv">?gene</span> <span class="p">.</span>
   <span class="k">FILTER</span> <span class="nf">REGEX</span><span class="p">(</span><span class="nv">?geneName</span><span class="p">,</span> <span class="s">&quot;NR3C4&quot;</span><span class="p">)</span>
-    <span class="k">SERVICE</span> <span class="nl">&lt;http://192.168.1.128:9999/blazegraph/namespace/DIBO/sparql&gt;</span> <span class="p">{</span>
+    <span class="k">SERVICE</span> <span class="nl">&lt;http://192.168.1.131:9999/blazegraph/namespace/DIBO/sparql&gt;</span> <span class="p">{</span>
         <span class="nv">?protein</span> <span class="nn">owl</span><span class="p">:</span><span class="nt">equivalentClass</span> <span class="nv">?proteinURI</span> <span class="p">;</span>
                  <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasName</span> <span class="nv">?proteinName</span> <span class="p">.</span>
         <span class="nv">?interaction</span> <span class="nn">dibo</span><span class="p">:</span><span class="nt">hasTarget</span> <span class="nv">?protein</span> <span class="p">;</span>
